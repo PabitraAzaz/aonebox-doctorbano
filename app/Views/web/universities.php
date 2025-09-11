@@ -1,0 +1,1711 @@
+<?= $this->extend('web/components/assemble') ?>
+
+<?= $this->section('content') ?>
+
+<main>
+    <div>
+        <!-- Main container -->
+        <div class="container">
+
+            <!-- Gradient background section with rounded corners -->
+            <div class="relative bg-[linear-gradient(122.4deg,_#6BADCE_-1.37%,_#2F71B3_39.58%,_#252C79_82%)] 
+                rounded-2xl sm:rounded-[38px] 
+                flex flex-col sm:flex-row justify-between">
+
+                <!-- Left content section -->
+                <div class="w-full sm:w-[50%] pt-6 sm:pt-20 pb-3 sm:pb-32 px-8 sm:px-20">
+
+                    <!-- Heading with decorative arrow -->
+                    <h1 class="text-[#F8F7FC] text-[28px] lg:text-[32px] 2xl:text-[38px] font-semibold mb-2 sm:mb-4 relative">
+                        Study in Canada for World Class Education
+                        <img alt="threeArrow" loading="lazy" width="59" height="69" decoding="async"
+                            class="absolute -top-2 sm:-top-8 -left-4 sm:-left-10"
+                            src="<?= base_url('public/') ?>assets/images/icons/threeArrow.webp"
+                            style="color: transparent;">
+                    </h1>
+
+                    <!-- Read more content section -->
+                    <div class="readmore-content flex">
+
+                        <!-- Long content container -->
+                        <div class="readmore-long-content">
+                            <div class="readmore-content-both-device flex flex-col items-start justify-start">
+
+                                <!-- Short text -->
+                                <p class="text-sm md:text-base text-[#F8F7FC]">
+                                    A student’s plan to study in Canada ensures their overall growth with a stock of opportunities to learn and
+                                </p>
+
+                                <!-- Expanded long text -->
+                                <div class="readmore-long-content w-full">
+                                    <p class="text-sm md:text-base text-[#F8F7FC]">
+                                        earn. Moreover, their dream to study abroad offers them with multicultural environment and a well built infrastructure.
+                                        These are reasons why people go to study in Canada from India.
+                                        It is because study in Canada for Indian students looks like an entire package of high quality education and accomplished career goals.
+                                    </p>
+                                </div>
+
+                                <!-- Read More button -->
+                                <button class="readmore-btn mb-3 transition-all ease-in-out text-test-prep text-sm sm:text-base !text-white">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Collapse button (mobile view) -->
+                        <button class="sm:hidden Hidereadmore-btn absolute top-[14px] right-[8px] z-40">
+                            <img alt="Collapse Icon" loading="lazy" width="22" height="22" decoding="async"
+                                class="transition-all ease-in-out"
+                                src="/icons/CollapseIconWhiteBlue.svg"
+                                style="color: transparent;">
+                        </button>
+                    </div>
+
+                    <!-- Call-to-action buttons -->
+                    <div class="flex items-center gap-10">
+                        <!-- Book Session Button -->
+                        <button class="flex text-nowrap items-center justify-center text-primary rounded-xl gap-2 text-sm font-semibold px-6 py-3 bg-white border-2 border-[#066AC91A] hover:scale-[1.05] transition-all ease-in-out duration-300">
+                            Book FREE Session
+                            <img alt="rightArrowBlue" fetchpriority="high" width="24" height="24" decoding="async"
+                                src="/country/rightArrowBlue.svg"
+                                style="color: transparent;">
+                        </button>
+
+                        <!-- Partner logo -->
+                        <img alt="icefBritishCouselLogo" fetchpriority="high" width="212" height="31" decoding="async"
+                            src="<?= base_url('public/') ?>assets/images/icons/rightArrowBlue."
+                            style="color: transparent;">
+                    </div>
+                </div>
+
+                <!-- Right image section -->
+                <div class="w-full sm:w-[45%] md:flex items-end">
+                    <img alt="candaBannerImage" fetchpriority="high" width="574" height="498" decoding="async"
+                        src="<?= base_url('public/') ?>assets/images/country/canadaBanner.webp"
+                        style="color: transparent;">
+                </div>
+            </div>
+        </div>
+        <!-- end of main container -->
+
+        <!-- Sticky section for eligibility calculator -->
+        <div class="sticky top-16 z-40 -mt-16">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Main box with glass effect -->
+                <div class="w-[85%] px-8 py-5 pt-4 m-auto text-center rounded-[15px] 
+                    backdrop-blur-[14px] 
+                    shadow-[-16.38px_33.89px_50.83px_0px_#17122B3D] 
+                    border border-primary bg-[#FFFFFF99]">
+
+                    <!-- Title text -->
+                    <p class="text-[#1D1D1F] text-sm sm:text-lg font-medium mb-3">
+                        Let's Calculate Your Chances of Getting into your dream University!
+                    </p>
+
+                    <!-- Main input row -->
+                    <div class="flex items-center justify-between gap-6">
+
+                        <!-- Left section: Inputs -->
+                        <div class="w-[70%] flex items-center gap-6">
+
+                            <!-- Input 1: Search University -->
+                            <div class="relative w-1/3 md:flex flex-col">
+                                <div class="group inline-flex flex-column w-full max-w-xs">
+                                    <div class="group flex flex-col data-[hidden=true]:hidden w-full"
+                                        data-slot="base" data-has-elements="true"
+                                        data-has-label="true" data-has-value="true">
+
+                                        <!-- Input wrapper -->
+                                        <div data-slot="input-wrapper"
+                                            class="relative w-full inline-flex tap-highlight-transparent shadow-sm 
+                                            border-medium min-h-10 flex-col items-start justify-center gap-0 
+                                            transition-background !duration-150 motion-reduce:transition-none 
+                                            py-2 bg-white border-[#E5E1F4] 
+                                            group-data-[focus=true]:border-primary 
+                                            data-[hover=true]:border-primary 
+                                            transition-all ease-in-out duration-300 
+                                            h-[53px] text-[#655F5F] text-base font-semibold rounded-xl px-5"
+                                            style="cursor: text;">
+
+                                            <!-- Label -->
+                                            <label data-slot="label"
+                                                class="absolute z-10 pointer-events-none origin-top-left flex-shrink-0 
+                                                  rtl:origin-top-right subpixel-antialiased block text-foreground-500 
+                                                  cursor-text will-change-auto !duration-200 !ease-out 
+                                                  motion-reduce:transition-none transition-[transform,color,left,opacity] 
+                                                  group-data-[filled-within=true]:text-default-600 
+                                                  group-data-[filled-within=true]:pointer-events-auto 
+                                                  group-data-[filled-within=true]:scale-85 text-small 
+                                                  group-data-[filled-within=true]:-translate-y-[calc(50%_+_theme(fontSize.small)/2_-_6px_-_theme(borderWidth.medium))] 
+                                                  pe-2 max-w-full text-ellipsis overflow-hidden"
+                                                for="react-aria3673307509-:r18i:">
+                                                Search University
+                                            </label>
+
+                                            <!-- Input field -->
+                                            <div data-slot="inner-wrapper"
+                                                class="inline-flex w-full items-center h-full box-border group-data-[has-label=true]:items-end">
+                                                <input data-slot="input" data-has-end-content="true"
+                                                    class="w-full font-normal bg-transparent !outline-none placeholder:text-foreground-500 
+                                                      focus-visible:outline-none data-[has-start-content=true]:ps-1.5 
+                                                      data-[has-end-content=true]:pe-1.5 file:cursor-pointer file:bg-transparent 
+                                                      file:border-0 autofill:bg-transparent bg-clip-text text-small"
+                                                    id="react-aria3673307509-:r18i:" aria-label="Search University"
+                                                    autocomplete="off" role="combobox" spellcheck="false" type="text" value="">
+
+                                                <!-- Input icons -->
+                                                <div class="relative flex h-full items-center -mr-2">
+                                                    <!-- Clear icon -->
+                                                    <button type="button"
+                                                        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none 
+                                                           select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden 
+                                                           tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none 
+                                                           gap-2 rounded-full px-0 !gap-0 transition-transform-colors-opacity 
+                                                           bg-transparent min-w-8 w-8 h-8 text-medium translate-x-1 cursor-text 
+                                                           opacity-0 pointer-events-none text-default-500">
+                                                        <svg aria-hidden="true" fill="none" focusable="false" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em">
+                                                            <path d="M18 6L6 18M6 6l12 12"></path>
+                                                        </svg>
+                                                    </button>
+
+                                                    <!-- Dropdown arrow -->
+                                                    <button type="button"
+                                                        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none 
+                                                           select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden 
+                                                           tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none 
+                                                           gap-2 rounded-full px-0 !gap-0 transition-transform-colors-opacity 
+                                                           bg-transparent text-default-foreground data-[hover=true]:bg-default/40 
+                                                           min-w-8 w-8 h-8 text-medium transition-transform duration-150 ease">
+                                                        <svg aria-hidden="true" fill="none" focusable="false" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="1em">
+                                                            <path d="m6 9 6 6 6-6"></path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Input 2: Search Course -->
+                            <div class="col-lg-6 mb-3">
+                                <label for="search_course" class="form-label">Search Course</label>
+                                <input type="text" name="search_course" id="search_course" class="form-control" placeholder="Enter course name">
+                            </div>
+
+                            <!-- Input 3: Highest Qualification -->
+                            <div class="col-lg-6 mb-3">
+                                <label for="highest_qualification" class="form-label">Highest Qualification</label>
+                                <input type="text" name="highest_qualification" id="highest_qualification" class="form-control" placeholder="Enter your qualification">
+                            </div>
+
+
+                        </div>
+
+                        <!-- Right section: Button -->
+                        <div class="w-[28%]">
+                            <button class="w-full shadow-md relative px-8 py-3 text-base font-bold text-white overflow-hidden 
+                                   group focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75 
+                                   hover:scale-105 transition-transform duration-300 ease-in-out animate-border rounded-xl">
+                                <span class="relative z-10">Check Eligibility</span>
+                                <div class="absolute inset-0 bg-gradient-to-r from-blue-200 via-blue-400 to-blue-600 animate-gradient-x opacity-80"
+                                    style="background-size: 200% 100%;">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sticky section end -->
+
+        <!-- Popular Universities Section -->
+        <div class="my-12 sm:my-20">
+            <div class="container text-left flex items-center justify-between">
+                <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%]"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block">Popular Universities</span> to study in CANADA</h2><a class="bg-white text-[#1F2022] border border-[#E8E8E8] text-[15px] font-semibold flex items-center gap-2 py-2.5 px-5 rounded-[14px] hover:shadow-lg transition-all ease-in-out duration-300" href="https://www.gradding.com/course-finder?countryId=39">View All <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.25 15.5a.75.75 0 0 1-.75-.75V7.56L7.28 17.78a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L16.44 6.5H9.25a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75Z"></path>
+                    </svg></a>
+            </div>
+            <div class="flex w-full flex-col mt-5">
+                <div data-slot="base" class="inline-flex base container sm:inline-flex -webkit-box w-full" aria-label="Options">
+                    <div data-slot="tabList" class="flex h-fit items-center flex-nowrap overflow-x-scroll scrollbar-hide tablist gap-2 sm:gap-6 w-full relative rounded-[14px] p-1.5 sm:p-2.5 px-[12.8px] bg-transparent" id="react-aria3673307509-:r19q:" aria-label="Options" role="tablist" aria-orientation="horizontal"><button data-slot="tab" tabindex="0" data-key="Health" id="react-aria3673307509-:r19q:-tab-Health" aria-selected="true" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button" data-selected="true" aria-controls="react-aria3673307509-:r19q:-tabpanel-Health"><span class="absolute z-0 inset-0 rounded-full text-primary-foreground w-full bg-primary" data-slot="cursor" style="opacity: 1;"></span>
+                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Health</span></div>
+                        </button><button data-slot="tab" tabindex="-1" data-key="Engineering" id="react-aria3673307509-:r19q:-tab-Engineering" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
+                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Engineering</span></div>
+                        </button><button data-slot="tab" tabindex="-1" data-key="mba" id="react-aria3673307509-:r19q:-tab-mba" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
+                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>MBA</span></div>
+                        </button><button data-slot="tab" tabindex="-1" data-key="Other" id="react-aria3673307509-:r19q:-tab-Other" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
+                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Other</span></div>
+                        </button></div>
+                </div>
+                <div data-focus="false" data-focus-visible="false" id="react-aria3673307509-:r19q:-tabpanel-Health" aria-labelledby="react-aria3673307509-:r19q:-tab-Health" role="tabpanel" class="py-3 px-1 data-[inert=true]:hidden outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2" data-slot="panel">
+                    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
+                        <div class="swiper-wrapper">
+
+
+
+
+                            <?php foreach ($uniData as $uiversityData): ?>
+
+                                <div class="swiper-slide swiper-slide-active py-6 first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] !z-[9999]" data-swiper-slide-index="2" style="width: 289.818px; margin-right: 40px;">
+                                    <div data-loaded="true" class="group relative overflow-hidden bg-content3 dark:bg-content2 pointer-events-none before:opacity-100 before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_2s_infinite] before:border-t before:border-content4/30 before:bg-gradient-to-r before:from-transparent before:via-content4 dark:before:via-default-700/10 before:to-transparent after:opacity-100 after:absolute after:inset-0 after:-z-10 after:bg-content3 dark:after:bg-content2 data-[loaded=true]:pointer-events-auto data-[loaded=true]:overflow-visible data-[loaded=true]:!bg-transparent data-[loaded=true]:before:opacity-0 data-[loaded=true]:before:-z-10 data-[loaded=true]:before:animate-none data-[loaded=true]:after:opacity-0 transition-background !duration-300 rounded-lg data-[loaded=true]:after:w-0 data-[loaded=true]:before:w-0">
+                                        <div class="opacity-0 group-data-[loaded=true]:opacity-100 transition-opacity motion-reduce:transition-none !duration-300">
+                                            <div class="bg-white rounded-2xl ease-in-out transition-all overflow-hidden relative hover:shadow-[0px_0px_20px_0px_#1D3A5333] p-3 flex flex-col gap-[10px]">
+                                                <div class="flex items-center justify-center relative max-w-7 max-h-9 min-w-7 min-h-9">
+                                                    <img alt="University Logo" loading="lazy" width="28" height="32" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/university/Mount-Saint-Vincet-University.webp" style="color: transparent;">
+                                                </div>
+                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href="https://www.gradding.com/study-in-canada/universities/mount-saint-vincent-university"><?= $uiversityData['uni_name'] ?></a>
+                                                <div class="flex flex-col gap-2 items-start min-h-[84px]">
+                                                    <div class="flex items-center gap-[10px] w-full justify-start">
+                                                        <div class="border border-[#655F5F] rounded-full p-[10px] w-fit flex items-center gap-1"><img alt="Currency Logo" loading="lazy" width="15" height="15" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/icons/coin.webp" style="color: transparent;"><span class="text-[#171923] text-xs font-medium text-nowrap">INR 10.85L/Y</span></div>
+                                                    </div>
+                                                    <div class="flex items-center gap-2.5 w-full justify-start z-10">
+                                                        <div class="border border-[#655F5F] rounded-full p-2 sm:p-[10px] w-fit  text-xs font-medium flex items-center gap-1"><span class="text-xs font-medium text-[#171923] uppercase">IELTS</span></div>
+                                                        <div class="border border-[#655F5F] rounded-full p-2 sm:p-[10px] w-fit  text-xs font-medium flex items-center gap-1"><span class="text-xs font-medium text-[#171923]">May Intake</span><span class="z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased text-xs font-semibold text-primary underline cursor-pointer" data-slot="trigger" aria-haspopup="dialog" aria-expanded="false" type="button">+3 more</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex items-center gap-3 mt-1"><a class="text-white text-[15px] font-medium py-2 px-3.5 bg-primary border border-primary rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:bg-primary-600" href="https://www.gradding.com/start-journey">Check Eligibility</a><a class="text-primary border border-primary text-[15px] font-medium py-2 px-3.5 rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:text-white hover:bg-primary" href="https://www.gradding.com/study-in-canada/universities/mount-saint-vincent-university">Apply Now</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach ?>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of Popular Universities Section  -->
+
+        <!-- Toast Notification Container -->
+        <div class="Toastify"></div>
+
+        <div class="container">
+
+            <!-- Outer Gradient Border -->
+            <div class="bg-gradient-to-r from-[rgba(7,111,210,0.5)] to-[rgba(187,218,248,0.5)]
+                rounded-xl sm:rounded-[20px] p-[6px] sm:p-[10px]">
+
+                <!-- Inner Blue Gradient Card -->
+                <div class="bg-gradient-to-r from-[#055AAB] to-[#699FD2]
+                    rounded-[10px] sm:rounded-xl
+                    shadow-[0px_0px_11.34px_0px_#00000059]
+                    relative overflow-hidden">
+
+                    <!-- Left Content -->
+                    <div class="w-full sm:w-3/5 px-4 sm:px-10 py-4 sm:py-8">
+
+                        <!-- Title -->
+                        <h3 class="text-sm sm:text-3xl font-medium text-white">
+                            Get Admission into top CANADA universities with the help of expert counsellors
+                        </h3>
+
+                        <!-- Divider Line -->
+                        <hr class="shrink-0 border-none w-full my-3 sm:my-6 opacity-20 bg-white h-[1.47px]" role="separator">
+
+                        <!-- Offer & CTA -->
+                        <div class="w-fit sm:w-3/4 md:flex flex-col">
+                            <p class="text-white text-sm sm:text-xl font-normal mb-2 md:mb-4">
+                                Save up-to ₹3 Lakhs with us!*
+                            </p>
+                            <a href="#"
+                                class="relative z-10 md:w-fit rounded-[11px]
+                              hover:scale-[1.05] transition-all ease-in-out duration-300
+                              block text-white text-sm sm:text-xl font-semibold
+                              px-4 sm:px-6 py-3 border border-[#FFFFFF8F]
+                              bg-gradient-to-r from-[rgba(255,255,255,0.16)] to-[rgba(255,255,255,0.13)]
+                              backdrop-blur-md">
+                                Discuss with Expert for FREE
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Decorative Gold Circle SVG -->
+                    <figure class="absolute top-0 right-0">
+                        <svg width="173" height="154" viewBox="0 0 173 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="110.187" cy="43.6803" r="109.587" fill="url(#paint0_linear_2070_4238)"></circle>
+                            <defs>
+                                <linearGradient id="paint0_linear_2070_4238"
+                                    x1="0.599609" y1="43.6803" x2="219.774" y2="43.6803"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFDF00"></stop>
+                                    <stop offset="1" stop-color="#CC9900"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </figure>
+
+                    <!-- Right-Side Info Box -->
+                    <div class="absolute top-0 right-0 p-4 pt-2">
+                        <p class="text-[#1D2636] text-2xl font-semibold text-center">
+                            <span class="block uppercase">Jan 2026</span> Intake
+                        </p>
+                        <a href="/"
+                            class="relative z-10 mt-3 block bg-[#23BD33] text-white
+                          shadow-[0px_0px_14.71px_0px_#23BD33]
+                          px-3 py-2 text-[15px] font-bold rounded-lg
+                          hover:scale-[1.05] transition-all ease-in-out duration-300">
+                            OPEN NOW
+                        </a>
+                    </div>
+
+                    <!-- Background Image -->
+                    <img src="<?= base_url('public/') ?>assets/images/bg/schoarImage.webp"
+                        alt="Scholar Image" loading="lazy" width="530" height="310"
+                        decoding="async" class="absolute right-0 top-0" style="color: transparent;">
+
+                </div>
+            </div>
+        </div>
+        <!-- end of Offer Section  -->
+
+        <!-- University Video Section -->
+        <div class="container my-12 sm:my-24">
+            <div class="bg-white rounded-[21px] shadow-[inset_0_0_31.6px_0px_rgba(0,0,0,0.2)] sm:pr-16 flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-14 justify-center overflow-hidden relative">
+
+                <!-- Video Section with Border (Top, Left, Right) -->
+                <div class="w-[90%] sm:w-3/5 relative sm:rounded-t-3xl sm:px-16 sm:pt-16 overflow-hidden sm:[overflow:unset]">
+
+                    <!-- Border wrapper -->
+                    <div class="relative bg-black pt-[15px] px-[15px] rounded-t-[30px]">
+
+                        <!-- Video inside black border -->
+                        <video autoplay="" loop="" playsinline="" muted="" class="w-full rounded-t-[15px] relative z-10">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <!-- ▶️ Play Icon Overlay -->
+                        <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center pointer-events-none z-20">
+                            <div class="w-14 h-14 rounded-full backdrop-blur-[7px] bg-white/50 flex items-center justify-center">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="56" height="56" rx="28" fill="white" fill-opacity="0.5"></rect>
+                                    <g clip-path="url(#clip0)">
+                                        <g filter="url(#filter0_d)">
+                                            <path d="M21 22.3076V34.6941C21 37.231 23.8601 38.8229 26.1428 37.5545L31.7154 34.4611L37.288 31.3548C39.5707 30.0864 39.5707 26.9153 37.288 25.6469L31.7154 22.5406L26.1428 19.4472C23.8601 18.1788 21 19.7578 21 22.3076Z" fill="white"></path>
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d" x="12" y="10" width="36" height="37" filterUnits="userSpaceOnUse">
+                                            <feGaussianBlur stdDeviation="4.5"></feGaussianBlur>
+                                        </filter>
+                                        <clipPath id="clip0">
+                                            <rect width="56" height="56" rx="15" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 📝 Text Content -->
+                <div class="sm:w-2/5 flex flex-col gap-4 sm:gap-8 items-start p-4 sm:p-0">
+                    <h2 class="text-left sm:text-center text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[34px] font-medium text-heading">
+                        <span class="text-primary">Study Abroad</span> Made Simple
+                    </h2>
+
+                    <!-- 📈 Highlight Box -->
+                    <div class="bg-[#538B191A] rounded-[11px] py-4 px-7">
+                        <p class="text-[#1F2022] text-sm mb-1">
+                            Increase your chances of admission up to <span class="font-semibold text-[#538B19]">98%</span>
+                        </p>
+                        <img src="/_next/image?url=%2Fcommon%2FuniversityLogoGroup.png&amp;w=640&amp;q=75" srcset="/_next/image?url=%2Fcommon%2FuniversityLogoGroup.png&amp;w=384&amp;q=75 1x,/_next/image?url=%2Fcommon%2FuniversityLogoGroup.png&amp;w=640&amp;q=75 2x" width="319" height="43" alt="University Logos" class="mt-2" loading="lazy">
+                    </div>
+
+                    <!-- 📞 CTA Button -->
+                    <div booksession="true" class="w-full max-w-[85%] cursor-pointer bg-primary text-white text-sm border-2 border-primary px-2 py-2.5 hidden sm:flex items-center justify-center rounded-[14px] gap-1 transition-all ease-in-out duration-300 hover:scale-105 font-semibold" title="Request a Callback">
+                        Request a Callback
+                        <img src="http://localhost/aonebox-doctor-bano/ci/public/assets/images/icons/rightArrow.webp" width="25" height="25" alt="Right Arrow" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of University Video Section  -->
+
+        <!-- Canada Study Section -->
+        <div class="my-12 sm:my-20 container m-auto">
+
+            <!-- Section Heading -->
+            <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center">
+                Study in Canada to Transform Your Student Life!
+            </h2>
+
+            <!-- Grid Container for Cards -->
+            <div class="sm:px-6 grid sm:grid-cols-2 sm:grid-rows-2 gap-6 py-10 relative">
+
+                <!-- Card 1: Global Standing Universities -->
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                    <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
+                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                            Global Standing Universities
+                        </h3>
+                        <p class="text-[#627693] text-sm font-medium hidden sm:block">
+                            Canadian universities are frequently ranked among top-ranked institutes for premier faculty and career opportunities.
+                        </p>
+                        <img
+                            alt="Person Image"
+                            loading="lazy"
+                            width="264"
+                            height="140"
+                            decoding="async"
+                            data-nimg="1"
+                            class="absolute left-0 bottom-0"
+                            src="<?= base_url('public/') ?>assets/images/bg/personImage.webp"
+                            style="color: transparent;">
+                    </div>
+                </div>
+
+                <!-- Card 2: Premier Education Quality -->
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                    <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
+                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                            Premier Education Quality
+                        </h3>
+                        <p class="text-[#627693] text-sm font-medium hidden sm:block">
+                            Canada encourages development of multi-disciplinary skills in every field to enhance learning in scholars.
+                        </p>
+                        <img
+                            alt="Person Image"
+                            loading="lazy"
+                            width="272"
+                            height="197"
+                            decoding="async"
+                            data-nimg="1"
+                            class="absolute left-0 bottom-0"
+                            src="<?= base_url('public/') ?>assets/images/bg/collegeFriends.webp"
+                            style="color: transparent;">
+                    </div>
+                </div>
+
+                <!-- Card 3: Post-Graduation Work Permit -->
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                    <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
+                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                            Post-Graduation Work Permit
+                        </h3>
+                        <p class="text-[#627693] text-sm font-medium hidden sm:block">
+                            Canada offers post-graduation work permit to its international students. This opens doors for great job options.
+                        </p>
+                        <img
+                            alt="Person Image"
+                            loading="lazy"
+                            width="269"
+                            height="203"
+                            decoding="async"
+                            data-nimg="1"
+                            class="absolute left-0 bottom-0"
+                            src="<?= base_url('public/') ?>assets/images/bg/peoplewithGlobe.webp"
+                            style="color: transparent;">
+                    </div>
+                </div>
+
+                <!-- Card 4: Scholarship Opportunities -->
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                    <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
+                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                            Scholarships Opportunities
+                        </h3>
+                        <p class="text-[#627693] text-sm font-medium hidden sm:block">
+                            Canadian universities has several scholarships to help student reduce their finances and cover fees and other expenses
+                        </p>
+                        <img
+                            alt="Person Image"
+                            loading="lazy"
+                            width="202"
+                            height="180"
+                            decoding="async"
+                            data-nimg="1"
+                            class="absolute left-0 bottom-0"
+                            src="<?= base_url('public/') ?>assets/images/bg/girlwithBook.webp"
+                            style="color: transparent;">
+                    </div>
+                </div>
+
+                <!-- Center Canada Flag Icon -->
+                <div class="w-[59px] h-[59px] sm:w-[119px] sm:h-[119px] p-[3px] sm:p-[6px] rounded-full bg-white absolute top-[45%] sm:top-[39%] left-[44%] sm:left-[46%] shadow-[0px_11px_24px_0px_#00000033] overflow-hidden">
+                    <img
+                        alt="Flag Image"
+                        loading="lazy"
+                        width="107"
+                        height="107"
+                        decoding="async"
+                        data-nimg="1"
+                        class="rounded-full"
+                        src="<?= base_url('public/') ?>assets/images/country/Canada.webp"
+                        style="color: transparent;">
+                </div>
+            </div>
+
+            <!-- Request Callback Button -->
+            <button class="w-full sm:w-fit flex items-center justify-center m-auto text-primary rounded-[14px] gap-2 text-sm font-semibold px-5 py-4 bg-white border-2 border-[#066AC91A] hover:scale-[1.05] transition-all ease-in-out duration-300">
+                Request a Callback
+                <img
+                    alt="rightArrowBlue"
+                    loading="lazy"
+                    width="24"
+                    height="24"
+                    decoding="async"
+                    data-nimg="1"
+                    src="/country/rightArrowBlue.svg"
+                    style="color: transparent;">
+            </button>
+        </div>
+
+        <!-- Start of Loan & Visa Assistance Section -->
+        <div class="container my-10 sm:my-24">
+            <div class=" m-auto flex justify-between box-border items-baseline">
+                <div class="hidden sm:block w-[40%] pt-12 pr-24 xl:pr-28">
+                    <h2 class="text-[28px] font-medium text-[#001713]"><span class="text-primary block text-nowrap">Loan &amp; Visa Assistance</span>A complete guide to study loan and visa</h2>
+                    <ul class="text-lg font-normal text-[#001713] mt-7 mb-3">
+                        <li class="flex items-center"><img alt="list check" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="inline mr-2" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75" style="color: transparent;">Get funds to study abroad</li>
+                        <li class="flex items-center"><img alt="list check" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="inline mr-2" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75" style="color: transparent;">Study visa application</li>
+                        <li class="flex items-center"><img alt="list check" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="inline mr-2" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75" style="color: transparent;">Get help for visa interview</li>
+                    </ul>
+                    <div class=""><img alt="helpLeftGroup" loading="lazy" width="453" height="454" decoding="async" data-nimg="1" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=1080&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=1080&amp;q=75" style="color: transparent;"></div>
+                </div>
+                <div class="flex flex-wrap w-full sm:w-[55%] gap-2 sm:gap-x-2.5 sm:gap-y-10 justify-between">
+                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
+                            border-transparent 
+                            border-3 duration-200  bg-white">
+                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
+                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 1</p>
+                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Expert Counselling</p><span class="underline">Discuss with Expert</span><img alt="Expert CounsellingImg" loading="lazy" width="118" height="115" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help1.webp" style="color: transparent;">
+                        </div>
+                    </div>
+                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
+                            border-transparent 
+                            border-3 duration-200  bg-white">
+                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
+                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 2</p>
+                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Document Preparation</p><span class="underline">Discuss with Expert</span><img alt="Document PreparationImg" loading="lazy" width="135" height="113" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help2.webp" style="color: transparent;">
+                        </div>
+                    </div>
+                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
+                            border-transparent 
+                            border-3 duration-200  bg-white">
+                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
+                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 3</p>
+                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">University Application</p><span class="underline">Discuss with Expert</span><img alt="University ApplicationImg" loading="lazy" width="125" height="132" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help3.webp" style="color: transparent;">
+                        </div>
+                    </div>
+                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
+                            border-transparent 
+                            border-3 duration-200  bg-white">
+                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
+                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 4</p>
+                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Test Preparation</p><span class="underline">Discuss with Expert</span><img alt="Test PreparationImg" loading="lazy" width="186" height="109" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help4.webp" style="color: transparent;">
+                        </div>
+                    </div>
+                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
+                            !bg-opacity-40 !bg-[#066bc9] border-white shadow-[13px_6px_18px_0px_rgba(0,0,0,0.1)] 
+                            border-3 duration-200  bg-white">
+                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-white underline" title="">
+                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-white cursor-pointer">Step 5</p>
+                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-white sm:w-[150px]">Loan &amp; Visa Assistance</p><span class="underline">Discuss with Expert</span><img alt="Loan &amp; Visa AssistanceImg" loading="lazy" width="146" height="92" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help5.webp" style="color: transparent;">
+                        </div>
+                    </div>
+                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
+                            border-transparent 
+                            border-3 duration-200  bg-white">
+                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
+                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 6</p>
+                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Accommodation Assistance</p><span class="underline">Discuss with Expert</span><img alt="Accommodation AssistanceImg" loading="lazy" width="105" height="107" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help6.webp" style="color: transparent;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Loan & Visa Assistance Section -->
+
+        <!-- Calculate Your Chances Start -->
+        <div class="container my-12 sm:my-20">
+            <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center mb-8 sm:mb-16">Let's Calculate Your Chances of Getting into your dream University!</h2>
+            <div class=" overflow-hidden relative w-full lead-form-div border-1.5 border-primary p-[14px] xl:p-[35px] rounded-[25px] bg-white h-fit shadow-[0px_0px_35.6px_0px_#066AC966]">
+                <form>
+                    <div class="shadow-[0px_0px_24px_0px_#0000001A_inset] bg-[#F3F6F9] rounded-[20px] p-2.5 xl:p-10 flex items-center">
+                        <div class="w-full sm:w-2/3">
+                            <div class="flex flex-col gap-3 lg:gap-10 justify-even ">
+                                <p class="text-lg sm:text-[22px] capitalize text-center sm:text-left">What Is Your Desired Academic Course?</p>
+                                <div class="flex sm:flex-nowrap flex-wrap items-center justify-center w-full gap-5 md:grid-cols-2">
+                                    <div class="w-[35%] sm:w-1/4 relative"><input id="UG" class="absolute left-[10px] top-[10px] accent-[#F3601E] peer" type="radio" value="UG" checked="" name="course"><label for="UG" class="inline-flex items-center justify-center shadow-[0px_0px_40px_0px_#1D3A531A] w-full p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer peer-checked:border-[#F3601E] peer-checked:bg-[#F3601E]/30 peer-checked:text-[#F3601E] lg:hover:text-[#F3601E] lg:hover:bg-[#F3601E]/30 lg:hover:border-[#F3601E] peer-checked:shadow-[0px_0px_24px_0px_#F3601E4D] lg:hover:shadow-[0px_0px_24px_0px_#F3601E4D] peer-checked:font-medium select-none transition-all ease-in-out duration-300">
+                                            <div class="flex flex-col items-center justify-center gap-1"><span class="w-fit text-lg font-semibold"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path class="peer-checked:stroke-[#F3601E]" d="M10.0495 2.53028L4.02953 6.46028C2.09953 7.72028 2.09953 10.5403 4.02953 11.8003L10.0495 15.7303C11.1295 16.4403 12.9095 16.4403 13.9895 15.7303L19.9795 11.8003C21.8995 10.5403 21.8995 7.73028 19.9795 6.47028L13.9895 2.54028C12.9095 1.82028 11.1295 1.82028 10.0495 2.53028Z" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path class="peer-checked:stroke-[#F3601E]" opacity="0.4" d="M5.63109 13.0801L5.62109 17.7701C5.62109 19.0401 6.60109 20.4001 7.80109 20.8001L10.9911 21.8601C11.5411 22.0401 12.4511 22.0401 13.0111 21.8601L16.2011 20.8001C17.4011 20.4001 18.3811 19.0401 18.3811 17.7701V13.1301" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path class="peer-checked:stroke-[#F3601E]" opacity="0.4" d="M21.3984 15V9" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg></span>
+                                                <p class="w-full text-sm sm:text-base peer-checked:text-[#F3601E] uppercase">UG</p>
+                                            </div>
+                                        </label></div>
+                                    <div class="w-[35%] sm:w-1/4 relative"><input id="PG" class="absolute left-[10px] top-[10px] accent-[#F3601E] peer" type="radio" value="PG" name="course"><label for="PG" class="inline-flex items-center justify-center shadow-[0px_0px_40px_0px_#1D3A531A] w-full p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer peer-checked:border-[#F3601E] peer-checked:bg-[#F3601E]/30 peer-checked:text-[#F3601E] lg:hover:text-[#F3601E] lg:hover:bg-[#F3601E]/30 lg:hover:border-[#F3601E] peer-checked:shadow-[0px_0px_24px_0px_#F3601E4D] lg:hover:shadow-[0px_0px_24px_0px_#F3601E4D] peer-checked:font-medium select-none transition-all ease-in-out duration-300">
+                                            <div class="flex flex-col items-center justify-center gap-1"><span class="w-fit text-lg font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path opacity="0.4" d="M10.4399 14.2999L11.0899 14.9499C11.2799 15.1399 11.5899 15.1399 11.7799 14.9599L13.5599 13.3199" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path d="M7.99995 22H15.9999C20.0199 22 20.7399 20.39 20.9499 18.43L21.6999 10.43C21.9699 7.99 21.2699 6 16.9999 6H6.99995C2.72995 6 2.02995 7.99 2.29995 10.43L3.04995 18.43C3.25995 20.39 3.97995 22 7.99995 22Z" stroke="#24292D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path opacity="0.4" d="M8 6V5.2C8 3.43 8 2 11.2 2H12.8C16 2 16 3.43 16 5.2V6" stroke="#24292D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <g opacity="0.4">
+                                                            <path d="M12 18.2002C14.2091 18.2002 16 16.4093 16 14.2002C16 11.9911 14.2091 10.2002 12 10.2002C9.79086 10.2002 8 11.9911 8 14.2002C8 16.4093 9.79086 18.2002 12 18.2002Z" stroke="#24292D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M21.6498 11C19.9198 12.26 17.9998 13.14 16.0098 13.64" stroke="#24292D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M2.61914 11.2695C4.28914 12.4095 6.10914 13.2195 7.99914 13.6795" stroke="#24292D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </svg></span>
+                                                <p class="w-full text-sm sm:text-base peer-checked:text-[#F3601E] uppercase">PG</p>
+                                            </div>
+                                        </label></div>
+                                    <div class="w-[35%] sm:w-1/4 relative"><input id="PHD" class="absolute left-[10px] top-[10px] accent-[#F3601E] peer" type="radio" value="PHD" name="course"><label for="PHD" class="inline-flex items-center justify-center shadow-[0px_0px_40px_0px_#1D3A531A] w-full p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer peer-checked:border-[#F3601E] peer-checked:bg-[#F3601E]/30 peer-checked:text-[#F3601E] lg:hover:text-[#F3601E] lg:hover:bg-[#F3601E]/30 lg:hover:border-[#F3601E] peer-checked:shadow-[0px_0px_24px_0px_#F3601E4D] lg:hover:shadow-[0px_0px_24px_0px_#F3601E4D] peer-checked:font-medium select-none transition-all ease-in-out duration-300">
+                                            <div class="flex flex-col items-center justify-center gap-1"><span class="w-fit text-lg font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path opacity="0.4" d="M3.5 18V7C3.5 3 4.5 2 8.5 2H15.5C19.5 2 20.5 3 20.5 7V17C20.5 17.14 20.5 17.28 20.49 17.42" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path d="M6.35 15H20.5V18.5C20.5 20.43 18.93 22 17 22H7C5.07 22 3.5 20.43 3.5 18.5V17.85C3.5 16.28 4.78 15 6.35 15Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path opacity="0.4" d="M8 7H16" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path opacity="0.4" d="M8 10.5H13" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg></span>
+                                                <p class="w-full text-sm sm:text-base peer-checked:text-[#F3601E] uppercase">PHD</p>
+                                            </div>
+                                        </label></div>
+                                    <div class="w-[35%] sm:w-1/4 relative"><input id="MBBS" class="absolute left-[10px] top-[10px] accent-[#F3601E] peer" type="radio" value="MBBS" name="course"><label for="MBBS" class="inline-flex items-center justify-center shadow-[0px_0px_40px_0px_#1D3A531A] w-full p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer peer-checked:border-[#F3601E] peer-checked:bg-[#F3601E]/30 peer-checked:text-[#F3601E] lg:hover:text-[#F3601E] lg:hover:bg-[#F3601E]/30 lg:hover:border-[#F3601E] peer-checked:shadow-[0px_0px_24px_0px_#F3601E4D] lg:hover:shadow-[0px_0px_24px_0px_#F3601E4D] peer-checked:font-medium select-none transition-all ease-in-out duration-300">
+                                            <div class="flex flex-col items-center justify-center gap-1"><span class="w-fit text-lg font-semibold"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path class="peer-checked:stroke-[#F3601E]" d="M10.0495 2.53028L4.02953 6.46028C2.09953 7.72028 2.09953 10.5403 4.02953 11.8003L10.0495 15.7303C11.1295 16.4403 12.9095 16.4403 13.9895 15.7303L19.9795 11.8003C21.8995 10.5403 21.8995 7.73028 19.9795 6.47028L13.9895 2.54028C12.9095 1.82028 11.1295 1.82028 10.0495 2.53028Z" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path class="peer-checked:stroke-[#F3601E]" opacity="0.4" d="M5.63109 13.0801L5.62109 17.7701C5.62109 19.0401 6.60109 20.4001 7.80109 20.8001L10.9911 21.8601C11.5411 22.0401 12.4511 22.0401 13.0111 21.8601L16.2011 20.8001C17.4011 20.4001 18.3811 19.0401 18.3811 17.7701V13.1301" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path class="peer-checked:stroke-[#F3601E]" opacity="0.4" d="M21.3984 15V9" stroke="#24292D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg></span>
+                                                <p class="w-full text-sm sm:text-base peer-checked:text-[#F3601E] uppercase">MBBS</p>
+                                            </div>
+                                        </label></div>
+                                </div>
+                                <div class=" flex justify-center sm:justify-start  gap-2 sm:gap-5"><button type="button" class="py-2.5 px-2.5 sm:px-5 rounded-[10px] text-sm sm:text-base font-medium capitalize text-white bg-primary flex items-center gap-2 hover:bg-[#1a5cb0]">Save &amp; Go Next<span class="inline-block"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.8125 1.3125L14.5625 6M14.5625 6L10.8125 10.6875M14.5625 6H1.4375" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg></span></button></div>
+                            </div>
+                        </div>
+                        <div class="w-1/3"><img alt="leadFormImage" loading="lazy" width="498" height="394" decoding="async" data-nimg="1" class=" -mb-[75px] ml-[75px]" src="<?= base_url('public/') ?>assets/images/bg/leadFormImage.webp" style="color: transparent;"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Calculate Your Chances End -->
+
+        <!-- start your journey section  -->
+        <div class="sm:container my-12 sm:my-20">
+
+            <!-- Flex container for content and slider -->
+            <div class="flex items-center flex-col gap-6 md:gap-0 md:flex-row justify-center p-0">
+
+                <!-- Left column: Text content -->
+                <div class="w-full md:w-1/2">
+
+                    <!-- Section heading -->
+                    <h2 class="sm:mb-2 pl-[14px] sm:pl-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] leading-[130%] font-normal">
+                        Know Real Stories of Real People,
+                        <span class="font-medium sm:block text-primary">
+                            How They Went from India to Abroad!
+                        </span>
+                    </h2>
+
+                    <!-- Sub-text (hidden on mobile) -->
+                    <p class="text-sm lg:text-base hidden sm:block">
+                        Get ready to be inspired by the incredible story of students who turned their dreams into reality.
+                    </p>
+
+                    <!-- Bullet points list -->
+                    <div class="hidden sm:flex flex-col gap-2 my-5 lg:my-8">
+                        <p class="flex items-center gap-2 text-sm lg:text-base">
+                            <span>
+                                <img
+                                    alt="checkmark"
+                                    loading="lazy"
+                                    width="21"
+                                    height="21"
+                                    decoding="async"
+                                    data-nimg="1"
+                                    src="<?= base_url('public/') ?>assets/images/icons/checkmarkGreen.webp"
+                                    style="color: transparent;">
+                            </span>
+                            Free counselling sessions by an educational consultant
+                        </p>
+
+                        <p class="flex items-center gap-2 text-sm lg:text-base">
+                            <span>
+                                <img
+                                    alt="checkmark"
+                                    loading="lazy"
+                                    width="21"
+                                    height="21"
+                                    decoding="async"
+                                    data-nimg="1"
+                                    src="<?= base_url('public/') ?>assets/images/icons/checkmarkGreen.webp"
+                                    style="color: transparent;">
+                            </span>
+                            Database of multiple reputed universities under one roof
+                        </p>
+
+                        <p class="flex items-center gap-2 text-sm lg:text-base">
+                            <span>
+                                <img
+                                    alt="checkmark"
+                                    loading="lazy"
+                                    width="21"
+                                    height="21"
+                                    decoding="async"
+                                    data-nimg="1"
+                                    src="<?= base_url('public/') ?>assets/images/icons/checkmarkGreen.webp"
+                                    style="color: transparent;">
+                            </span>
+                            Trustworthy and affordable overseas study plans
+                        </p>
+                    </div>
+
+                    <!-- Desktop CTA button -->
+                    <a
+                        class="hidden sm:flex border-[1.5px] border-primary rounded-lg p-2.5 xl:py-3 xl:px-5 items-center justify-center md:w-fit text-base xl:text-lg font-medium text-primary hover:bg-primary hover:text-white"
+                        href="https://www.gradding.com/start-journey">
+                        Start Your Journey
+                        <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 448 512"
+                            class="text-sm inline-block ml-1 font-medium"
+                            height="1em"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Right column: Swiper slider -->
+                <div class="pl-[14px] sm:pl-0 w-full md:w-1/2 py-1">
+                    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
+                        <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms; transform: translate3d(189.913px, 0px, 0px);">
+
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide swiper-slide-active !w-fit m-2" style="width: 292.174px;">
+                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                                    <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
+                                        <img
+                                            alt="video thumbnail"
+                                            loading="lazy"
+                                            width="296"
+                                            height="433"
+                                            decoding="async"
+                                            data-nimg="1"
+                                            class="rounded-2xl w-full xl:w-auto h-full"
+                                            srcset="/_next/image?url=%2Ftest-preparation%2Farush.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Farush.jpg&amp;w=640&amp;q=75 2x"
+                                            src="/_next/image?url=%2Ftest-preparation%2Farush.jpg&amp;w=640&amp;q=75"
+                                            style="color: transparent;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide swiper-slide-next !w-fit m-2" style="width: 292.174px;">
+                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                                    <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
+                                        <img
+                                            alt="video thumbnail"
+                                            loading="lazy"
+                                            width="296"
+                                            height="433"
+                                            decoding="async"
+                                            data-nimg="1"
+                                            class="rounded-2xl w-full xl:w-auto h-full"
+                                            srcset="/_next/image?url=%2Ftest-preparation%2Fmanan.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Fmanan.jpg&amp;w=640&amp;q=75 2x"
+                                            src="/_next/image?url=%2Ftest-preparation%2Fmanan.jpg&amp;w=640&amp;q=75"
+                                            style="color: transparent;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide !w-fit m-2" style="width: 292.174px;">
+                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                                    <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
+                                        <img
+                                            alt="video thumbnail"
+                                            loading="lazy"
+                                            width="296"
+                                            height="433"
+                                            decoding="async"
+                                            data-nimg="1"
+                                            class="rounded-2xl w-full xl:w-auto h-full"
+                                            srcset="/_next/image?url=%2Ftest-preparation%2Fzeeshan.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Fzeeshan.jpg&amp;w=640&amp;q=75 2x"
+                                            src="/_next/image?url=%2Ftest-preparation%2Fzeeshan.jpg&amp;w=640&amp;q=75"
+                                            style="color: transparent;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide !w-fit m-2" style="width: 292.174px;">
+                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                                    <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
+                                        <img
+                                            alt="video thumbnail"
+                                            loading="lazy"
+                                            width="296"
+                                            height="433"
+                                            decoding="async"
+                                            data-nimg="1"
+                                            class="rounded-2xl w-full xl:w-auto h-full"
+                                            srcset="/_next/image?url=%2Ftest-preparation%2Fdeepika.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Fdeepika.jpg&amp;w=640&amp;q=75 2x"
+                                            src="/_next/image?url=%2Ftest-preparation%2Fdeepika.jpg&amp;w=640&amp;q=75"
+                                            style="color: transparent;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile CTA button -->
+                <a
+                    class="mx-3.5 sm:mx-0 flex w-[85%] sm:hidden border-[1.5px] border-primary rounded-xl p-2.5 xl:py-3 xl:px-5 items-center justify-center text-base xl:text-lg font-medium text-primary hover:bg-primary hover:text-white"
+                    href="https://www.gradding.com/start-journey">
+                    Start Your Journey
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        class="text-sm inline-block ml-1 font-medium"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- end of start your journey section  -->
+
+        <!-- Blog Slider Section Start -->
+        <!-- style for blog slider -->
+        <style>
+            .slider {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+            }
+        </style>
+
+        <!-- Gradding Blogs Section -->
+        <div class=" m-auto my-12 sm:my-14 xl:px-0 md:-pl-10 blog-slider">
+            <h2 class=" text-2xl lg:text-[28px] xl:text-[30px] 2xl:text-[34px] font-normal text-center">Gradding<!-- --> <span class="font-medium inline-block text-primary">Blogs</span></h2>
+            <div class="flex gap-3 items-center justify-center mt-4 mb-2">
+                <p class="text-[14px] text-[#6E6E73] font-medium">Want to read more?</p><a class="p-2 font-medium rounded-md text-[14px] inline-block bg-[#006ac91a] text-primary hover:bg-[#006ac9] hover:text-white capitalize" href="https://www.gradding.com/blog">explore blogs<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="inline-block font-normal" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
+                    </svg></a>
+            </div>
+            <div class="slider-container swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
+                <div class="slider swiper-wrapper">
+                    <div class="slide swiper-slide swiper-slide-active first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="0" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-frequency"><img title="Adverb of Frequency" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/adverb-of-frequency-6895.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverb of Frequency: Definition, Examples, Rules, Worksheet<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 08, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                    <div class="slide swiper-slide swiper-slide-next first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="1" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-degree"><img title="What Is Adverbs of Degree?" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/adverbs-of-degree-6894.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverbs of Degree: Definition, Rules, and Examples<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 07, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="2" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/prepositions-of-place"><img title="Prepositions of Place" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/prepositions-of-place-6892.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full">
+                                <span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Prepositions of Place: Explanation, Examples, &amp; Exercise<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 06, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="3" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-manner"><img title="Adverbs of Manner" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/prepositions-of-place-1-6892.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full">
+                                <span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverbs of Manner: Rules to Form, Examples &amp; Practice Exercise<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 06, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="4" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-place"><img title="Adverbs of Place" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/adverbs-of-place-6891.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverbs of Place: Definition, Types, Examples, and Worksheet<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 05, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="5" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/subordinating-conjunctions"><img title="Subordinating Conjunction" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/subordinating-conjunction-6891.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Subordinating Conjunctions: Common Uses, Examples &amp; Worksheets<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 05, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="6" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/uncountable-nouns"><img title="Uncountable Nouns" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/uncountable-nouns-6891.webp">
+                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
+                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Uncountable Nouns: Meaning, Definition, Examples, Worksheet<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 05, 2025<!-- --> </span>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+            <div class="flex justify-center gap-28">
+                <button class="prev swiper-button-prev-custom flex items-center gap-1 text-base">
+                    <span>
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.41406 8.34263L7.36406 12.2926C7.54171 12.4821 7.63869 12.7332 7.63448 12.9929C7.63026 13.2526 7.52518 13.5004 7.34146 13.684C7.15775 13.8676 6.90982 13.9725 6.65014 13.9765C6.39045 13.9806 6.13938 13.8834 5.95006 13.7056L0.293058 8.04963C0.199873 7.95697 0.125924 7.84681 0.0754624 7.72548C0.0250011 7.60415 -0.000976563 7.47404 -0.000976562 7.34263C-0.000976562 7.21122 0.0250011 7.08111 0.0754624 6.95977C0.125924 6.83844 0.199873 6.72828 0.293058 6.63563L5.95006 0.978628C6.0423 0.883118 6.15265 0.806936 6.27465 0.754527C6.39666 0.702118 6.52788 0.674531 6.66066 0.673378C6.79344 0.672224 6.92512 0.697525 7.04801 0.747806C7.17091 0.798087 7.28256 0.87234 7.37645 0.966233C7.47035 1.06013 7.5446 1.17178 7.59488 1.29467C7.64516 1.41757 7.67046 1.54925 7.66931 1.68203C7.66815 1.81481 7.64057 1.94603 7.58816 2.06803C7.53575 2.19004 7.45957 2.30038 7.36406 2.39263L3.41406 6.34263H13.0001C13.2653 6.34263 13.5196 6.44798 13.7072 6.63552C13.8947 6.82306 14.0001 7.07741 14.0001 7.34263C14.0001 7.60784 13.8947 7.8622 13.7072 8.04973C13.5196 8.23727 13.2653 8.34263 13.0001 8.34263H3.41406Z" fill="#0F172A"></path>
+                        </svg>
+                    </span>
+                    <span>Prev</span>
+                </button>
+                <button class="next swiper-button-next-custom flex items-center gap-1 text-base">
+                    <span>Next</span>
+                    <span>
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_5_2)">
+                                <path d="M10.5859 5.65746L6.63591 1.70749C6.45826 1.51799 6.36128 1.26689 6.36549 1.00719C6.36971 0.747492 6.47479 0.499692 6.65851 0.316092C6.84222 0.132492 7.09015 0.0275928 7.34983 0.0235928C7.60952 0.0194928 7.86059 0.116693 8.04991 0.294493L13.7069 5.95046C13.8001 6.04312 13.874 6.15328 13.9245 6.27461C13.975 6.39594 14.0009 6.52605 14.0009 6.65746C14.0009 6.78887 13.975 6.91898 13.9245 7.04032C13.874 7.16165 13.8001 7.27181 13.7069 7.36446L8.04991 13.0215C7.95767 13.117 7.84732 13.1932 7.72532 13.2456C7.60331 13.298 7.47209 13.3256 7.33931 13.3267C7.20653 13.3279 7.07485 13.3026 6.95196 13.2523C6.82906 13.202 6.71741 13.1278 6.62352 13.0339C6.52962 12.94 6.45537 12.8283 6.40509 12.7054C6.35481 12.5825 6.32951 12.4508 6.33066 12.3181C6.33182 12.1853 6.3594 12.0541 6.41181 11.9321C6.46422 11.8101 6.5404 11.6997 6.63591 11.6075L10.5859 7.65746L0.99987 7.65746C0.73467 7.65746 0.48037 7.55211 0.29277 7.36457C0.10527 7.17703 -0.000129819 6.92268 -0.000129819 6.65746C-0.000129819 6.39225 0.10527 6.13789 0.29277 5.95036C0.48037 5.76282 0.73467 5.65746 0.99987 5.65746L10.5859 5.65746Z" fill="#0F172A"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_5_2">
+                                    <rect width="14" height="14" fill="white" transform="matrix(-1 0 0 -1 14 14.0001)"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- js for slider -->
+        <script>
+            const slider = document.querySelector('.slider');
+            const slides = document.querySelectorAll('.slide');
+            const prevButton = document.querySelector('.prev');
+            const nextButton = document.querySelector('.next');
+
+            let currentIndex = 0;
+            const totalSlides = slides.length - 4;
+
+
+            function updateSlider() {
+                slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            nextButton.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % (totalSlides);
+
+                updateSlider();
+            });
+
+            prevButton.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+
+                updateSlider();
+            });
+        </script>
+        <!-- Blog Slider Section End -->
+
+        <style>
+            table {
+                margin-bottom: 10px;
+                border-radius: 8px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                background: #ffffff;
+
+                ul {
+                    text-align-last: left;
+
+                    li {
+                        text-align: left;
+                    }
+                }
+
+                border-collapse: collapse;
+                width: 100%;
+                text-align: center;
+
+                thead {
+                    background: #f5f7f9;
+                    border-radius: 8px 8px 8px 0px;
+
+                    th {
+                        padding: 25px;
+                        color: #24292d;
+                        font-size: 15px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                        font-weight: normal;
+
+                        &:first-child {
+                            border-radius: 8px 0 0 8px;
+                            text-align: left;
+                        }
+
+                        &:last-child {
+                            border-radius: 0 8px 8px 0;
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        border-radius: 8px 8px 8px 0px;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+                        td {
+                            padding: 25px;
+                            color: #24292d;
+                            font-size: 15px;
+                            line-height: 18px;
+                            text-align: center;
+                            vertical-align: top;
+
+                            &:first-child {
+                                background: #f5f7f9;
+                                text-transform: uppercase;
+
+                                text-align: left;
+                            }
+                        }
+
+                        &.t-left {
+                            td {
+                                text-align: left;
+                            }
+                        }
+                    }
+
+                    tr {
+                        &:nth-last-of-type(1) {
+                            border-bottom: none;
+                            border-radius: 0 0 8px 0;
+
+                            td {
+                                &:first-child {
+                                    border-radius: 0 0 8px 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        </style>
+
+        <!-- FAQ Section Start -->
+        <div class="container my-12 lg:my-24 lg:w-2/3">
+            <h2 class="text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal text-center mb-5">
+                Frequently Asked <span class="text-test-prep font-medium block sm:inline-block">Questions</span>
+            </h2>
+
+            <div class="px-2 space-y-3">
+
+                <!-- START: FAQ Item -->
+                <div class="border-b border-[#DCDCDC]">
+                    <div class="faq-toggle flex gap-3 py-2 md:py-4 items-center cursor-pointer">
+                        <span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">
+                            How Doctor Bano helps students to prepare for English language proficiency test?
+                        </span>
+                        <div class="relative size-3 flex items-center justify-center">
+                            <span class="plus rotate-0 opacity-100 duration-300 absolute">
+                                <svg width="11" height="11">
+                                    <rect x="4.7" y="0.1" width="1.5" height="10.8" fill="#6E6E73" />
+                                    <rect x="10.9" y="4.7" width="1.5" height="10.8" transform="rotate(90 10.9 4.7)" fill="#6E6E73" />
+                                </svg>
+                            </span>
+                            <span class="minus rotate-90 opacity-0 duration-300 absolute">
+                                <svg width="11" height="3">
+                                    <rect x="10.9" y="0.7" width="1.5" height="10.8" transform="rotate(90 10.9 0.7)" fill="#6E6E73" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
+                        <div class="overflow-hidden text-sm xl:text-base space-y-2">
+                            <p>We have a professional team that provides tailored guidance, study plans, linguistic resources, and attention to students. We help students to prepare for IELTS, PTE, TOEFL, and Duolingo.</p>
+                            <ul class="list-disc pl-6">
+                                <li>A self-help kit.</li>
+                                <li>Pre-practice test.</li>
+                                <li>Full and section-wise mock test and band predictor tool.</li>
+                            </ul>
+                            <p>Students can also enroll in coaching or one-on-one sessions to clarify doubts. Contact us for more info.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END -->
+
+                <!-- FAQ 2 -->
+                <div class="border-b border-[#DCDCDC]">
+                    <div class="faq-toggle flex gap-3 py-2 md:py-4 items-center cursor-pointer">
+                        <span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">
+                            What are the benefits of studying abroad?
+                        </span>
+                        <div class="relative size-3 flex items-center justify-center">
+                            <span class="plus rotate-0 opacity-100 duration-300 absolute">
+                                <svg width="11" height="11">
+                                    <rect x="4.7" y="0.1" width="1.5" height="10.8" fill="#6E6E73" />
+                                    <rect x="10.9" y="4.7" width="1.5" height="10.8" transform="rotate(90 10.9 4.7)" fill="#6E6E73" />
+                                </svg>
+                            </span>
+                            <span class="minus rotate-90 opacity-0 duration-300 absolute">
+                                <svg width="11" height="3">
+                                    <rect x="10.9" y="0.7" width="1.5" height="10.8" transform="rotate(90 10.9 0.7)" fill="#6E6E73" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
+                        <div class="overflow-hidden text-sm xl:text-base">
+                            <p>Benefits include:</p>
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>High-quality education system</li>
+                                <li>QS-ranked universities & globally recognized degrees</li>
+                                <li>Diverse career & global job market exposure</li>
+                                <li>Cultural experience & personal growth</li>
+                                <li>Cutting-edge research & networking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="border-b border-[#DCDCDC]">
+                    <div class="faq-toggle flex gap-3 py-2 md:py-4 items-center cursor-pointer">
+                        <span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">
+                            What type of services does Doctor Bano provide?
+                        </span>
+                        <div class="relative size-3 flex items-center justify-center">
+                            <span class="plus rotate-0 opacity-100 duration-300 absolute"><svg width="11" height="11">
+                                    <rect x="4.7" y="0.1" width="1.5" height="10.8" fill="#6E6E73" />
+                                    <rect x="10.9" y="4.7" width="1.5" height="10.8" transform="rotate(90 10.9 4.7)" fill="#6E6E73" />
+                                </svg></span>
+                            <span class="minus rotate-90 opacity-0 duration-300 absolute"><svg width="11" height="3">
+                                    <rect x="10.9" y="0.7" width="1.5" height="10.8" transform="rotate(90 10.9 0.7)" fill="#6E6E73" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
+                        <div class="overflow-hidden text-sm xl:text-base">
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>Test prep (IELTS, TOEFL, Duolingo)</li>
+                                <li>University/course selection</li>
+                                <li>Visa assistance & SOP/LOR writing</li>
+                                <li>Loans, forex, insurance, SIM, GIC, travel</li>
+                                <li>Accommodation & airport pickup</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="border-b border-[#DCDCDC]">
+                    <div class="faq-toggle flex gap-3 py-2 md:py-4 items-center cursor-pointer">
+                        <span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">
+                            How does Doctor Bano help in visa assistance?
+                        </span>
+                        <div class="relative size-3 flex items-center justify-center">
+                            <span class="plus rotate-0 opacity-100 duration-300 absolute"><svg width="11" height="11">
+                                    <rect x="4.7" y="0.1" width="1.5" height="10.8" fill="#6E6E73" />
+                                    <rect x="10.9" y="4.7" width="1.5" height="10.8" transform="rotate(90 10.9 4.7)" fill="#6E6E73" />
+                                </svg></span>
+                            <span class="minus rotate-90 opacity-0 duration-300 absolute"><svg width="11" height="3">
+                                    <rect x="10.9" y="0.7" width="1.5" height="10.8" transform="rotate(90 10.9 0.7)" fill="#6E6E73" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
+                        <div class="overflow-hidden text-sm xl:text-base">
+                            <p>Doctor Bano has a 98% visa success rate. We help students compile all documents—SOP, transcripts, LORs—and keep them updated throughout the visa approval process.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="border-b border-[#DCDCDC]">
+                    <div class="faq-toggle flex gap-3 py-2 md:py-4 items-center cursor-pointer">
+                        <span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">
+                            What are the key documents required in the study abroad journey?
+                        </span>
+                        <div class="relative size-3 flex items-center justify-center">
+                            <span class="plus rotate-0 opacity-100 duration-300 absolute"><svg width="11" height="11">
+                                    <rect x="4.7" y="0.1" width="1.5" height="10.8" fill="#6E6E73" />
+                                    <rect x="10.9" y="4.7" width="1.5" height="10.8" transform="rotate(90 10.9 4.7)" fill="#6E6E73" />
+                                </svg></span>
+                            <span class="minus rotate-90 opacity-0 duration-300 absolute"><svg width="11" height="3">
+                                    <rect x="10.9" y="0.7" width="1.5" height="10.8" transform="rotate(90 10.9 0.7)" fill="#6E6E73" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
+                        <div class="overflow-hidden text-sm xl:text-base">
+                            <ul class="list-disc pl-6 space-y-1">
+                                <li>Passport & photos</li>
+                                <li>SOP, LORs, resume</li>
+                                <li>Test scores (IELTS, SAT, GRE etc.)</li>
+                                <li>Financial proofs, visa docs</li>
+                                <li>Admission/acceptance letters</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="border-b border-[#DCDCDC]">
+                    <div class="faq-toggle flex gap-3 py-2 md:py-4 items-center cursor-pointer">
+                        <span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">
+                            Does Doctor Bano provide students with accommodation assistance?
+                        </span>
+                        <div class="relative size-3 flex items-center justify-center">
+                            <span class="plus rotate-0 opacity-100 duration-300 absolute"><svg width="11" height="11">
+                                    <rect x="4.7" y="0.1" width="1.5" height="10.8" fill="#6E6E73" />
+                                    <rect x="10.9" y="4.7" width="1.5" height="10.8" transform="rotate(90 10.9 4.7)" fill="#6E6E73" />
+                                </svg></span>
+                            <span class="minus rotate-90 opacity-0 duration-300 absolute"><svg width="11" height="3">
+                                    <rect x="10.9" y="0.7" width="1.5" height="10.8" transform="rotate(90 10.9 0.7)" fill="#6E6E73" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
+                        <div class="overflow-hidden text-sm xl:text-base">
+                            <p>Yes! We assist students in finding safe, affordable, and campus-nearby accommodation options in countries like the USA, Canada, UK, Australia, and more.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ✅ Accordion JavaScript -->
+        <script>
+            document.querySelectorAll('.faq-toggle').forEach(toggle => {
+                toggle.addEventListener('click', () => {
+                    const content = toggle.nextElementSibling;
+                    const plus = toggle.querySelector('.plus');
+                    const minus = toggle.querySelector('.minus');
+
+                    const isOpen = content.classList.contains('grid-rows-[1fr]');
+
+                    // Close all open
+                    document.querySelectorAll('.faq-content').forEach(el => {
+                        el.classList.remove('grid-rows-[1fr]', 'opacity-100');
+                        el.classList.add('grid-rows-[0fr]', 'opacity-0');
+                    });
+                    document.querySelectorAll('.faq-toggle .plus').forEach(p => p.classList.replace('opacity-0', 'opacity-100'));
+                    document.querySelectorAll('.faq-toggle .plus').forEach(p => p.classList.replace('rotate-90', 'rotate-0'));
+                    document.querySelectorAll('.faq-toggle .minus').forEach(m => m.classList.replace('opacity-100', 'opacity-0'));
+                    document.querySelectorAll('.faq-toggle .minus').forEach(m => m.classList.replace('rotate-0', 'rotate-90'));
+
+                    if (!isOpen) {
+                        content.classList.add('grid-rows-[1fr]', 'opacity-100');
+                        content.classList.remove('grid-rows-[0fr]', 'opacity-0');
+                        plus.classList.replace('opacity-100', 'opacity-0');
+                        plus.classList.replace('rotate-0', 'rotate-90');
+                        minus.classList.replace('opacity-0', 'opacity-100');
+                        minus.classList.replace('rotate-90', 'rotate-0');
+                    }
+                });
+            });
+        </script>
+        <!-- FAQ Section End -->
+
+        <!-- Quick Links Section Start -->
+        <div class="container my-8 xl:py-14">
+            <h2 class="text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-medium text-center sm:text-left">Quick <span class="inline-block text-test-prep font-medium">Links</span></h2>
+            <div class="flex flex-wrap gap-2 mt-4 mb-1 sm:my-4"><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/study-abroad-consultants">Get consultancy</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/uk">Study in UK</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/us">Study in USA</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/hu">Study in Hungary</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/mt">Study in Malta</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/au">Study in Australia</a></div>
+            <div class="quick-link">
+                <div class="readmore-content-both-device flex flex-col items-start justify-start">
+                    <div class="readmore-long-content w-full ">
+                        <div>
+                            <p>Canada is known globally for its high-quality education and affordable living. It ranks 3rd for the best quality of life. Thus, making it one of the preferred countries to study for international students.</p>
+                            <h2>Cost of&nbsp;Study in Canada</h2>
+                            <p>To&nbsp;study in Canada&nbsp;a student will need approximately CAD 13,000 - CAD 35,000 a year. Although, the tuition fees will depend on the course and the university that you select&nbsp;but here are the basic costs of all the courses.</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Degree </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p><strong><strong>Canada </strong></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>UG Course </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 8,03,944 to 12,36,838</p>
+                                            <p>(CAD 13,000 to 20,000)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>PG Course</strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 10,51,312 to 15,46,047</p>
+                                            <p>(CAD17,000 to 25,000)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Doctoral Programs </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 4,32,893 to 9,27,628</p>
+                                            <p>(CAD 7,000 to 15,000)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h2>Student Visa in Canada</h2>
+                            <p>Once you receive your acceptance letter from the university, the next step would be to apply for a student visa. Besides, for Canada&nbsp;study abroad, students are required to get a study permit along with a student visa. A study permit validates your stay in the country while a student visa authorizes the entry. It is issued by the Citizen and Immigration Canada (CIC) authorities.</p>
+                            <p><strong>Also read about</strong><a href="https://web.gradding.com/blog/news/hdfc-bank-td-bank-deal-to-help-indians-with-canada-study-visa-process"><u>how banks help in visa process</u></a>.</p>
+                            <p>Now that you know about Canadian study visas, let us look at the scholarships to study in Canada for international students. Some of the scholarships are listed below.</p>
+                            <h2>Scholarships to Study in Canada</h2>
+                            <p>Universities in Canada provide various scholarships for students both government-funded and non-government-funded. Listed below are a few with the amount that each of these covers.</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Scholarship </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p><strong><strong>Amount </strong></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Vanier Canada Graduate Scholarships funded by the Government of Canada</p>
+                                        </td>
+                                        <td>
+                                            <p>INR 41,83,826 (CAD 67,322) per year is offered for three years.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Banting Postdoctoral Fellowship</p>
+                                        </td>
+                                        <td>
+                                            <p>Provides INR 58,57,520 (CAD 94,251) per year for three years.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Lester B. Pearson International Scholarship Program at the University of Toronto</p>
+                                        </td>
+                                        <td>
+                                            <p>Offers INR 51,20,506 (<strong><strong>CAD</strong></strong>&nbsp;<strong><strong>82,392) per year. </strong></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Karen McKellin International Leader of Tomorrow Award at the University of British Columbia</p>
+                                        </td>
+                                        <td>
+                                            <p>Covers INR 11,71,182 - 28,44,327 (CAD 18,850 - 45,779) per year</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>York University International Student Scholarship</p>
+                                        </td>
+                                        <td>
+                                            <p>Offers INR 4,18,329 - 29,28,616 (CAD 6,733 - 47,136)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Ontario Graduate Scholarship</p>
+                                        </td>
+                                        <td>
+                                            <p>Covers INR 4,18,370 (CAD 6,734)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>If you are someone who is planning to study abroad in Canada, then you must apply for the above-mentioned scholarships. These would help you maintain your budget without straining your pocket.</p>
+                            <p><strong>Also Read:<a href="https://web.gradding.com/blog/scholarships/canada-scholarships-for-indian-students"><u>&nbsp;scholarships in Canada</u></a>.</strong></p>
+                            <p>Further, let us read more about the intakes in Canada.</p>
+                            <h2>Intakes in Canada</h2>
+                            <p>Most colleges in Canada offer three intakes. However, some universities may also refer to it as semesters.</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Intakes </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p><strong><strong>Duration </strong></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Fall intake</p>
+                                        </td>
+                                        <td>
+                                            <p>September to December</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Spring intake</p>
+                                        </td>
+                                        <td>
+                                            <p>January to April</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Summer intake</p>
+                                        </td>
+                                        <td>
+                                            <p>April to June</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>However, the availability of courses varies as per the intake. Thus, you must check that on the official university website before enrolling for the program.</p>
+                            <p>Getting admission to a foreign university isn’t an easy task! Thus, it is better to get assistance from experts. There are various&nbsp;study abroad consultants&nbsp;who guide you through the entire admission process and suggest which intake to apply to, as per your preferences.</p>
+                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="https://web.gradding.com/blog/news/upcoming-canada-intakes"><u>intakes in Canada</u></a></strong></p>
+                            <h2>Top Courses to Study in Canada</h2>
+                            <p>There are various courses to&nbsp;study in Canada&nbsp;for Indian&nbsp;students. Some of them are listed below.</p>
+                            <ul>
+                                <li>Business Management</li>
+                                <li>MBBS</li>
+                                <li>IT &amp; Computer Science</li>
+                                <li>Engineering</li>
+                                <li>Health, Bio-sciences &amp; Pharmacy</li>
+                                <li>Media &amp; Journalism</li>
+                                <li>Agriculture Science</li>
+                                <li>Architecture</li>
+                                <li>Culinary Management</li>
+                                <li>Hospitality Management</li>
+                            </ul>
+                            <p>These are some of the popular courses&nbsp;for masters in Canada&nbsp;for Indian&nbsp;students. If you are still unsure about which course to opt for then you can use our&nbsp;AI-powered course finder&nbsp;tool. It is uniquely designed for students to ease out the process of filtration of programs. Moreover, the tool offers&nbsp;75,000+ course&nbsp;options along with various filters as per your preferences. These include the level, duration and country.</p>
+                            <p><strong>Also Read:</strong><a href="https://web.gradding.com/blog/study-abroad/top-courses-in-demand-in-canada"><u>&nbsp;<strong>top courses in Canada</strong></u></a></p>
+                            <p>Now, let us move on to the next section&nbsp;which talks about top universities in Canada.</p>
+                            <h2>Top Universities to Study in&nbsp;Canada</h2>
+                            <p>This section covers&nbsp;top universities in Canada&nbsp;for masters&nbsp;along with the Canada ranks. Let us look at the table below.</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Universities </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p><strong><strong>Canada Ranks</strong></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of Toronto</p>
+                                        </td>
+                                        <td>
+                                            <p>1<sup>st</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of British Columbia</p>
+                                        </td>
+                                        <td>
+                                            <p>2<sup>nd</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>McGill University</p>
+                                        </td>
+                                        <td>
+                                            <p>3<sup>rd</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>McMaster University</p>
+                                        </td>
+                                        <td>
+                                            <p>4<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of Alberta</p>
+                                        </td>
+                                        <td>
+                                            <p>5<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of Montreal</p>
+                                        </td>
+                                        <td>
+                                            <p>6<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of Waterloo</p>
+                                        </td>
+                                        <td>
+                                            <p>7<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of Calgary</p>
+                                        </td>
+                                        <td>
+                                            <p>8<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>University of Ottawa</p>
+                                        </td>
+                                        <td>
+                                            <p>9<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Western University</p>
+                                        </td>
+                                        <td>
+                                            <p>10<sup>th</sup>&nbsp;in Canada</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>These are some of the top colleges to study in Canada. Besides, with our <strong><strong>college predictor</strong></strong>&nbsp;tool, you can get an overview of all the universities in the nation. The tool’s user-friendly interface makes it easy for students to filter out colleges. With this, you can find a suitable university as per your needs. It provides results based on various filters such as stream, ranking, fees, location and more.</p>
+                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="https://web.gradding.com/blog/university/cheapest-colleges-in-canada"><u>cheapest colleges in Canada</u></a></strong></p>
+                            <p>Now, let us look at the job opportunities in Canada after students complete their studies.</p>
+                            <h2>Job Opportunity After Study</h2>
+                            <p>Canada ranks as one of the best countries among G20. It is known for its business operations in the nation. Besides, the post-graduation work permit (PGWP) makes students eligible to live and work in Canada after graduation. However, the condition is that you&nbsp;must complete the degree from a Designated Learning Institution (DLI) in Canada. Here are some top job profiles in Canada:</p>
+                            <ol>
+                                <li>Project Managers</li>
+                            </ol>
+                            <ol start="2">
+                                <li>HR Manager</li>
+                            </ol>
+                            <ol start="3">
+                                <li>Physician and Dentist</li>
+                            </ol>
+                            <ol start="4">
+                                <li>Nurses&nbsp;</li>
+                            </ol>
+                            <ol start="5">
+                                <li>IT Manager&nbsp;</li>
+                            </ol>
+                            <ol start="6">
+                                <li>Financial Analysts</li>
+                            </ol>
+                            <ol start="7">
+                                <li>Engineers</li>
+                            </ol>
+                            <ol start="8">
+                                <li>Educationalists</li>
+                            </ol>
+                            <ol start="9">
+                                <li>Tourism and Hospitality&nbsp;</li>
+                            </ol>
+                            <ol start="10">
+                                <li>Office Managers and Administrative Assistants</li>
+                            </ol>
+                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="https://web.gradding.com/blog/jobs/canada-job-opportunities"><u>Job opportunities after study in Canada </u></a></strong></p>
+                            <p>Thus, there are ample of job opportunities in Canada for&nbsp;study abroad&nbsp;aspirants after studies. Next, let us have a glance at the living cost in Canada.</p>
+                            <h2>Cost of Living in Canada&nbsp;</h2>
+                            <p>There are various expenses included in the living expenses such as food, electricity, transportation and more.Here is a list of basic expenses along with the amount per month:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Living Expenses </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p><strong><strong>Canada (per month)</strong></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Accommodation </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 24,742 to 92,786</p>
+                                            <p>(CAD 400 to 1500)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Food </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 74,228 to 92,786</p>
+                                            <p>(CAD 1200 to 1500)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Electricity </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 12,371</p>
+                                            <p>(CAD $200)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><strong><strong>Transport </strong></strong></p>
+                                        </td>
+                                        <td>
+                                            <p>INR 6,182 to 9,273</p>
+                                            <p>(CAD 100 to 150)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p><strong>Also Read:</strong>&nbsp;<a href="https://web.gradding.com/blog/finance/cost-of-living-in-canada-for-indian-students"><u>cost of living in Canada</u></a>&nbsp;</p>
+                            <p>Now you know all about the cost of studying and living in Canada. So, let us move on to&nbsp;the next section&nbsp;which&nbsp;mentions the reasons to study&nbsp;in Canada.</p>
+                            <h2>Reasons to Study in&nbsp;Canada</h2>
+                            <p>Are you wondering why study in Canada? This section will give you an answer to this question. There are various reasons for studying in Canada, listed below are some of these:</p>
+                            <ol>
+                                <li><strong>Affordable Tuition:</strong> The tuition fee in Canada is fairly cheaper than in other nations. Further, there are various scholarships for students as well.</li>
+                                <li><strong>Top-notch Education:</strong> Canada is home to some of the world’s best universities and colleges.</li>
+                                <li><strong>Cultural Diversity:</strong> Canada has a multicultural environment. Moreover, there are very welcoming and warm people from varied ethnic groups.</li>
+                                <li><strong>Campus Lifestyle:</strong> The country is famous for its lively and vibrant lifestyle. Students can be a part of a variety of fests and activities.</li>
+                                <li><strong>Studying &amp; Working:</strong> Students may work part-time while studying in Canada for up to 20 hours per week.</li>
+                            </ol>
+                            <p><strong><strong>Conclusion </strong></strong></p>
+                            <p>To wrap up, Canada&nbsp;is the perfect study destination for students. The country is known for its affordable living and quality of life.&nbsp;Further, the write-up covers the reasons to study in the nation and the various costs that students incur in Canada. Besides, if you are facing any doubts, then you must seek assistance from experts such as DoctorBano.com. They will assist and guide you throughout the process.</p>
+                            <p><strong><strong>Some useful links:</strong></strong></p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><a href="https://web.gradding.com/blog/scholarships/scholarships-in-canada-for-indian-students">Fully Funded Scholarships</a></p>
+                                        </td>
+                                        <td>
+                                            <p><a href="https://web.gradding.com/blog/scholarships/scholarships-for-international-students-in-canada">Scholarships for international students in Canada</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><a href="https://web.gradding.com/blog/finance/study-loan-for-canada">Study Loans in Canada</a>&nbsp;</p>
+                                        </td>
+                                        <td>
+                                            <p><a href="https://web.gradding.com/blog/jobs/part-time-jobs-in-canada-for-international-students">Part Time Jobs in Canada</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><a href="https://web.gradding.com/blog/jobs/average-salary-in-canada">Salary in Canada </a></p>
+                                        </td>
+                                        <td>
+                                            <p><a href="https://web.gradding.com/blog/study-abroad/canada-education-system">Education system in Canada</a></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div><button class="readmore-btn mb-3 transition-all ease-in-out text-test-prep text-sm sm:text-base !undefined">Read More</button>
+                </div>
+            </div>
+        </div>
+        <!-- Quick Links Section End  -->
+    </div>
+</main>
+
+<?= $this->endSection() ?>

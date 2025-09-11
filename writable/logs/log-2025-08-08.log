@@ -1,0 +1,46 @@
+CRITICAL - 2025-08-08 07:55:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "web/blogs.php"
+[Method: GET, Route: blogs]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/blogs.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('web/blogs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('web/blogs')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-08 07:57:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "web/blog.php"
+[Method: GET, Route: blogs]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/blog.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('web/blog', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('web/blog')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-08 12:42:30 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::single_blog(), 0 passed in C:\xampp\htdocs\aonebox-doctor-bano\ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: single_blog]
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->single_blog()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-08 12:51:27 --> Error: Call to undefined function html_entity_encode()
+[Method: GET, Route: single_blog/1]
+in APPPATH\Views\web\single_blog.php on line 103.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('web/single_blog', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('web/single_blog', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->single_blog('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,130 @@
+DEBUG - 2025-08-11 11:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-11 11:02:18 --> ErrorException: Undefined variable $blogs
+[Method: GET, Route: admin/university]
+in APPPATH\Views\admin\university\index.php on line 32.
+ 1 APPPATH\Views\admin\university\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogs', 'C:\\xampp\\htdocs\\aonebox-doctor-bano\\ci\\app\\Views\\admin\\university\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\aonebox-doctor-bano\\ci\\app\\Views\\admin\\university\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/university/index', [], true)
+ 5 APPPATH\Controllers\AdminController\UniversityController.php(15): view('admin/university/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController\UniversityController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\UniversityController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-11 11:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-11 11:06:20 --> mysqli_sql_exception: Column 'description' cannot be null in C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `un...', 0)
+#1 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `un...')
+#2 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `un...')
+#3 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `un...', Array, false)
+#4 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\aonebox-doctor-bano\ci\app\Controllers\AdminController\UniversityController.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\CodeIgniter.php(933): App\Controllers\AdminController\UniversityController->save()
+#10 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\UniversityController))
+#11 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\aonebox-doctor-bano\ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\aonebox-doctor-bano\ci\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-08-11 11:06:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'description' cannot be null
+[Method: POST, Route: admin/university/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (:uni_name:, :description:, :overview:, :about:, :facilities:, :faculties:, :eligibility:, :document_criteria:, :admission_procedures:, :departments:, :why_choose_us:, :conclusion:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\AdminController\UniversityController.php(54): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController\UniversityController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\UniversityController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-11 11:06:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'description' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (\'abc 123\', NULL, \'<p>a</p>\', \'<p>abc</p>\', \'<p>abcd</p>\', \'<p>abcde</p>\', \'<p>abcde</p>\', \'<p>abcdef</p>\', \'<p>abcdefg</p>\', \'<p>abcdefgh</p>\', \'<p>abcdefghi</p>\', \'<p>abcdefghij</p>\', \'2025-08-11 11:06:20\', \'2025-08-11 11:06:20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (\'abc 123\', NULL, \'<p>a</p>\', \'<p>abc</p>\', \'<p>abcd</p>\', \'<p>abcde</p>\', \'<p>abcde</p>\', \'<p>abcdef</p>\', \'<p>abcdefg</p>\', \'<p>abcdefgh</p>\', \'<p>abcdefghi</p>\', \'<p>abcdefghij</p>\', \'2025-08-11 11:06:20\', \'2025-08-11 11:06:20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (:uni_name:, :description:, :overview:, :about:, :facilities:, :faculties:, :eligibility:, :document_criteria:, :admission_procedures:, :departments:, :why_choose_us:, :conclusion:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\AdminController\UniversityController.php(54): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController\UniversityController->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\UniversityController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-11 11:06:21 --> [Caused by] mysqli_sql_exception: Column 'description' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (\'abc 123\', NULL, \'<p>a</p>\', \'<p>abc</p>\', \'<p>abcd</p>\', \'<p>abcde</p>\', \'<p>abcde</p>\', \'<p>abcdef</p>\', \'<p>abcdefg</p>\', \'<p>abcdefgh</p>\', \'<p>abcdefghi</p>\', \'<p>abcdefghij</p>\', \'2025-08-11 11:06:20\', \'2025-08-11 11:06:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (\'abc 123\', NULL, \'<p>a</p>\', \'<p>abc</p>\', \'<p>abcd</p>\', \'<p>abcde</p>\', \'<p>abcde</p>\', \'<p>abcdef</p>\', \'<p>abcdefg</p>\', \'<p>abcdefgh</p>\', \'<p>abcdefghi</p>\', \'<p>abcdefghij</p>\', \'2025-08-11 11:06:20\', \'2025-08-11 11:06:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (\'abc 123\', NULL, \'<p>a</p>\', \'<p>abc</p>\', \'<p>abcd</p>\', \'<p>abcde</p>\', \'<p>abcde</p>\', \'<p>abcdef</p>\', \'<p>abcdefg</p>\', \'<p>abcdefgh</p>\', \'<p>abcdefghi</p>\', \'<p>abcdefghij</p>\', \'2025-08-11 11:06:20\', \'2025-08-11 11:06:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `universities` (`uni_name`, `description`, `overview`, `about`, `facilities`, `faculties`, `eligibility`, `document_criteria`, `admission_procedures`, `departments`, `why_choose_us`, `conclusion`, `created_at`, `updated_at`) VALUES (:uni_name:, :description:, :overview:, :about:, :facilities:, :faculties:, :eligibility:, :document_criteria:, :admission_procedures:, :departments:, :why_choose_us:, :conclusion:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AdminController\UniversityController.php(54): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController\UniversityController->save()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\UniversityController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-11 11:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-11 11:11:05 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/university/edit/1]
+in APPPATH\Views\admin\university\edit.php on line 11.
+ 1 APPPATH\Views\admin\university\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'C:\\xampp\\htdocs\\aonebox-doctor-bano\\ci\\app\\Views\\admin\\university\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\aonebox-doctor-bano\\ci\\app\\Views\\admin\\university\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/university/edit', [], true)
+ 5 APPPATH\Controllers\AdminController\UniversityController.php(72): view('admin/university/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController\UniversityController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\UniversityController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-08-11 11:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-11 11:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
