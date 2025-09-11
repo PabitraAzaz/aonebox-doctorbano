@@ -22,20 +22,21 @@ class Home extends BaseController
         return view('web/contact');
     }
 
-    public function university()
+    public function universities()
     {
-
 
         $uniM = new UniversityModel;
         $uniData = $uniM->findAll(8);
 
         // echo '<pre>';print_r($uniData);exit;
 
-
-
-        return view('web/single_universities', ['uniData' => $uniData]);
+        return view('web/universities', ['uniData' => $uniData]);
     }
 
+    public function singleUniversity()
+    {
+        return view('web/single_university');
+    }
 
     public function blogs()
     {
