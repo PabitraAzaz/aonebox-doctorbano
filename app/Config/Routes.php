@@ -56,4 +56,5 @@ $routes->group('admin', function ($routes) {
 
 $routes->get('faq', 'Home::faq');
 $routes->get('privacy-policy', 'Home::privacyPolicy');
-$routes->get('faq', 'Home::faq');
+$routes->get('terms-conditions', 'Home::termsConditions');
+$routes->get('payment-refund', 'Home::paymentRefund');

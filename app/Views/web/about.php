@@ -395,27 +395,27 @@
                             <ul class="space-y-3">
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">D</span>
-                                    Dedicated
+                                    edicated
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">O</span>
-                                    Optimistic
+                                    ptimistic
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">C</span>
-                                    Compassionate
+                                    ompassionate
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">T</span>
-                                    Trustworthy
+                                    rustworthy
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">O</span>
-                                    Oriented (Patient-Oriented)
+                                    riented (Patient-Oriented)
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">R</span>
-                                    Resilient
+                                    esilient
                                 </li>
                             </ul>
 
@@ -423,19 +423,19 @@
                             <ul class="space-y-3">
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">B</span>
-                                    Believable
+                                    elievable
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">A</span>
-                                    Approachable
+                                    pproachable
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">N</span>
-                                    Nurturing
+                                    urturing
                                 </li>
                                 <li class="flex items-center gap-3 py-1 text-base text-para">
                                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white font-bold shadow-md ring-2 ring-green-300">O</span>
-                                    Open-minded
+                                    pen-minded
                                 </li>
                             </ul>
                         </div>

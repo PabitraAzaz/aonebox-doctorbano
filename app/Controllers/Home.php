@@ -66,8 +66,13 @@ class Home extends BaseController
         return view('web/privacy_policy');
     }
 
-    // public function faq()
-    // {
-    //     return view('web/faq');
-    // }
+    public function termsConditions()
+    {
+        return view('web/terms_conditions');
+    }
+
+    public function paymentRefund()
+    {
+        return view('web/payment_refund');
+    }
 }

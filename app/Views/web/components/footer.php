@@ -79,9 +79,9 @@
                         <img alt="logo" src="<?= base_url('public/') ?>assets/images/logo/mbbs-abroad-consultants.png" width="131" height="41">
                     </a>
                     <p class="text-[15px] mt-4 text-[#6E6E73]">Toll Free: <a href="tel:+918447730303" class="text-black">+91 8447730303</a></p>
-                    <p class="text-[15px] mt-4 text-[#6E6E73]">Toll Free: <a href="tel:+918447630303" class="text-black">+91 8447630303</a></p>
-                    <p class="text-[15px] mt-2 text-[#6E6E73]">Email: <a href="mailto:essqubellp@gmail.com" class="text-black">essqubellp@gmail.com</a></p>
-                    <p class="text-[15px] mt-2 text-[#6E6E73]">Email: <a href="mailto:info@doctorbano.com" class="text-black">info@doctorbano.com</a></p>
+                    <p class="text-[15px] mt-1 text-[#6E6E73]">Toll Free: <a href="tel:+918447630303" class="text-black">+91 8447630303</a></p>
+                    <p class="text-[15px] mt-1 text-[#6E6E73]">Email: <a href="mailto:essqubellp@gmail.com" class="text-black">essqubellp@gmail.com</a></p>
+                    <p class="text-[15px] mt-1 text-[#6E6E73]">Email: <a href="mailto:info@doctorbano.com" class="text-black">info@doctorbano.com</a></p>
 
                     <!-- Social Media -->
                     <div class="flex gap-2 mt-3 footer-social-icons">
@@ -98,13 +98,9 @@
                     <div class="w-1/4">
                         <ul class="footer-link-list">
                             <li><a href="<?= base_url('about') ?>">About Us</a></li>
-                            <li><a href="event.html">Event</a></li>
-                            <li><a href="media-coverage.html">Media</a></li>
                             <li><a href="<?= base_url('contact') ?>">Contact Us</a></li>
                             <li><a href="<?= base_url('blogs') ?>">Blogs</a></li>
                             <li><a href="<?= base_url('faq') ?>">FAQs</a></li>
-                            <li><a href="sitemap.html">Sitemap</a></li>
-                            <li><a href="partner-with-us.html">Partner With Us</a></li>
                         </ul>
                     </div>
                     <div class="w-1/4">
@@ -144,7 +140,7 @@
             </div>
 
             <!-- Cities -->
-            <div class="flex flex-wrap gap-2 py-5 border-b border-[#9A9EA44D]">
+            <!-- <div class="flex flex-wrap gap-2 py-5 border-b border-[#9A9EA44D]">
                 <p class="text-[#74579] font-medium text-[15px] capitalize mr-2">We are available in:</p>
                 <?php
                 $cities = ['Bangalore', 'Ahmedabad', 'Jaipur', 'Hyderabad', 'Kerala', 'Pune', 'Chandigarh', 'Mumbai', 'Gurgaon', 'Chennai', 'Kolkata', 'Trivandrum', 'Noida', 'Kochi', 'Calicut', 'Kottayam', 'Kollam', 'Thrissur', 'Indore', 'Udaipur', 'Delhi'];
@@ -154,7 +150,7 @@
                         <?= $city ?>
                     </a>
                 <?php endforeach; ?>
-            </div>
+            </div> -->
 
             <!-- Disclaimer -->
             <p class="text-xs text-[#6E6E73] font-normal border-b py-3">
@@ -167,9 +163,9 @@
             <div class="flex flex-wrap items-center justify-between py-3 text-sm text-[#6E6E73] font-medium">
                 <p>© <?= date("Y") ?> Doctor Bano. All rights reserved.</p>
                 <div class="flex gap-2">
-                    <a href="privacy-policy.html">Privacy Policy</a> |
-                    <a href="terms-condition.html">Terms & Conditions</a> |
-                    <a href="refund-policy.html">Payment & Refund Policy</a>
+                    <a href="<?=base_url('privacy-policy')?>">Privacy Policy</a> |
+                    <a href="<?=base_url('terms-conditions')?>">Terms & Conditions</a> |
+                    <a href="<?=base_url('payment-refund')?>">Payment & Refund Policy</a>
                 </div>
                 <p>Doctor Bano Rated 4.7/5 based on 4474 Reviews</p>
             </div>
