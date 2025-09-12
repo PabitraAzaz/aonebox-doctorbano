@@ -13,7 +13,7 @@ $routes->get('blogs', 'Home::blogs');
 $routes->get('single_blog/(:num)', 'Home::single_blog/$1');
 
 $routes->get('universities', 'Home::universities');
-$routes->get('single_university', 'Home::singleUniversity');
+$routes->get('single-university', 'Home::singleUniversity');
 
 // $routes->get('university/(:num)','Home::university/$1');
 

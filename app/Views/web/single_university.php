@@ -17,22 +17,22 @@
                 </div>
                 <div class="jsx-43c44c6b135d4931 bg-[#538B191A] rounded-[11px] py-4 px-7 w-[75%] my-6">
                     <p class="jsx-43c44c6b135d4931 text-[#1F2022] text-sm mb-1">Increase your chances of admission upto <span class="jsx-43c44c6b135d4931  font-semibold text-[#538B19]">98%</span></p>
-                    <img alt="universityLogoGroup" fetchpriority="high" width="360" height="58" decoding="async" data-nimg="1" class="" src="" style="color: transparent;">
+                    <img alt="universityLogoGroup" fetchpriority="high" width="360" height="58" decoding="async" data-nimg="1" class="" src="public/assets/images/single_uni/Uni of DUNDEE/universityLogoGroup.webp" style="color: transparent;">
                 </div><a class="w-[75%] bg-[linear-gradient(251.53deg,_#066AC94D_0%,_#066AC900_25%),linear-gradient(75.84deg,_#066AC966_0%,_#066AC966_2.32%,_#DEEAF500_20%)] border-2 border-primary flex items-center text-[#1D1D1F] text-[15px] font-semibold justify-center rounded-[17px] p-4 gap-4 mt-8 hover:scale-105 transition-all ease-in-out duration-300" href="tel:+91 9773388670">
-                    <img alt="star Svg" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" class="mb-[7px]" src="" style="color: transparent;">Talk To University Expert</a>
+                    <img alt="star Svg" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" class="mb-[7px]" src="public/assets/images/single_uni/Uni of DUNDEE/star.webp" style="color: transparent;">Talk To University Expert</a>
             </div>
             <div class="jsx-43c44c6b135d4931 w-full sm:w-[53%] my-2 sm:my-0">
                 <div class="jsx-43c44c6b135d4931 max-h-[195px] sm:max-h-[420px] h-full rounded-[9px] sm:rounded-[22px] border-2 sm:border-5 border-white overflow-hidden relative shadow-[0px_0px_29.85px_0px_#1D3A5326]">
                     <div class="swiper swiper-initialized swiper-horizontal universityImageSwiper h-full relative" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff;">
                         <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
                             <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 581px;">
-                                <img alt="University of Dundee Others(1)" title="Main Building" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(1)" title="Main Building" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee%20Others(1).webp" style="color: transparent;"></div>
                             <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 581px;">
-                                <img alt="University of Dundee Others(2)" title="Campus" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(2)" title="Campus" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee%20Others(2).webp" style="color: transparent;"></div>
                             <div class="swiper-slide" data-swiper-slide-index="2" style="width: 581px;">
-                                <img alt="University of Dundee Others(3)" title="Building" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(3)" title="Building" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee(3).webp" style="color: transparent;"></div>
                             <div class="swiper-slide" data-swiper-slide-index="3" style="width: 581px;">
-                                <img alt="University of Dundee Others(4)" title="Aerial View" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(4)" title="Aerial View" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee(4).webp" style="color: transparent;"></div>
                             <div class="swiper-slide" data-swiper-slide-index="4" style="width: 581px;">
                                 <img alt="University of Dundee Others(5)" title="Library &amp; Learning Centre" fetchpriority="high" width="600" height="400" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;"></div>
                             <div class="swiper-slide" data-swiper-slide-index="5" style="width: 581px;">
@@ -64,21 +64,21 @@
                                 </svg></button></div>
                         <div class="jsx-43c44c6b135d4931  absolute top-2 sm:top-4 left-2 sm:left-4  right-2 sm:right-4 z-10 flex items-start justify-between">
                             <div class="jsx-43c44c6b135d4931 rounded-md sm:rounded-lg py-[6px] px-2 sm:px-3 bg-[#FFFFFFB2] flex items-start gap-1 w-fit backdrop-blur-[30px]">
-                                <img alt="locationPin" loading="lazy" width="14" height="14" decoding="async" data-nimg="1" src="" style="color: transparent;"><span class="jsx-43c44c6b135d4931 text-[#353535] text-[10px] sm:text-xs font-medium max-w-40">Dundee, United Kingdom</span></div>
+                                <img alt="locationPin" loading="lazy" width="14" height="14" decoding="async" data-nimg="1" src="public/assets/images/single_uni/Uni of DUNDEE/locationPin.webp" style="color: transparent;"><span class="jsx-43c44c6b135d4931 text-[#353535] text-[10px] sm:text-xs font-medium max-w-40">Dundee, United Kingdom</span></div>
                             <div class="jsx-43c44c6b135d4931  relative py-[7px] sm:py-2 px-5 sm:px-6 pr-2 bg-white shadow-[0px_0px_29.85px_0px_#1D3A5326] rounded-md sm:rounded-lg">
-                                <img alt="bedge" loading="lazy" width="53" height="57" decoding="async" data-nimg="1" class=" -left-7  absolute -top-1" src="" style="color: transparent;"><span class="jsx-43c44c6b135d4931 text-heading text-[8px] sm:text-xs font-bold block">#441 RANKED</span></div>
+                                <img alt="bedge" loading="lazy" width="53" height="57" decoding="async" data-nimg="1" class=" -left-7  absolute -top-1" src="public/assets/images/single_uni/Uni of DUNDEE/bedge.webp" style="color: transparent;"><span class="jsx-43c44c6b135d4931 text-heading text-[8px] sm:text-xs font-bold block">#441 RANKED</span></div>
                         </div>
                     </div>
                     <div class="swiper swiper-initialized swiper-horizontal swiper-free-mode swiper-watch-progress universityImageNavigationSwiper absolute bottom-[50px] sm:bottom-[70px] left-2 sm:left-5 w-1/2 !mx-0 swiper-thumbs">
                         <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
                             <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden swiper-slide-thumb-active" data-swiper-slide-index="0" style="width: 60.5px; margin-right: 16px;">
-                                <img alt="University of Dundee Others(1)" title="Main Building" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(1)" title="Main Building" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee%20Others(1).webp" style="color: transparent;"></div>
                             <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-next border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden" data-swiper-slide-index="1" style="width: 60.5px; margin-right: 16px;">
-                                <img alt="University of Dundee Others(2)" title="Campus" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(2)" title="Campus" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee%20Others(2).webp" style="color: transparent;"></div>
                             <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden" data-swiper-slide-index="2" style="width: 60.5px; margin-right: 16px;">
-                                <img alt="University of Dundee Others(3)" title="Building" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="" style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(3)" title="Building" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee(3).webp" style="color: transparent;"></div>
                             <div class="swiper-slide swiper-slide-visible border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden" data-swiper-slide-index="3" style="width: 60.5px; margin-right: 16px;">
-                                <img alt="University of Dundee Others(4)" title="Aerial View" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="style="color: transparent;"></div>
+                                <img alt="University of Dundee Others(4)" title="Aerial View" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee(4).webp" style="color: transparent;"></div>
                             <div class="swiper-slide border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden" data-swiper-slide-index="4" style="width: 60.5px; margin-right: 16px;">
                                 <img alt="University of Dundee Others(5)" title="Library &amp; Learning Centre" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" class="h-7 md:h-[50px] w-full" src="" style="color: transparent;"></div>
                             <div class="swiper-slide border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden" data-swiper-slide-index="5" style="width: 60.5px; margin-right: 16px;">
@@ -103,7 +103,7 @@
     </div>
     <div class="container sticky top-14 z-20">
         <div class="bg-[#FFFFFFB2] shadow-[-16.38px_33.89px_50.83px_0px_#17122B3D] backdrop-blur-[14px] rounded-b-[15px] w-[90%] m-auto p-[14px] flex items-center justify-center gap-5"><span class=" text-lg font-semibold bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)] text-transparent bg-clip-text">Lets Start Your Admission Journey</span><a class="bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)] flex items-center gap-2 text-white py-3 px-9 rounded-[10px] text-base font-medium hover:scale-105 transition-all ease-in-out duration-300" href="https://www.gradding.com/course-finder?universityId=2">
-            <img alt="penIcon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="" style="color: transparent;">Apply Now</a><a class="text-[#2685B9] text-base font-medium border-2 border-[#1BA9BCB2] py-3 px-9 rounded-[10px] bg-[#F0FDFF1A] hover:scale-105 transition-all ease-in-out duration-300" href="https://www.gradding.com/start-journey">Check Eligibility</a></div>
+            <img alt="penIcon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="public/assets/images/single_uni/Uni of DUNDEE/penIcon.webp" style="color: transparent;">Apply Now</a><a class="text-[#2685B9] text-base font-medium border-2 border-[#1BA9BCB2] py-3 px-9 rounded-[10px] bg-[#F0FDFF1A] hover:scale-105 transition-all ease-in-out duration-300" href="https://www.gradding.com/start-journey">Check Eligibility</a></div>
     </div>
     <div class="my-4"></div>
     <div class="container my-12 sm:my-20">
@@ -174,20 +174,20 @@
         <div class="grid grid-cols-1 grid-rows-[4fr_1fr] sm:grid-rows-1 sm:grid-cols-[2fr_0.45fr] gap-4 sm:gap-12 w-full">
             <div class="grid grid-cols-2 gap-4 sm:gap-12">
                 <div class=" order-2 sm:order-1 h-full relative rounded-[10px] sm:rounded-[22px] overflow-hidden">
-                    <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover" sizes="100vw" src="" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+                    <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover" sizes="100vw" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee%20Others(1).webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
                 <div class="order-1 sm:order-2 grid grid-rows-1 sm:grid-rows-[2fr_0.50fr] sm:gap-7">
                     <div class="grid grid-rows-[0.45fr_2fr] sm:grid-rows-1 gap-3 h-full relative">
                         <div class=" relative sm:absolute bg-white rounded-lg sm:rounded-[23px] w-full sm:w-[166px] sm:h-[158px] z-10 sm:-left-28 sm:top-32 p-4 sm:p-5 flex flex-row-reverse sm:flex-col justify-between sm:justify-center items-center">
                             <div class="flex flex-col"><span class="text-[13px] sm:text-[28px] font-semibold text-primary">16K+</span><span class=" text-[13px] sm:text-lg text-[#222222] sm:mb-3">Students</span></div>
-                            <img alt="avatarImage" loading="lazy" width="76" height="36" decoding="async" data-nimg="1" src="" style="color: transparent;">
+                            <img alt="avatarImage" loading="lazy" width="76" height="36" decoding="async" data-nimg="1" src="public/assets/images/single_uni/Uni of DUNDEE/avatarImage.webp" style="color: transparent;">
                         </div>
                         <div>
-                            <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover rounded-[7px] sm:rounded-[22px] !relative sm:absolute" sizes="100vw" src="" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+                            <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover rounded-[7px] sm:rounded-[22px] !relative sm:absolute" sizes="100vw" src="public/assets/images/single_uni/Uni of DUNDEE/University20Dundee%20Others(2).webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
                     </div>
                     <div class="flex flex-col justify-around">
                         <p class="text-[#1F2022] text-base mb-6">When you are ambitious about joining the University of Dundee from the next academic session, you must check the admission requirements and process details to get prepared with a well-planned application format.</p>
                         <div class="flex items-center justify-between gap-6"><a class="bg-primary text-white text-[15px] border-2 border-primary px-3 sm:px-5 py-3 flex items-center justify-center w-[60%] rounded-[14px] gap-2 transition-all ease-in-out duration-300 hover:scale-[1.05] font-semibold" href="/">Book a Free Session
-                            <img alt="Right arrow" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" src="" style="color: transparent;"></a><button class="z-0 group relative box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 min-w-20 [&amp;&gt;svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-white text-primary text-[15px] border-2 border-[#066AC91A] px-5 py-3 flex items-center justify-center w-1/2 rounded-[14px] gap-2 transition-all ease-in-out duration-300 hover:scale-[1.05] font-semibold h-auto" type="button">Explore Gallery</button></div>
+                            <img alt="Right arrow" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" src="public/assets/images/single_uni/Uni of DUNDEE/rightArrow.webp" style="color: transparent;"></a><button class="z-0 group relative box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 min-w-20 [&amp;&gt;svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-white text-primary text-[15px] border-2 border-[#066AC91A] px-5 py-3 flex items-center justify-center w-1/2 rounded-[14px] gap-2 transition-all ease-in-out duration-300 hover:scale-[1.05] font-semibold h-auto" type="button">Explore Gallery</button></div>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
                 <div class="absolute top-0 right-0 p-4 pt-2">
                     <p class="text-[#1D2636] text-2xl font-semibold text-center"><span class="block uppercase">Feb 2026 </span> Intake</p><a class="relative z-10 mt-3 block bg-[#23BD33] text-white shadow-[0px_0px_14.71px_0px_#23BD33] px-3 py-2 text-[15px] font-bold rounded-lg hover:scale-[1.05] transition-all ease-in-out duration-300" href="/">OPEN NOW</a>
                 </div>
-                <img alt="Scholar Image" loading="lazy" width="530" height="310" decoding="async" data-nimg="1" class="absolute right-0 top-0 " src="" style="color: transparent;">
+                <img alt="Scholar Image" loading="lazy" width="530" height="310" decoding="async" data-nimg="1" class="absolute right-0 top-0 " src="public/assets/images/single_uni/Uni of DUNDEE/schoarImage.webp" style="color: transparent;">
             </div>
         </div>
     </div>
@@ -317,7 +317,7 @@
                         <div booksession="true" href="/study-in-uk/universities/university-of-dundee/#" class="bg-white rounded-md text-primary px-6 py-1.5 h-auto cursor-pointer" title="">Claim Now</div>
                     </div>
                 </div>
-                <img alt="Scholarships Image" loading="lazy" width="74" height="19" decoding="async" data-nimg="1" class="absolute top-2.5 right-2.5 z-10 rounded-br-xl" src="" style="color: transparent;">
+                <img alt="Scholarships Image" loading="lazy" width="74" height="19" decoding="async" data-nimg="1" class="absolute top-2.5 right-2.5 z-10 rounded-br-xl" src="public/assets/images/single_uni/Uni of DUNDEE/scholarshipBatch.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Admissions</p>
@@ -326,7 +326,7 @@
                     <p class="text-[#B2B2BC]">Exams</p>
                     <p class="text-[#D09635]">IELTS, TOEFL, PTE</p>
                 </div>
-                <img alt="Admissions Image" loading="lazy" width="91" height="121" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="" style="color: transparent;">
+                <img alt="Admissions Image" loading="lazy" width="91" height="121" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/Uni of DUNDEE/admission.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Acceptance Rate</p>
@@ -339,7 +339,7 @@
                     <p class="text-[#B2B2BC]">International Student</p>
                     <p class="text-[#5679E3]">13%</p>
                 </div>
-                <img alt="Acceptance Rate Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="" style="color: transparent;">
+                <img alt="Acceptance Rate Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/Uni of DUNDEE/acceptance.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Ranking</p>
@@ -352,7 +352,7 @@
                     <p class="text-[#B2B2BC]">ARWU</p>
                     <p class="text-[#5679E3]">301-400</p>
                 </div>
-                <img alt="Ranking Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="" style="color: transparent;">
+                <img alt="Ranking Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/Uni of DUNDEE/ranking.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Courses</p>
@@ -365,7 +365,7 @@
                     <p class="text-[#B2B2BC]">Masters</p>
                     <p class="text-[#5679E3]">60</p>
                 </div>
-                <img alt="Courses Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="" style="color: transparent;">
+                <img alt="Courses Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/Uni of DUNDEE/coursesTab.webp" style="color: transparent;">
             </div>
             <div class="pulse-animation w-full sm:w-72 bg-[linear-gradient(134.39deg,_#2A5887_31.16%,_#060F23_90.13%)] rounded-2xl border-[1.32px] border-[#0096D8] p-5 h-auto shadow-[0px_9.66px_54.42px_0px_#15A9EA33,-10.53px_10.53px_23.52px_0px_#00000021_inset] backdrop-blur-[22px]">
                 <div class="flex flex-col gap-3">
@@ -386,25 +386,25 @@
         <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-active first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" style="width: 386.857px; margin-right: 40px;" data-swiper-slide-index="0"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-2xl block transition-all ease-in-out" href="https://www.gradding.com/blog/university/heriot-watt-university-last-chance-to-seize-your-admission">
-                    <img title="Last Chance to Secure Your Seat in Heriot-Watt University" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;">
+                    <img title="Last Chance to Secure Your Seat in Heriot-Watt University" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/GET ADMISSION.webp" style="color: transparent;">
                         <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Universities </span>
                             <h3 class="font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] overflow-hidden text-ellipsis line-clamp-2 md:min-h-14 min-h-10"> Heriot-Watt University | Last Chance to Seize Your Admission </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Jun 30, 2023 </span>
                         </div>
                     </a></div>
                 <div class="swiper-slide swiper-slide-next first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" style="width: 386.857px; margin-right: 40px;" data-swiper-slide-index="1"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-2xl block transition-all ease-in-out" href="https://www.gradding.com/blog/university/hurry-and-enrol-in-the-university-of-dundee-september-intake-2023">
-                    <img title="Increase Your Admission Chances in the September Intake 2023" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;">
+                    <img title="Increase Your Admission Chances in the September Intake 2023" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/ENROL IN UNI.webp" style="color: transparent;">
                         <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Universities </span>
                             <h3 class="font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] overflow-hidden text-ellipsis line-clamp-2 md:min-h-14 min-h-10"> Hurry and Enrol in the University of Dundee September Intake 2023 </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Jul 03, 2023 </span>
                         </div>
                     </a></div>
                 <div class="swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" style="width: 386.857px; margin-right: 40px;" data-swiper-slide-index="2"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-2xl block transition-all ease-in-out" href="https://www.gradding.com/blog/university/worlds-best-education-countries-2025">
-                    <img title="Best Education System in the World" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;">
+                    <img title="Best Education System in the World" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/TOP 10 COUNTRIES.webp" style="color: transparent;">
                         <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Universities </span>
                             <h3 class="font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] overflow-hidden text-ellipsis line-clamp-2 md:min-h-14 min-h-10"> Top 10 Countries with Best Education Systems in the World 2025 </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Nov 20, 2023 </span>
                         </div>
                     </a></div>
                 <div class="swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" style="width: 386.857px; margin-right: 40px;" data-swiper-slide-index="3"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-2xl block transition-all ease-in-out" href="https://www.gradding.com/blog/university/best-universities-in-uk-for-international-students">
-                    <img title="Top Universities in UK for International Students" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="" style="color: transparent;">
+                    <img title="Top Universities in UK for International Students" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" src="public/assets/images/single_uni/Uni of DUNDEE/top-universities-in-uk-6744.webp" style="color: transparent;">
                         <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Universities </span>
                             <h3 class="font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] overflow-hidden text-ellipsis line-clamp-2 md:min-h-14 min-h-10"> Top Universities in UK for International Students </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> Feb 13, 2024 </span>
                         </div>
