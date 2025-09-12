@@ -67,13 +67,13 @@
                         <button class="flex text-nowrap items-center justify-center text-primary rounded-xl gap-2 text-sm font-semibold px-6 py-3 bg-white border-2 border-[#066AC91A] hover:scale-[1.05] transition-all ease-in-out duration-300">
                             Book FREE Session
                             <img alt="rightArrowBlue" fetchpriority="high" width="24" height="24" decoding="async"
-                                src="/country/rightArrowBlue.svg"
+                                src="<?= base_url('public/') ?>assets/images/icons/rightArrowBlue.svg"
                                 style="color: transparent;">
                         </button>
 
                         <!-- Partner logo -->
                         <img alt="icefBritishCouselLogo" fetchpriority="high" width="212" height="31" decoding="async"
-                            src="<?= base_url('public/') ?>assets/images/icons/rightArrowBlue."
+                            src="<?= base_url('public/') ?>assets/images/logo/icefBritishCouselLogo.webp"
                             style="color: transparent;">
                     </div>
                 </div>
@@ -88,8 +88,41 @@
         </div>
         <!-- end of main container -->
 
-        <!-- Sticky section for eligibility calculator -->
-        <div class="sticky top-16 z-40 -mt-16">
+        <!-- Section for eligibility calculator -->
+        <style>
+            /* Dropdown menu */
+            .combo-menu {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: calc(100% + .25rem);
+                background: #fff;
+                border: 1px solid #E5E1F4;
+                border-radius: 12px;
+                box-shadow: 0 10px 24px rgba(0, 0, 0, .08);
+                max-height: 14rem;
+                overflow: auto;
+                z-index: 60;
+            }
+
+            .combo-item {
+                padding: .5rem 1rem;
+                cursor: pointer;
+            }
+
+            .combo-item[aria-selected="true"],
+            .combo-item:hover {
+                background: #f5f7fb;
+            }
+
+            /* rotate arrow when open */
+            .combo-open .combo-caret svg {
+                transform: rotate(180deg);
+                transition: transform .15s ease;
+            }
+        </style>
+
+        <div class="top-16 z-40 -mt-16">
 
             <!-- Container -->
             <div class="container">
@@ -112,95 +145,89 @@
                         <div class="w-[70%] flex items-center gap-6">
 
                             <!-- Input 1: Search University -->
-                            <div class="relative w-1/3 md:flex flex-col">
-                                <div class="group inline-flex flex-column w-full max-w-xs">
-                                    <div class="group flex flex-col data-[hidden=true]:hidden w-full"
-                                        data-slot="base" data-has-elements="true"
-                                        data-has-label="true" data-has-value="true">
-
-                                        <!-- Input wrapper -->
-                                        <div data-slot="input-wrapper"
-                                            class="relative w-full inline-flex tap-highlight-transparent shadow-sm 
-                                            border-medium min-h-10 flex-col items-start justify-center gap-0 
-                                            transition-background !duration-150 motion-reduce:transition-none 
-                                            py-2 bg-white border-[#E5E1F4] 
-                                            group-data-[focus=true]:border-primary 
-                                            data-[hover=true]:border-primary 
-                                            transition-all ease-in-out duration-300 
-                                            h-[53px] text-[#655F5F] text-base font-semibold rounded-xl px-5"
-                                            style="cursor: text;">
-
-                                            <!-- Label -->
-                                            <label data-slot="label"
-                                                class="absolute z-10 pointer-events-none origin-top-left flex-shrink-0 
-                                                  rtl:origin-top-right subpixel-antialiased block text-foreground-500 
-                                                  cursor-text will-change-auto !duration-200 !ease-out 
-                                                  motion-reduce:transition-none transition-[transform,color,left,opacity] 
-                                                  group-data-[filled-within=true]:text-default-600 
-                                                  group-data-[filled-within=true]:pointer-events-auto 
-                                                  group-data-[filled-within=true]:scale-85 text-small 
-                                                  group-data-[filled-within=true]:-translate-y-[calc(50%_+_theme(fontSize.small)/2_-_6px_-_theme(borderWidth.medium))] 
-                                                  pe-2 max-w-full text-ellipsis overflow-hidden"
-                                                for="react-aria3673307509-:r18i:">
-                                                Search University
-                                            </label>
-
-                                            <!-- Input field -->
-                                            <div data-slot="inner-wrapper"
-                                                class="inline-flex w-full items-center h-full box-border group-data-[has-label=true]:items-end">
-                                                <input data-slot="input" data-has-end-content="true"
-                                                    class="w-full font-normal bg-transparent !outline-none placeholder:text-foreground-500 
-                                                      focus-visible:outline-none data-[has-start-content=true]:ps-1.5 
-                                                      data-[has-end-content=true]:pe-1.5 file:cursor-pointer file:bg-transparent 
-                                                      file:border-0 autofill:bg-transparent bg-clip-text text-small"
-                                                    id="react-aria3673307509-:r18i:" aria-label="Search University"
-                                                    autocomplete="off" role="combobox" spellcheck="false" type="text" value="">
-
-                                                <!-- Input icons -->
-                                                <div class="relative flex h-full items-center -mr-2">
-                                                    <!-- Clear icon -->
-                                                    <button type="button"
-                                                        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none 
-                                                           select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden 
-                                                           tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none 
-                                                           gap-2 rounded-full px-0 !gap-0 transition-transform-colors-opacity 
-                                                           bg-transparent min-w-8 w-8 h-8 text-medium translate-x-1 cursor-text 
-                                                           opacity-0 pointer-events-none text-default-500">
-                                                        <svg aria-hidden="true" fill="none" focusable="false" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em">
-                                                            <path d="M18 6L6 18M6 6l12 12"></path>
-                                                        </svg>
-                                                    </button>
-
-                                                    <!-- Dropdown arrow -->
-                                                    <button type="button"
-                                                        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none 
-                                                           select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden 
-                                                           tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none 
-                                                           gap-2 rounded-full px-0 !gap-0 transition-transform-colors-opacity 
-                                                           bg-transparent text-default-foreground data-[hover=true]:bg-default/40 
-                                                           min-w-8 w-8 h-8 text-medium transition-transform duration-150 ease">
-                                                        <svg aria-hidden="true" fill="none" focusable="false" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="1em">
-                                                            <path d="m6 9 6 6 6-6"></path>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="relative w-1/3" data-combo>
+                                <label for="university" class="block mb-1 text-sm font-medium text-[#655F5F]">Search University</label>
+                                <div class="relative">
+                                    <input
+                                        id="university"
+                                        type="text"
+                                        placeholder="Type university"
+                                        autocomplete="off"
+                                        aria-autocomplete="list"
+                                        aria-expanded="false"
+                                        aria-controls="university-list"
+                                        class="w-full h-[53px] rounded-xl px-5 py-2 bg-white border border-[#E5E1F4] text-[#655F5F] text-base font-semibold outline-none focus:border-primary transition" />
+                                    <button type="button" class="combo-caret absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full" aria-label="Toggle options">
+                                        <svg width="20" height="20" viewBox="0 0 24 24">
+                                            <path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                    <ul id="university-list"
+                                        class="combo-menu hidden absolute z-20 mt-1 w-full bg-white border border-[#E5E1F4] rounded-xl shadow-lg max-h-56 overflow-auto">
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">University of Toronto</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">McGill University</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">University of British Columbia</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">University of Waterloo</li>
+                                    </ul>
                                 </div>
                             </div>
 
                             <!-- Input 2: Search Course -->
-                            <div class="col-lg-6 mb-3">
-                                <label for="search_course" class="form-label">Search Course</label>
-                                <input type="text" name="search_course" id="search_course" class="form-control" placeholder="Enter course name">
+                            <div class="relative w-1/3" data-combo>
+                                <label for="course" class="block mb-1 text-sm font-medium text-[#655F5F]">Search Course</label>
+                                <div class="relative">
+                                    <input
+                                        id="course"
+                                        type="text"
+                                        placeholder="Type course"
+                                        autocomplete="off"
+                                        aria-autocomplete="list"
+                                        aria-expanded="false"
+                                        aria-controls="course-list"
+                                        class="w-full h-[53px] rounded-xl px-5 py-2 bg-white border border-[#E5E1F4] text-[#655F5F] text-base font-semibold outline-none focus:border-primary transition" />
+                                    <button type="button" class="combo-caret absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full" aria-label="Toggle options">
+                                        <svg width="20" height="20" viewBox="0 0 24 24">
+                                            <path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                    <ul id="course-list"
+                                        class="combo-menu hidden absolute z-20 mt-1 w-full bg-white border border-[#E5E1F4] rounded-xl shadow-lg max-h-56 overflow-auto">
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Computer Science</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Data Science</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Mechanical Engineering</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Business Analytics</li>
+                                    </ul>
+                                </div>
                             </div>
 
                             <!-- Input 3: Highest Qualification -->
-                            <div class="col-lg-6 mb-3">
-                                <label for="highest_qualification" class="form-label">Highest Qualification</label>
-                                <input type="text" name="highest_qualification" id="highest_qualification" class="form-control" placeholder="Enter your qualification">
+                            <div class="relative w-1/3" data-combo>
+                                <label for="qualification" class="block mb-1 text-sm font-medium text-[#655F5F]">Highest Qualification</label>
+                                <div class="relative">
+                                    <input
+                                        id="qualification"
+                                        type="text"
+                                        placeholder="Select qualification"
+                                        autocomplete="off"
+                                        aria-autocomplete="list"
+                                        aria-expanded="false"
+                                        aria-controls="qualification-list"
+                                        class="w-full h-[53px] rounded-xl px-5 py-2 bg-white border border-[#E5E1F4] text-[#655F5F] text-base font-semibold outline-none focus:border-primary transition" />
+                                    <button type="button" class="combo-caret absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full" aria-label="Toggle options">
+                                        <svg width="20" height="20" viewBox="0 0 24 24">
+                                            <path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                    <ul id="qualification-list"
+                                        class="combo-menu hidden absolute z-20 mt-1 w-full bg-white border border-[#E5E1F4] rounded-xl shadow-lg max-h-56 overflow-auto">
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">12th Grade</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Diploma</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Bachelor’s</li>
+                                        <li class="combo-option px-4 py-2 hover:bg-gray-100 cursor-pointer">Master’s</li>
+                                    </ul>
+                                </div>
                             </div>
+
 
 
                         </div>
@@ -220,7 +247,187 @@
                 </div>
             </div>
         </div>
-        <!-- Sticky section end -->
+
+        <script>
+            (function() {
+                // ------- DATA: replace with your own lists or fetch via AJAX -------
+                const DATA = {
+                    "Search University": [
+                        "University of Toronto", "McGill University", "University of British Columbia",
+                        "University of Waterloo", "University of Alberta", "Western University"
+                    ],
+                    "Search Course": [
+                        "Computer Science", "Data Science", "Mechanical Engineering",
+                        "Business Analytics", "Civil Engineering", "Cybersecurity"
+                    ],
+                    "Highest Qualification": [
+                        "12th Grade", "Diploma", "Bachelor’s", "Master’s", "PhD"
+                    ]
+                };
+
+                // Utility: create dropdown under a given input-wrapper
+                function ensureMenu(wrapper) {
+                    let menu = wrapper.querySelector('.combo-menu');
+                    if (!menu) {
+                        menu = document.createElement('ul');
+                        menu.className = 'combo-menu hidden';
+                        wrapper.style.position = 'relative'; // ensure absolute menu anchors correctly
+                        wrapper.appendChild(menu);
+                    }
+                    return menu;
+                }
+
+                // Build options
+                function renderOptions(menu, items) {
+                    menu.innerHTML = '';
+                    items.forEach(txt => {
+                        const li = document.createElement('li');
+                        li.className = 'combo-item';
+                        li.textContent = txt;
+                        li.setAttribute('role', 'option');
+                        menu.appendChild(li);
+                    });
+                }
+
+                // Attach combobox behavior to one field (by its aria-label)
+                function setupCombo(labelText) {
+                    const input = document.querySelector(`input[aria-label="${labelText}"]`);
+                    if (!input) return;
+
+                    // Find the nearest input wrapper (your element with data-slot="input-wrapper")
+                    const wrapper = input.closest('[data-slot="input-wrapper"]') || input.parentElement;
+                    const menu = ensureMenu(wrapper);
+                    const allItems = DATA[labelText] || [];
+                    renderOptions(menu, allItems);
+
+                    // Find the arrow button beside the input (your second button in icons area)
+                    const caret = wrapper.querySelector('.combo-caret') ||
+                        wrapper.querySelector('button:nth-of-type(2)');
+
+                    function openMenu() {
+                        menu.classList.remove('hidden');
+                        wrapper.classList.add('combo-open');
+                        input.setAttribute('aria-expanded', 'true');
+                    }
+
+                    function closeMenu() {
+                        menu.classList.add('hidden');
+                        wrapper.classList.remove('combo-open');
+                        input.setAttribute('aria-expanded', 'false');
+                        menu.querySelectorAll('.combo-item[aria-selected="true"]').forEach(e => e.removeAttribute('aria-selected'));
+                    }
+
+                    function isOpen() {
+                        return !menu.classList.contains('hidden');
+                    }
+
+                    function filter(q) {
+                        const query = (q || '').toLowerCase();
+                        let any = false;
+                        menu.querySelectorAll('.combo-item').forEach(li => {
+                            const show = li.textContent.toLowerCase().includes(query);
+                            li.style.display = show ? '' : 'none';
+                            if (show) any = true;
+                        });
+                        if (any) openMenu();
+                        else closeMenu();
+                    }
+
+                    // Events
+                    input.addEventListener('focus', () => {
+                        filter(input.value);
+                        openMenu();
+                    });
+                    input.addEventListener('input', () => filter(input.value));
+                    input.addEventListener('keydown', (e) => {
+                        const visible = Array.from(menu.querySelectorAll('.combo-item')).filter(li => li.style.display !== 'none');
+                        let idx = visible.findIndex(li => li.getAttribute('aria-selected') === 'true');
+
+                        if (e.key === 'ArrowDown') {
+                            e.preventDefault();
+                            openMenu();
+                            idx = Math.min(idx + 1, visible.length - 1);
+                            visible.forEach(li => li.removeAttribute('aria-selected'));
+                            if (visible[idx]) {
+                                visible[idx].setAttribute('aria-selected', 'true');
+                                visible[idx].scrollIntoView({
+                                    block: 'nearest'
+                                });
+                            }
+                        }
+                        if (e.key === 'ArrowUp') {
+                            e.preventDefault();
+                            openMenu();
+                            idx = Math.max(0, idx - 1);
+                            visible.forEach(li => li.removeAttribute('aria-selected'));
+                            if (visible[idx]) {
+                                visible[idx].setAttribute('aria-selected', 'true');
+                                visible[idx].scrollIntoView({
+                                    block: 'nearest'
+                                });
+                            }
+                        }
+                        if (e.key === 'Enter') {
+                            const sel = visible.find(li => li.getAttribute('aria-selected') === 'true');
+                            if (sel) {
+                                e.preventDefault();
+                                input.value = sel.textContent.trim();
+                                closeMenu();
+                                input.dispatchEvent(new Event('change'));
+                            }
+                        }
+                        if (e.key === 'Escape') {
+                            closeMenu();
+                        }
+                    });
+
+                    // Arrow click
+                    if (caret) {
+                        caret.classList.add('combo-caret');
+                        caret.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            if (isOpen()) closeMenu();
+                            else {
+                                filter(input.value);
+                                openMenu();
+                            }
+                            input.focus();
+                        });
+                    }
+
+                    // Mouse selection
+                    menu.addEventListener('click', (e) => {
+                        const li = e.target.closest('.combo-item');
+                        if (!li) return;
+                        input.value = li.textContent.trim();
+                        input.dispatchEvent(new Event('change'));
+                        closeMenu();
+                    });
+
+                    // Hover highlight
+                    menu.addEventListener('mousemove', (e) => {
+                        const li = e.target.closest('.combo-item');
+                        if (!li) return;
+                        menu.querySelectorAll('.combo-item').forEach(n => n.removeAttribute('aria-selected'));
+                        li.setAttribute('aria-selected', 'true');
+                    });
+
+                    // Click-outside
+                    document.addEventListener('click', (e) => {
+                        if (!wrapper.contains(e.target)) closeMenu();
+                    });
+                }
+
+                // Initialize all three
+                setupCombo('Search University');
+                setupCombo('Search Course');
+                setupCombo('Highest Qualification');
+            })();
+        </script>
+
+
+        <!-- Section end -->
 
         <!-- Popular Universities Section -->
         <div class="my-12 sm:my-20">
@@ -417,13 +624,13 @@
                         <p class="text-[#1F2022] text-sm mb-1">
                             Increase your chances of admission up to <span class="font-semibold text-[#538B19]">98%</span>
                         </p>
-                        <img src="/_next/image?url=%2Fcommon%2FuniversityLogoGroup.png&amp;w=640&amp;q=75" srcset="/_next/image?url=%2Fcommon%2FuniversityLogoGroup.png&amp;w=384&amp;q=75 1x,/_next/image?url=%2Fcommon%2FuniversityLogoGroup.png&amp;w=640&amp;q=75 2x" width="319" height="43" alt="University Logos" class="mt-2" loading="lazy">
+                        <img src="<?= base_url('public/') ?>assets/images/logo/universityLogoGroup.webp" width="319" height="43" alt="University Logos" class="mt-2" loading="lazy">
                     </div>
 
                     <!-- 📞 CTA Button -->
                     <div booksession="true" class="w-full max-w-[85%] cursor-pointer bg-primary text-white text-sm border-2 border-primary px-2 py-2.5 hidden sm:flex items-center justify-center rounded-[14px] gap-1 transition-all ease-in-out duration-300 hover:scale-105 font-semibold" title="Request a Callback">
                         Request a Callback
-                        <img src="http://localhost/aonebox-doctor-bano/ci/public/assets/images/icons/rightArrow.webp" width="25" height="25" alt="Right Arrow" loading="lazy">
+                        <img src="<?= base_url('public/') ?>assets/images/icons/rightArrowBlue.svg" width="25" height="25" alt="Right Arrow" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -554,75 +761,234 @@
                     height="24"
                     decoding="async"
                     data-nimg="1"
-                    src="/country/rightArrowBlue.svg"
+                    src="<?= base_url('public/') ?>assets/images/icons/rightArrowBlue.svg"
                     style="color: transparent;">
             </button>
         </div>
 
         <!-- Start of Loan & Visa Assistance Section -->
+        <style>
+            .steps:hover {
+                border: 3px solid #fff;
+                background: #066bc966;
+            }
+
+            /* turns any .white text inside hovered card white */
+            .steps:hover .white {
+                color: #fff !important;
+                text-decoration-color: #fff;
+                /* underline stays visible */
+            }
+
+            /* NEW: Step 5 (data-default) is white even without hover */
+            .steps[data-default] .white {
+                color: #fff !important;
+                text-decoration-color: #fff;
+            }
+        </style>
+
+
         <div class="container my-10 sm:my-24">
-            <div class=" m-auto flex justify-between box-border items-baseline">
+            <div id="stepsModule" class="m-auto flex justify-between box-border items-baseline">
+                <!-- LEFT PANEL (dynamic) -->
                 <div class="hidden sm:block w-[40%] pt-12 pr-24 xl:pr-28">
-                    <h2 class="text-[28px] font-medium text-[#001713]"><span class="text-primary block text-nowrap">Loan &amp; Visa Assistance</span>A complete guide to study loan and visa</h2>
-                    <ul class="text-lg font-normal text-[#001713] mt-7 mb-3">
-                        <li class="flex items-center"><img alt="list check" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="inline mr-2" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75" style="color: transparent;">Get funds to study abroad</li>
-                        <li class="flex items-center"><img alt="list check" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="inline mr-2" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75" style="color: transparent;">Study visa application</li>
-                        <li class="flex items-center"><img alt="list check" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="inline mr-2" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FlistCheck.png&amp;w=48&amp;q=75" style="color: transparent;">Get help for visa interview</li>
+                    <h2 class="text-[28px] font-medium text-[#001713]">
+                        <span id="leftLead" class="text-primary block text-nowrap">Loan &amp; Visa Assistance</span>
+                        <span id="leftSub">A complete guide to study loan and visa</span>
+                    </h2>
+                    <ul id="leftBullets" class="text-lg font-normal text-[#001713] mt-7 mb-3">
+                        <li class="flex items-center">
+                            <img alt="list check" width="20" height="20" class="inline mr-2" src="<?= base_url('public/') ?>assets/images/icons/listCheck.webp">
+                            Get funds to study abroad
+                        </li>
+                        <li class="flex items-center">
+                            <img alt="list check" width="20" height="20" class="inline mr-2" src="<?= base_url('public/') ?>assets/images/icons/listCheck.webp">
+                            Study visa application
+                        </li>
+                        <li class="flex items-center">
+                            <img alt="list check" width="20" height="20" class="inline mr-2" src="<?= base_url('public/') ?>assets/images/icons/listCheck.webp">
+                            Get help for visa interview
+                        </li>
                     </ul>
-                    <div class=""><img alt="helpLeftGroup" loading="lazy" width="453" height="454" decoding="async" data-nimg="1" srcset="/_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=1080&amp;q=75 2x" src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=1080&amp;q=75" style="color: transparent;"></div>
+                    <div>
+                        <img id="leftImage" alt="helpLeftGroup" width="453" height="454"
+                            src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=1080&amp;q=75">
+                    </div>
                 </div>
-                <div class="flex flex-wrap w-full sm:w-[55%] gap-2 sm:gap-x-2.5 sm:gap-y-10 justify-between">
-                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
-                            border-transparent 
-                            border-3 duration-200  bg-white">
-                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
-                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 1</p>
-                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Expert Counselling</p><span class="underline">Discuss with Expert</span><img alt="Expert CounsellingImg" loading="lazy" width="118" height="115" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help1.webp" style="color: transparent;">
+
+                <!-- RIGHT: CARDS -->
+                <div id="stepsWrap" class="flex flex-wrap w-full sm:w-[55%] gap-2 sm:gap-x-2.5 sm:gap-y-10 justify-between">
+
+                    <!-- Step 1 -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
+                        tabindex="0"
+                        data-lead="Expert Counselling"
+                        data-sub="Talk to doctors &amp; senior mentors"
+                        data-bullets="Profile evaluation|Country &amp; university shortlist|Scholarship pointers"
+                        data-image="<?= base_url('public/') ?>assets/images/avatar/help1.webp">
+                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 1</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Expert Counselling</p>
+                            <span class="white underline">Discuss with Expert</span>
+                            <img alt="Expert CounsellingImg" width="118" height="115" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help1.webp">
                         </div>
                     </div>
-                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
-                            border-transparent 
-                            border-3 duration-200  bg-white">
-                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
-                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 2</p>
-                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Document Preparation</p><span class="underline">Discuss with Expert</span><img alt="Document PreparationImg" loading="lazy" width="135" height="113" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help2.webp" style="color: transparent;">
+
+                    <!-- Step 2 -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
+                        tabindex="0"
+                        data-lead="Document Preparation"
+                        data-sub="Build a strong application file"
+                        data-bullets="SOP/LOR guidance|Document checklist|Timeline planning"
+                        data-image="<?= base_url('public/') ?>assets/images/avatar/help2.webp">
+                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 2</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Document Preparation</p>
+                            <span class="white underline">Discuss with Expert</span>
+                            <img alt="Document PreparationImg" width="135" height="113" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help2.webp">
                         </div>
                     </div>
-                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
-                            border-transparent 
-                            border-3 duration-200  bg-white">
-                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
-                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 3</p>
-                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">University Application</p><span class="underline">Discuss with Expert</span><img alt="University ApplicationImg" loading="lazy" width="125" height="132" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help3.webp" style="color: transparent;">
+
+                    <!-- Step 3 -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
+                        tabindex="0"
+                        data-lead="University Application"
+                        data-sub="Submit, track, and manage offers"
+                        data-bullets="Application forms|Fee payment guidance|Offer tracking"
+                        data-image="<?= base_url('public/') ?>assets/images/avatar/help3.webp">
+                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 3</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">University Application</p>
+                            <span class="white underline">Discuss with Expert</span>
+                            <img alt="University ApplicationImg" width="125" height="132" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help3.webp">
                         </div>
                     </div>
-                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
-                            border-transparent 
-                            border-3 duration-200  bg-white">
-                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
-                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 4</p>
-                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Test Preparation</p><span class="underline">Discuss with Expert</span><img alt="Test PreparationImg" loading="lazy" width="186" height="109" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help4.webp" style="color: transparent;">
+
+                    <!-- Step 4 -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
+                        tabindex="0"
+                        data-lead="Test Preparation"
+                        data-sub="Boost scores with guided practice"
+                        data-bullets="IELTS/TOEFL tips|Mock tests|Personalised study plan"
+                        data-image="<?= base_url('public/') ?>assets/images/avatar/help4.webp">
+                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 4</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Test Preparation</p>
+                            <span class="white underline">Discuss with Expert</span>
+                            <img alt="Test PreparationImg" width="186" height="109" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help4.webp">
                         </div>
                     </div>
-                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
-                            !bg-opacity-40 !bg-[#066bc9] border-white shadow-[13px_6px_18px_0px_rgba(0,0,0,0.1)] 
-                            border-3 duration-200  bg-white">
-                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-white underline" title="">
-                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-white cursor-pointer">Step 5</p>
-                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-white sm:w-[150px]">Loan &amp; Visa Assistance</p><span class="underline">Discuss with Expert</span><img alt="Loan &amp; Visa AssistanceImg" loading="lazy" width="146" height="92" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help5.webp" style="color: transparent;">
+
+                    <!-- Step 5 (Default) -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 !bg-opacity-40 !bg-[#066bc9] border-white shadow-[13px_6px_18px_0px_rgba(0,0,0,0.1)] border-3 duration-200 bg-white"
+                        tabindex="0"
+                        data-default="true"
+                        data-lead="Loan &amp; Visa Assistance"
+                        data-sub="A complete guide to study loan and visa"
+                        data-bullets="Get funds to study abroad|Study visa application|Get help for visa interview"
+                        data-image="<?= base_url('public/') ?>assets/images/avatar/help5.webp">
+                        <div booksession="true" class="cursor-pointer z-10 text-xs sm:text-sm font-semibold text-left text-white underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-white">Step 5</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-white sm:w-[150px]">Loan &amp; Visa Assistance</p>
+                            <span class="white underline">Discuss with Expert</span>
+                            <img alt="Loan &amp; Visa AssistanceImg" width="146" height="92" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help5.webp">
                         </div>
                     </div>
-                    <div class="group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12  relative flex flex-col gap-2 sm:gap-y-3.5 
-                            border-transparent 
-                            border-3 duration-200  bg-white">
-                        <div booksession="true" class=" cursor-pointer no-underline sm:group-hover:text-white  z-10 text-xs sm:text-sm font-semibold text-left text-primary underline" title="">
-                            <p class="sm:group-hover:text-white text-xs sm:text-sm font-bold text-left text-cutmGrey cursor-pointer">Step 6</p>
-                            <p class="sm:group-hover:text-white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Accommodation Assistance</p><span class="underline">Discuss with Expert</span><img alt="Accommodation AssistanceImg" loading="lazy" width="105" height="107" decoding="async" data-nimg="1" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help6.webp" style="color: transparent;">
+
+                    <!-- Step 6 -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
+                        tabindex="0"
+                        data-lead="Accommodation Assistance"
+                        data-sub="Find safe, budget-friendly stays"
+                        data-bullets="On/near-campus options|Budget planning|Booking support"
+                        data-image="<?= base_url('public/') ?>assets/images/avatar/help6.webp">
+                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 6</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Accommodation Assistance</p>
+                            <span class="white underline">Discuss with Expert</span>
+                            <img alt="Accommodation AssistanceImg" width="105" height="107" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help6.webp">
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
+
+        <script>
+            (function() {
+                const module = document.getElementById('stepsModule');
+                const wrap = document.getElementById('stepsWrap');
+                if (!module || !wrap) return;
+
+                const leftLead = document.getElementById('leftLead');
+                const leftSub = document.getElementById('leftSub');
+                const leftBullets = document.getElementById('leftBullets');
+                const leftImage = document.getElementById('leftImage');
+                const icon = "<?= base_url('public/') ?>assets/images/icons/listCheck.webp";
+                const cards = Array.from(wrap.querySelectorAll('.steps'));
+                const def = cards.find(c => c.hasAttribute('data-default')) || cards[0];
+
+                function renderBullets(items) {
+                    leftBullets.innerHTML = '';
+                    (items || []).forEach(txt => {
+                        const li = document.createElement('li');
+                        li.className = 'flex items-center';
+                        li.innerHTML = `<img alt="list check" width="20" height="20" class="inline mr-2" src="${icon}">${txt}`;
+                        leftBullets.appendChild(li);
+                    });
+                }
+
+                function applyFromCard(card) {
+                    if (!card) return;
+                    const lead = card.getAttribute('data-lead') || '';
+                    const sub = card.getAttribute('data-sub') || '';
+                    const bullets = (card.getAttribute('data-bullets') || '')
+                        .split('|').map(s => s.trim()).filter(Boolean);
+                    const img = card.getAttribute('data-image');
+
+                    leftLead.innerHTML = lead;
+                    leftSub.textContent = sub;
+                    renderBullets(bullets);
+                    if (img) {
+                        leftImage.src = img;
+                        leftImage.alt = lead || 'left visual';
+                    }
+                }
+
+                // initial default
+                applyFromCard(def);
+
+                // Update on hover/focus (delegated)
+                wrap.addEventListener('pointerover', e => {
+                    const card = e.target.closest('.steps');
+                    if (card && wrap.contains(card)) applyFromCard(card);
+                });
+
+                // Reset when pointer leaves all cards OR leaves the module
+                function maybeReset() {
+                    const overAny = cards.some(c => c.matches(':hover'));
+                    if (!overAny) applyFromCard(def);
+                }
+                wrap.addEventListener('pointerout', maybeReset);
+                module.addEventListener('pointerleave', () => applyFromCard(def));
+
+                // Keyboard accessibility + touch
+                wrap.addEventListener('focusin', e => {
+                    const card = e.target.closest('.steps');
+                    if (card) applyFromCard(card);
+                });
+                wrap.addEventListener('focusout', () => {
+                    const stillInside = wrap.querySelector('.steps:focus-within');
+                    if (!stillInside) applyFromCard(def);
+                });
+                wrap.addEventListener('click', e => {
+                    const card = e.target.closest('.steps');
+                    if (card) applyFromCard(card);
+                });
+            })();
+        </script>
+
+
         <!-- End of Loan & Visa Assistance Section -->
 
         <!-- Calculate Your Chances Start -->
@@ -781,12 +1147,11 @@
 
                 <!-- Right column: Swiper slider -->
                 <div class="pl-[14px] sm:pl-0 w-full md:w-1/2 py-1">
-                    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
-                        <div class="swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms; transform: translate3d(189.913px, 0px, 0px);">
-
+                    <div id="storiesSwiper" class="swiper">
+                        <div class="swiper-wrapper">
                             <!-- Slide 1 -->
-                            <div class="swiper-slide swiper-slide-active !w-fit m-2" style="width: 292.174px;">
-                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                            <div class="swiper-slide">
+                                <div class="rounded-2xl relative overflow-hidden shadow-md">
                                     <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
                                         <img
                                             alt="video thumbnail"
@@ -794,18 +1159,15 @@
                                             width="296"
                                             height="433"
                                             decoding="async"
-                                            data-nimg="1"
-                                            class="rounded-2xl w-full xl:w-auto h-full"
-                                            srcset="/_next/image?url=%2Ftest-preparation%2Farush.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Farush.jpg&amp;w=640&amp;q=75 2x"
-                                            src="/_next/image?url=%2Ftest-preparation%2Farush.jpg&amp;w=640&amp;q=75"
-                                            style="color: transparent;">
+                                            class="rounded-2xl w-full h-full object-cover"
+                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/arush.webp">
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Slide 2 -->
-                            <div class="swiper-slide swiper-slide-next !w-fit m-2" style="width: 292.174px;">
-                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                            <div class="swiper-slide">
+                                <div class="rounded-2xl relative overflow-hidden shadow-md">
                                     <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
                                         <img
                                             alt="video thumbnail"
@@ -813,18 +1175,15 @@
                                             width="296"
                                             height="433"
                                             decoding="async"
-                                            data-nimg="1"
-                                            class="rounded-2xl w-full xl:w-auto h-full"
-                                            srcset="/_next/image?url=%2Ftest-preparation%2Fmanan.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Fmanan.jpg&amp;w=640&amp;q=75 2x"
-                                            src="/_next/image?url=%2Ftest-preparation%2Fmanan.jpg&amp;w=640&amp;q=75"
-                                            style="color: transparent;">
+                                            class="rounded-2xl w-full h-full object-cover"
+                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/deepika.webp">
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Slide 3 -->
-                            <div class="swiper-slide !w-fit m-2" style="width: 292.174px;">
-                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                            <div class="swiper-slide">
+                                <div class="rounded-2xl relative overflow-hidden shadow-md">
                                     <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
                                         <img
                                             alt="video thumbnail"
@@ -832,18 +1191,15 @@
                                             width="296"
                                             height="433"
                                             decoding="async"
-                                            data-nimg="1"
-                                            class="rounded-2xl w-full xl:w-auto h-full"
-                                            srcset="/_next/image?url=%2Ftest-preparation%2Fzeeshan.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Fzeeshan.jpg&amp;w=640&amp;q=75 2x"
-                                            src="/_next/image?url=%2Ftest-preparation%2Fzeeshan.jpg&amp;w=640&amp;q=75"
-                                            style="color: transparent;">
+                                            class="rounded-2xl w-full h-full object-cover"
+                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/manan.webp">
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Slide 4 -->
-                            <div class="swiper-slide !w-fit m-2" style="width: 292.174px;">
-                                <div class="rounded-2xl w-fit h-full relative overflow-hidden shadow-md">
+                            <div class="swiper-slide">
+                                <div class="rounded-2xl relative overflow-hidden shadow-md">
                                     <div class="thumbnail-div w-auto h-[406px] 2xl:h-[458px] transition-all rounded-2xl">
                                         <img
                                             alt="video thumbnail"
@@ -851,17 +1207,62 @@
                                             width="296"
                                             height="433"
                                             decoding="async"
-                                            data-nimg="1"
-                                            class="rounded-2xl w-full xl:w-auto h-full"
-                                            srcset="/_next/image?url=%2Ftest-preparation%2Fdeepika.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Ftest-preparation%2Fdeepika.jpg&amp;w=640&amp;q=75 2x"
-                                            src="/_next/image?url=%2Ftest-preparation%2Fdeepika.jpg&amp;w=640&amp;q=75"
-                                            style="color: transparent;">
+                                            class="rounded-2xl w-full h-full object-cover"
+                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/zeeshan.webp">
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Pagination & Nav (optional) -->
+                        <!-- <div class="stories-pagination mt-3"></div>
+                        <div class="flex gap-2 justify-end mt-2">
+                            <button class="stories-prev border rounded-md p-2" aria-label="Previous">‹</button>
+                            <button class="stories-next border rounded-md p-2" aria-label="Next">›</button>
+                        </div> -->
                     </div>
                 </div>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const swiper = new Swiper('#storiesSwiper', {
+                            slidesPerView: 1.15,
+                            spaceBetween: 12,
+                            loop: true,
+                            speed: 500,
+                            grabCursor: true,
+                            keyboard: {
+                                enabled: true
+                            },
+                            lazy: {
+                                loadPrevNext: true
+                            },
+                            watchSlidesProgress: true,
+                            breakpoints: {
+                                640: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 14
+                                },
+                                1024: {
+                                    slidesPerView: 2.25,
+                                    spaceBetween: 16
+                                },
+                                1280: {
+                                    slidesPerView: 2.5,
+                                    spaceBetween: 18
+                                }
+                            },
+                            pagination: {
+                                el: '.stories-pagination',
+                                clickable: true
+                            },
+                            navigation: {
+                                nextEl: '.stories-next',
+                                prevEl: '.stories-prev'
+                            }
+                        });
+                    });
+                </script>
 
                 <!-- Mobile CTA button -->
                 <a
@@ -1704,6 +2105,83 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const root = document.querySelector('.quick-link .readmore-content-both-device .readmore-long-content > div');
+                if (!root) return;
+
+                // First paragraph (the one starting "Canada is known globally...")
+                const firstPara = root.querySelector('p');
+                if (!firstPara) return;
+
+                // Use existing Read More btn if present; otherwise create one
+                let readMoreBtn = document.querySelector('.quick-link .readmore-btn');
+                if (!readMoreBtn) {
+                    readMoreBtn = document.createElement('button');
+                    readMoreBtn.className = 'readmore-btn mb-3 transition-all ease-in-out text-test-prep text-sm sm:text-base';
+                }
+                readMoreBtn.textContent = 'Read More';
+
+                // Place Read More right after the first paragraph
+                firstPara.insertAdjacentElement('afterend', readMoreBtn);
+
+                // Collapsible wrapper: move everything after Read More into it
+                const wrap = document.createElement('div');
+                wrap.id = 'readmoreBody';
+                wrap.className = 'readmore-body mt-3';
+                wrap.style.display = 'none';
+
+                let n = readMoreBtn.nextElementSibling;
+                while (n) {
+                    const next = n.nextElementSibling;
+                    wrap.appendChild(n);
+                    n = next;
+                }
+                readMoreBtn.insertAdjacentElement('afterend', wrap);
+
+                // Create "Read Less" button and append it AT THE END of the expanded content
+                const readLessBtn = document.createElement('button');
+                readLessBtn.className = 'readless-btn mb-3 transition-all ease-in-out text-test-prep text-sm sm:text-base';
+                readLessBtn.textContent = 'Read Less';
+                readLessBtn.style.display = 'none'; // hidden until expanded
+                wrap.appendChild(readLessBtn);
+
+                // ARIA
+                readMoreBtn.setAttribute('aria-controls', 'readmoreBody');
+                readLessBtn.setAttribute('aria-controls', 'readmoreBody');
+                readMoreBtn.setAttribute('aria-expanded', 'false');
+                readLessBtn.setAttribute('aria-expanded', 'true');
+
+                function expand() {
+                    wrap.style.display = '';
+                    readMoreBtn.style.display = 'none';
+                    readLessBtn.style.display = '';
+                    readLessBtn.focus({
+                        preventScroll: true
+                    });
+                    readMoreBtn.setAttribute('aria-expanded', 'true');
+                }
+
+                function collapse() {
+                    wrap.style.display = 'none';
+                    readLessBtn.style.display = 'none';
+                    readMoreBtn.style.display = '';
+                    readMoreBtn.setAttribute('aria-expanded', 'false');
+                    readMoreBtn.scrollIntoView({
+                        block: 'nearest',
+                        behavior: 'smooth'
+                    });
+                    readMoreBtn.focus({
+                        preventScroll: true
+                    });
+                }
+
+                readMoreBtn.addEventListener('click', expand);
+                readLessBtn.addEventListener('click', collapse);
+            });
+        </script>
+
         <!-- Quick Links Section End  -->
     </div>
 </main>
