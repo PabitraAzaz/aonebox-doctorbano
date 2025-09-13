@@ -108,12 +108,12 @@
                     <div class="w-1/4">
                         <p class="footer-menu-title font-medium text-[#74579]">Study Abroad</p>
                         <ul class="footer-link-list">
-                            <li><a href="<?=base_url('universities')?>">Study in Russia</a></li>
-                            <li><a href="<?=base_url('universities')?>">Study in Kazakhstan</a></li>
-                            <li><a href="<?=base_url('universities')?>">Study in Georgia</a></li>
-                            <li><a href="<?=base_url('universities')?>">Study in Uzbekistan</a></li>
-                            <li><a href="<?=base_url('universities')?>">Study in Armenia</a></li>
-                            <li><a href="<?=base_url('universities')?>">Study in Kyrygsthan</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Study in Russia</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Study in Kazakhstan</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Study in Georgia</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Study in Uzbekistan</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Study in Armenia</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Study in Kyrygsthan</a></li>
                         </ul>
                     </div>
                     <div class="w-1/4">
@@ -130,11 +130,11 @@
                     <div class="w-1/4">
                         <p class="footer-menu-title font-medium text-[#74579]">Top Universities</p>
                         <ul class="footer-link-list">
-                            <li><a href="<?=base_url('universities')?>">China</a></li>
-                            <li><a href="<?=base_url('universities')?>">Philippines</a></li>
-                            <li><a href="<?=base_url('universities')?>">Ukraine</a></li>
-                            <li><a href="<?=base_url('universities')?>">Bangladesh</a></li>
-                            <li><a href="<?=base_url('universities')?>">Nepal</a></li>
+                            <li><a href="<?= base_url('universities') ?>">China</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Philippines</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Ukraine</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Bangladesh</a></li>
+                            <li><a href="<?= base_url('universities') ?>">Nepal</a></li>
                         </ul>
                     </div>
                 </div>
@@ -164,9 +164,9 @@
             <div class="flex flex-wrap items-center justify-between py-3 text-sm text-[#6E6E73] font-medium">
                 <p>© <?= date("Y") ?><a href="#"><u> Doctor Bano</u></a>. All rights reserved.</p>
                 <div class="flex gap-2">
-                    <a href="<?=base_url('privacy-policy')?>">Privacy Policy</a> |
-                    <a href="<?=base_url('terms-conditions')?>">Terms & Conditions</a> |
-                    <a href="<?=base_url('payment-refund')?>">Payment & Refund Policy</a>
+                    <a href="<?= base_url('privacy-policy') ?>">Privacy Policy</a> |
+                    <a href="<?= base_url('terms-conditions') ?>">Terms & Conditions</a> |
+                    <a href="<?= base_url('payment-refund') ?>">Payment & Refund Policy</a>
                 </div>
                 <p>Managed by <a href="https://www.aonebox.com/"><u>a-one box</u></a>.</p>
             </div>
@@ -185,7 +185,7 @@
 </div>
 
 
-</main>
+
 
 
 <!-- Tailwind CSS CDN -->
@@ -194,35 +194,9 @@
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="<?= base_url('public/assets/js/main.js') ?>"></script>
 
-
-
-
-
-
-<script>
-    var preloader = document.getElementById('loader');
-    var mainContent = document.getElementById('main-content');
-
-
-
-    if (preloader) {
-        preloader.style.opacity = '0';
-        setTimeout(() => {
-            preloader.style.display = 'none';
-            if (mainContent) {
-                mainContent.style.display = 'block';
-            }
-        }, 500); // Matches the CSS transition duration
-    }
-
-
-    // Automatically hide the preloader when the entire page is loaded
-    window.addEventListener('load', () => {
-        closePreloader();
-    });
-
-</script>
+</main>
 
 </body>
 

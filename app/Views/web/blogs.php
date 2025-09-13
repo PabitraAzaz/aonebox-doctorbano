@@ -309,35 +309,6 @@ $recent = $recent ?? [];
       </div>
     </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const wrapper = document.getElementById("blogListWrapper");
-
-        wrapper.addEventListener("click", function(e) {
-          const target = e.target.closest("a"); // find <a> inside pagination
-          if (target && target.closest(".pagination")) {
-            e.preventDefault();
-            const url = target.getAttribute("href");
-
-            fetch(url, {
-                headers: {
-                  "X-Requested-With": "XMLHttpRequest"
-                }
-              })
-              .then(res => res.text())
-              .then(html => {
-                wrapper.innerHTML = html;
-                // smooth scroll to top of blogs
-                window.scrollTo({
-                  top: wrapper.offsetTop - 80,
-                  behavior: "smooth"
-                });
-              })
-              .catch(err => console.error("Pagination error:", err));
-          }
-        });
-      });
-    </script>
 
   </div>
 

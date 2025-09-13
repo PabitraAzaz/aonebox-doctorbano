@@ -163,56 +163,7 @@
 
 
 
-                <style>
-                    .blog-details ol {
-                        list-style-type: decimal;
-                        padding-left: 25px;
-                    }
-
-                    .blog-details ul {
-                        list-style-type: disc;
-                        padding-left: 25px;
-                    }
-
-                    .blog-details h2 {
-                        font-size: 30px;
-                        color: rgb(33, 159, 249);
-                        ;
-                    }
-
-                    .blog-details h3 {
-                        font-size: 26px;
-                        color: rgb(227, 149, 3);
-                        ;
-                    }
-
-                    .blog-details h4 {
-                        font-size:
-                            22px;
-                        color: rgb(227, 149, 3);
-                        ;
-                    }
-
-                    .blog-details h5 {
-                        font-size: 22px;
-                    }
-
-                    .blog-details h6 {
-                        font-size: 20px;
-                    }
-
-                    .blog-details table,
-                    tr,
-                    td {
-                        border: 1px solid black;
-                        height: 60px;
-                        width: 800px;
-                    }
-
-                    .blog-details th {
-                        background-color: rgb(33, 159, 249);
-                    }
-                </style>
+                
 
                 <div class="blog-details"><?= (($singleBlog['description'])) ?></div>
 

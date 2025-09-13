@@ -16,8 +16,8 @@ $routes->get('blog/(:num)', 'Home::singleBlog/$1');
 $routes->get('universities', 'Home::universities');
 
 // University page that can work with or without a key/slug/id
-$routes->get('single-university', 'Home::singleUniversity');
-$routes->get('single-university/(:segment)',  'Home::singleUniversity/$1');
+// University details page
+$routes->get('university/(:segment)', 'Home::singleUniversity/$1');
 
 // =======================
 // Admin Panel Routes

@@ -36,13 +36,24 @@ class Home extends BaseController
         ]);
     }
 
-    public function singleUniversity($key = null)
+    public function singleUniversity($id = null)
     {
         $blogModel = new BlogModel();
+        $uniModel  = new \App\Models\UniversityModel();
+
+        // Fetch recent blogs
         $blogs = $blogModel->orderBy('blog_id', 'DESC')->findAll(8);
 
+        // Fetch single university
+        $university = $uniModel->find($id);
+
+        if (!$university) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("University not found");
+        }
+
         return view('web/single_university', [
-            'blogs' => $blogs
+            'blogs'      => $blogs,
+            'university' => $university
         ]);
     }
 
@@ -67,31 +78,12 @@ class Home extends BaseController
     public function singleBlog($id)
     {
         $blogsModel = new BlogModel();
-        $uniModel   = new UniversityModel();
-
         $singleBlog = $blogsModel->where('blog_id', $id)->first();
-
         if (!$singleBlog) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
-
-        $otherBlogs = $blogsModel
-            ->where('blog_id !=', $id)
-            ->orderBy('blog_id', 'DESC')
-            ->findAll(8);
-
-        $university = null;
-        if (!empty($singleBlog['uni_id'])) {
-            $university = $uniModel->find($singleBlog['uni_id']);
-        } else {
-            $university = $uniModel->orderBy('uni_id', 'DESC')->first();
-        }
-
-        return view('web/single_blog', [
-            'singleBlog' => $singleBlog,
-            'blogs'      => $otherBlogs,
-            'university' => $university, 
-        ]);
+        $otherBlogs = $blogsModel->where('blog_id !=', $id)->orderBy('blog_id', 'DESC')->findAll(8);
+        return view('web/single_blog', ['singleBlog' => $singleBlog, 'blogs' => $otherBlogs]);
     }
 
     public function faq()

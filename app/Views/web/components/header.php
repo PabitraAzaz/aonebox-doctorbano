@@ -1,4 +1,3 @@
-<!-- header.php -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DoctorBano</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="<?= base_url('public/') ?>assets/css/style.css" />
@@ -18,9 +18,12 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
+    
     <!-- PNG fallback -->
     <link rel="icon" type="image/png" href="<?= base_url('public/assets/images/fav.png') ?>" sizes="32x32">
+    
+    
+    <link rel="stylesheet" href="<?= base_url('public/') ?>assets/css/main.css" />
 
 </head>
 
@@ -33,7 +36,7 @@
 <main id="main-content" style="display: none;">
     <div class="relative bg-[#ededed]">
         <img src="<?= base_url('public/') ?>assets/images/bg/doctorbano-blue.webp" alt="doctorbano" width="1530"
-            height="106" class="header-bg-img" loading="lazy" style="z-index: -99"/>
+            height="106" class="header-bg-img" loading="lazy" />
 
         <!-- Navigation Start -->
         <div class="hidden md:flex sticky z-50 top-2 mb-2">
@@ -155,276 +158,7 @@
                             </nav>
                         </div>
 
-                        <style>
-                            /* ------------------------------------NAV ITEM (links + buttons)------------------------------------- */
-                            .nav-link,
-                            .nav-btn {
-                                --link-pad-x: 14px;
-                                --link-pad-y: 10px;
 
-                                display: inline-flex;
-                                align-items: center;
-                                gap: .35rem;
-                                padding: var(--link-pad-y) var(--link-pad-x);
-                                border-radius: 12px;
-
-                                font-weight: 500;
-                                line-height: 1;
-                                color: inherit;
-                                /* use whatever your header color is */
-                                text-decoration: none;
-                                position: relative;
-                                transition: background .2s ease, box-shadow .2s ease, color .2s ease, transform .2s ease;
-                            }
-
-                            .nav-btn {
-                                background: transparent;
-                                border: 0;
-                                cursor: pointer;
-                            }
-
-                            /* Hover/active glass pill */
-                            .nav-link:hover,
-                            .nav-btn:hover,
-                            .nav-link:focus-visible,
-                            .nav-btn:focus-visible {
-                                background: rgba(255, 255, 255, 0.12);
-                                -webkit-backdrop-filter: blur(8px) saturate(140%);
-                                backdrop-filter: blur(8px) saturate(140%);
-                                box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22);
-                                outline: none;
-                            }
-
-                            /* Active/current page states (set aria-current="page" or .is-active) */
-                            .nav-link[aria-current="page"],
-                            .nav-link.is-active {
-                                background: rgba(255, 255, 255, 0.18);
-                                box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.28);
-                            }
-
-                            /* Small underline accent on hover (nice on both light/dark headers) */
-                            .nav-link::after,
-                            .nav-btn::after {
-                                content: "";
-                                position: absolute;
-                                left: 10px;
-                                right: 10px;
-                                bottom: 6px;
-                                height: 2px;
-                                background: currentColor;
-                                opacity: .18;
-                                transform: scaleX(0);
-                                transform-origin: left;
-                                transition: transform .25s ease;
-                            }
-
-                            .nav-link:hover::after,
-                            .nav-btn:hover::after {
-                                transform: scaleX(1);
-                            }
-
-                            /* Rotate chevron when open */
-                            [data-menu].open .nav-btn svg,
-                            .nav-btn[aria-expanded="true"] svg {
-                                transform: rotate(180deg);
-                            }
-
-                            /* ------------------------------------DROPDOWN PANEL (glassy & narrower)------------------------------------- */
-                            nav [data-menu] {
-                                position: relative;
-                            }
-
-                            .menu-panel {
-                                position: absolute;
-                                left: 50%;
-                                top: 100%;
-                                transform: translateX(-50%) translateY(10px);
-                                margin-top: 14px;
-
-                                /* Width: keep it narrower and responsive */
-                                width: auto;
-                                max-width: clamp(320px, 46vw, 680px);
-                                /* default cap ≈ 680px */
-                                overflow: hidden;
-                                overflow-wrap: anywhere;
-
-                                /* Glassmorphism */
-                                background: rgba(255, 255, 255, 0.28);
-                                backdrop-filter: blur(18px) saturate(160%);
-                                -webkit-backdrop-filter: blur(18px) saturate(160%);
-
-                                padding: 18px 22px;
-                                border-radius: 16px;
-
-                                /* Shadow & border */
-                                box-shadow:
-                                    0 6px 18px rgba(0, 0, 0, 0.08),
-                                    0 12px 32px rgba(0, 0, 0, 0.12);
-                                border: 1px solid rgba(255, 255, 255, 0.22);
-
-                                z-index: 1000;
-
-                                /* Hidden by default (animatable) */
-                                opacity: 0;
-                                visibility: hidden;
-                                pointer-events: none;
-
-                                transition:
-                                    opacity .22s ease,
-                                    transform .22s ease,
-                                    visibility 0s linear .22s;
-                                /* delay visibility until fade-out ends */
-                                will-change: transform, opacity;
-                            }
-
-                            /* Even smaller variant for compact menus */
-                            .menu-panel.menu-panel--sm {
-                                max-width: clamp(300px, 36vw, 520px);
-                            }
-
-                            /* Show the panel when open */
-                            [data-menu].open>.nav-btn+.menu-panel,
-                            [data-menu] .nav-btn[aria-expanded="true"]+.menu-panel {
-                                opacity: 1;
-                                visibility: visible;
-                                pointer-events: auto;
-                                transform: translateX(-50%) translateY(0);
-                                transition:
-                                    opacity .22s ease,
-                                    transform .22s ease,
-                                    visibility 0s;
-                            }
-
-                            /* Override Tailwind's fixed 4-cols to auto-fit nicely */
-                            .menu-panel>.grid {
-                                display: grid;
-                                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-                                gap: 18px;
-                            }
-
-                            /* ------------------------------------MENU CONTENT STYLES------------------------------------- */
-                            .menu-h {
-                                font-size: .9rem;
-                                line-height: 1.1;
-                                color: #0f172a;
-                                /* slate-900 */
-                                margin-bottom: .35rem;
-                            }
-
-                            .menu-list {
-                                list-style: none;
-                                margin: 0;
-                                padding: 0;
-                            }
-
-                            .menu-link {
-                                display: block;
-                                padding: 8px 10px;
-                                border-radius: 10px;
-                                text-decoration: none;
-                                color: #0f172a;
-                                transition: background .2s ease, box-shadow .2s ease, transform .15s ease;
-                            }
-
-                            .menu-link:hover {
-                                background: rgba(255, 255, 255, 0.65);
-                                box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.55);
-                                -webkit-backdrop-filter: blur(6px) saturate(140%);
-                                backdrop-filter: blur(6px) saturate(140%);
-                            }
-
-                            .menu-card {
-                                border-radius: 14px;
-                                padding: 14px;
-                                background: rgba(255, 255, 255, 0.6);
-                                -webkit-backdrop-filter: blur(10px);
-                                backdrop-filter: blur(10px);
-                                border: 1px solid rgba(255, 255, 255, 0.4);
-                                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-                            }
-
-                            .menu-card-title {
-                                font-weight: 600;
-                                color: #0f172a;
-                            }
-
-                            .menu-card-copy {
-                                margin-top: 6px;
-                                font-size: .9rem;
-                                color: #334155;
-                            }
-
-                            .menu-cta {
-                                display: inline-flex;
-                                align-items: center;
-                                justify-content: center;
-                                margin-top: 10px;
-                                padding: 8px 12px;
-                                border-radius: 10px;
-                                background: #2563eb;
-                                color: #fff;
-                                text-decoration: none;
-                                transition: transform .15s ease, box-shadow .2s ease, background .2s ease;
-                            }
-
-                            .menu-cta:hover {
-                                background: #1d4ed8;
-                                transform: translateY(-1px);
-                            }
-
-                            /* ----- RESPONSIVE TWEAKS ----- */
-                            @media (max-width: 1280px) {
-                                .menu-panel {
-                                    max-width: min(92vw, 620px);
-                                }
-
-                                .menu-panel.menu-panel--sm {
-                                    max-width: min(92vw, 500px);
-                                }
-                            }
-                        </style>
-
-                        <!-- SCRIPT -->
-                        <script>
-                            (function() {
-                                const items = document.querySelectorAll('li[data-menu]');
-                                items.forEach((li) => {
-                                    const btn = li.querySelector('.nav-btn');
-                                    const panel = li.querySelector('.menu-panel');
-                                    if (!btn || !panel) return;
-
-                                    // Hover open (desktop)
-                                    li.addEventListener('mouseenter', () => {
-                                        closeAllExcept(li);
-                                        btn.setAttribute('aria-expanded', 'true');
-                                        li.classList.add('open');
-                                    });
-                                    li.addEventListener('mouseleave', () => {
-                                        btn.setAttribute('aria-expanded', 'false');
-                                        li.classList.remove('open');
-                                    });
-
-                                    // Close on Escape
-                                    li.addEventListener('keydown', (e) => {
-                                        if (e.key === 'Escape') {
-                                            btn.setAttribute('aria-expanded', 'false');
-                                            li.classList.remove('open');
-                                            btn.focus();
-                                        }
-                                    });
-                                });
-
-                                function closeAllExcept(current) {
-                                    document.querySelectorAll('li[data-menu].open').forEach((li) => {
-                                        if (li !== current) {
-                                            li.classList.remove('open');
-                                            const b = li.querySelector('.nav-btn');
-                                            if (b) b.setAttribute('aria-expanded', 'false');
-                                        }
-                                    });
-                                }
-                            })();
-                        </script>
                     </div>
 
                     <!-- Right Side Buttons -->
@@ -457,4 +191,3 @@
         </div>
         <!-- Navigation End -->
     </div>
-</main>

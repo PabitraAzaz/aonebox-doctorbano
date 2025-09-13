@@ -24,39 +24,7 @@
         </div>
     </div>
 
-    <!-- FAQ Section Start -->
-    <style>
-        /* generic animation for the answer panel */
-        .faq-panel {
-            display: grid;
-            grid-template-rows: 0fr;
-            opacity: 0;
-            transition: grid-template-rows .3s ease, opacity .3s ease;
-        }
-
-        .faq-panel>* {
-            overflow: hidden;
-        }
-
-        .faq-panel.open {
-            grid-template-rows: 1fr;
-            opacity: 1;
-        }
-
-        /* bonus: rotate the plus icon when open */
-        .faq-trigger .plus {
-            transition: transform .3s ease;
-        }
-
-        .faq-trigger[aria-expanded="true"] .plus {
-            transform: rotate(45deg);
-        }
-
-        .faq-trigger {
-            width: 100%;
-            cursor: pointer;
-        }
-    </style>
+    
 
     <div class="xl:py-10 md:py-8 py-4 md:bg-white">
         <div class="container">
@@ -846,71 +814,7 @@
         </div>
     </div>
 
-    <script>
-        document.querySelectorAll('.border-b-1').forEach((item) => {
-            const header = item.querySelector('.flex.gap-3'); // Question row
-            const panel = header?.nextElementSibling; // Answer panel
-            const plusIcon = header?.querySelector('.relative.size-3'); // Plus icon wrapper
-
-            if (!header || !panel) return;
-
-            header.classList.add('faq-trigger');
-            panel.classList.add('faq-panel');
-            header.setAttribute('role', 'button');
-            header.setAttribute('tabindex', '0');
-            header.setAttribute('aria-expanded', 'false');
-
-            const closeAll = () => {
-                document.querySelectorAll('.faq-panel.open').forEach(p => {
-                    p.classList.remove('open');
-                    const h = p.previousElementSibling;
-                    if (h) h.setAttribute('aria-expanded', 'false');
-                });
-            };
-
-            const openThis = () => {
-                closeAll();
-                panel.classList.add('open');
-                header.setAttribute('aria-expanded', 'true');
-            };
-
-            const toggle = () => {
-                if (panel.classList.contains('open')) {
-                    panel.classList.remove('open');
-                    header.setAttribute('aria-expanded', 'false');
-                } else {
-                    openThis();
-                }
-            };
-
-            // Click on plus icon
-            if (plusIcon) {
-                plusIcon.style.cursor = 'pointer';
-                plusIcon.addEventListener('click', (e) => {
-                    e.stopPropagation(); // prevent double toggle if header click is also bound
-                    toggle();
-                });
-            }
-
-            // Click anywhere else on the header
-            header.addEventListener('click', (e) => {
-                if (!plusIcon || !plusIcon.contains(e.target)) {
-                    toggle();
-                }
-            });
-
-            // Keyboard support on header
-            header.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    toggle();
-                }
-            });
-
-            // Optional: rotate plus icon
-            if (plusIcon) plusIcon.classList.add('plus');
-        });
-    </script>
+    
     <!-- FAQ Section End -->
 
 </main>
