@@ -149,8 +149,8 @@
                                     </li>
 
                                     <!-- Other links already styled -->
-                                    <li><a class="nav-link" href="offers.html">Offers</a></li>
-                                    <li><a class="nav-link" href="event.html">Events</a></li>
+                                    <li><a class="nav-link" href="#">Offers</a></li>
+                                    <li><a class="nav-link" href="#">Events</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -437,7 +437,7 @@
                         </button>
 
                         <!-- Connect With Expert -->
-                        <a href="tel:+919773388670" class="expert-connect">
+                        <a href="tel:+91 8447730303" class="expert-connect">
                             <span class="pulse-label">Connect With Expert</span>
                             <span class="connect-number">+91 8447730303</span>
                         </a>
