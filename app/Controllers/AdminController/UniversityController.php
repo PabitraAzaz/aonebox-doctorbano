@@ -24,7 +24,6 @@ class UniversityController extends BaseController
     {
         helper(['form', 'url']);
 
-        // Minimal required fields; add more rules if you want to enforce them
         $rules = [
             'uni_name' => 'required|min_length[3]',
         ];
@@ -43,12 +42,40 @@ class UniversityController extends BaseController
             'about'                 => $this->request->getPost('about'),
             'facilities'            => $this->request->getPost('facilities'),
             'faculties'             => $this->request->getPost('faculties'),
-            'eligibility'           => $this->request->getPost('eligibility'),
             'document_criteria'     => $this->request->getPost('document_criteria'),
             'admission_procedures'  => $this->request->getPost('admission_procedures'),
             'departments'           => $this->request->getPost('departments'),
             'why_choose_us'         => $this->request->getPost('why_choose_us'),
             'conclusion'            => $this->request->getPost('conclusion'),
+
+            // Counters
+            'bachelors_programs'    => $this->request->getPost('bachelors_programs'),
+            'masters_programs'      => $this->request->getPost('masters_programs'),
+            'specialist_programs'   => $this->request->getPost('specialist_programs'),
+            'phd_programs'          => $this->request->getPost('phd_programs'),
+            'english_taught_programs' => $this->request->getPost('english_taught_programs'),
+            'majors'                => $this->request->getPost('majors'),
+            'students'              => $this->request->getPost('students'),
+            'departments_count'     => $this->request->getPost('departments_count'),
+            'institutions_count'    => $this->request->getPost('institutions_count'),
+
+            // Eligibility
+            'eligibility_ifp_standard'   => $this->request->getPost('eligibility_ifp_standard'),
+            'eligibility_ifp_percentage' => $this->request->getPost('eligibility_ifp_percentage'),
+            'eligibility_ifp_boards'     => $this->request->getPost('eligibility_ifp_boards'),
+
+            'eligibility_ug_standard'    => $this->request->getPost('eligibility_ug_standard'),
+            'eligibility_ug_percentage'  => $this->request->getPost('eligibility_ug_percentage'),
+            'eligibility_ug_boards'      => $this->request->getPost('eligibility_ug_boards'),
+
+            'eligibility_pg_standard'    => $this->request->getPost('eligibility_pg_standard'),
+            'eligibility_pg_percentage'  => $this->request->getPost('eligibility_pg_percentage'),
+            'eligibility_pg_boards'      => $this->request->getPost('eligibility_pg_boards'),
+
+            // IELTS
+            'ielts_undergraduate'   => $this->request->getPost('ielts_undergraduate'),
+            'ielts_postgraduate'    => $this->request->getPost('ielts_postgraduate'),
+            'ielts_phd'             => $this->request->getPost('ielts_phd'),
         ];
 
         if ($model->save($data)) {
@@ -100,12 +127,40 @@ class UniversityController extends BaseController
             'about'                 => $this->request->getPost('about'),
             'facilities'            => $this->request->getPost('facilities'),
             'faculties'             => $this->request->getPost('faculties'),
-            'eligibility'           => $this->request->getPost('eligibility'),
             'document_criteria'     => $this->request->getPost('document_criteria'),
             'admission_procedures'  => $this->request->getPost('admission_procedures'),
             'departments'           => $this->request->getPost('departments'),
             'why_choose_us'         => $this->request->getPost('why_choose_us'),
             'conclusion'            => $this->request->getPost('conclusion'),
+
+            // Counters
+            'bachelors_programs'    => $this->request->getPost('bachelors_programs'),
+            'masters_programs'      => $this->request->getPost('masters_programs'),
+            'specialist_programs'   => $this->request->getPost('specialist_programs'),
+            'phd_programs'          => $this->request->getPost('phd_programs'),
+            'english_taught_programs' => $this->request->getPost('english_taught_programs'),
+            'majors'                => $this->request->getPost('majors'),
+            'students'              => $this->request->getPost('students'),
+            'departments_count'     => $this->request->getPost('departments_count'),
+            'institutions_count'    => $this->request->getPost('institutions_count'),
+
+            // Eligibility
+            'eligibility_ifp_standard'   => $this->request->getPost('eligibility_ifp_standard'),
+            'eligibility_ifp_percentage' => $this->request->getPost('eligibility_ifp_percentage'),
+            'eligibility_ifp_boards'     => $this->request->getPost('eligibility_ifp_boards'),
+
+            'eligibility_ug_standard'    => $this->request->getPost('eligibility_ug_standard'),
+            'eligibility_ug_percentage'  => $this->request->getPost('eligibility_ug_percentage'),
+            'eligibility_ug_boards'      => $this->request->getPost('eligibility_ug_boards'),
+
+            'eligibility_pg_standard'    => $this->request->getPost('eligibility_pg_standard'),
+            'eligibility_pg_percentage'  => $this->request->getPost('eligibility_pg_percentage'),
+            'eligibility_pg_boards'      => $this->request->getPost('eligibility_pg_boards'),
+
+            // IELTS
+            'ielts_undergraduate'   => $this->request->getPost('ielts_undergraduate'),
+            'ielts_postgraduate'    => $this->request->getPost('ielts_postgraduate'),
+            'ielts_phd'             => $this->request->getPost('ielts_phd'),
         ];
 
         if ($model->update($id, $data)) {

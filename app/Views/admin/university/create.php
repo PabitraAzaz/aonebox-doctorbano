@@ -18,7 +18,7 @@
       <input type="text" class="form-control" name="uni_name" id="uni_name" value="<?= old('uni_name') ?>" required>
     </div>
 
-    <!-- ===== Description ===== -->
+    <!-- ===== Short Description ===== -->
     <div class="mb-3">
       <label for="description"><strong>Description</strong></label>
       <textarea class="form-control" name="description" id="description" rows="3"><?= old('description') ?></textarea>
@@ -29,15 +29,15 @@
     <div class="row g-3">
       <?php
       $counters = [
-        'bachelors_programs'     => "Bachelor's Programs",
-        'masters_programs'       => "Master's Programs",
-        'specialist_programs'    => "Specialist Programs",
-        'phd_programs'           => "PhD Programs",
+        'bachelors_programs'      => "Bachelor's Programs",
+        'masters_programs'        => "Master's Programs",
+        'specialist_programs'     => "Specialist Programs",
+        'phd_programs'            => "PhD Programs",
         'english_taught_programs' => "English-taught Programs",
-        'majors'                 => "Majors",
-        'students'               => "Students",
-        'departments_count'      => "Departments",
-        'institutions_count'     => "Institutions"
+        'majors'                  => "Majors",
+        'students'                => "Students",
+        'departments_count'       => "Departments",
+        'institutions_count'      => "Institutions"
       ];
       ?>
       <?php foreach ($counters as $name => $label): ?>
@@ -146,4 +146,83 @@
   </form>
 
 </main>
+<?= $this->endSection() ?>
+
+<?= $this->section('scripts') ?>
+<!-- CKEditor -->
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+<!-- CodeMirror -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/theme/monokai.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/mode/htmlmixed/htmlmixed.min.js"></script>
+
+<style>
+  .CodeMirror {
+    height: auto;
+    min-height: 260px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+</style>
+
+<script>
+  let isCodeMode = false;
+  const ck = {};
+  const cm = {};
+
+  // Init CKEditor
+  document.querySelectorAll('.richable').forEach((ta) => {
+    const field = ta.dataset.field;
+    ClassicEditor.create(ta).then(editor => {
+      ck[field] = editor;
+    }).catch(console.error);
+  });
+
+  // Toggle all editors
+  function toggleAllEditors() {
+    isCodeMode = !isCodeMode;
+    document.querySelectorAll('.richable').forEach((ta) => {
+      const field = ta.dataset.field;
+      const ceWrap = ta.closest('.editor-wrapper');
+      const cmWrap = ceWrap.nextElementSibling;
+      const cmTa = cmWrap.querySelector('.codeable');
+
+      if (isCodeMode) {
+        // CK → CM
+        const html = ck[field]?.getData() ?? ta.value ?? '';
+        ceWrap.style.display = 'none';
+        cmWrap.style.display = 'block';
+        if (!cm[field]) {
+          cm[field] = CodeMirror.fromTextArea(cmTa, {
+            mode: 'htmlmixed',
+            theme: 'monokai',
+            lineNumbers: true,
+            lineWrapping: true
+          });
+        }
+        cm[field].setValue(html);
+        cm[field].refresh();
+      } else {
+        // CM → CK
+        const html = cm[field]?.getValue() ?? ta.value ?? '';
+        if (ck[field]) ck[field].setData(html);
+        cmWrap.style.display = 'none';
+        ceWrap.style.display = 'block';
+      }
+    });
+  }
+
+  // On submit → push values to hidden
+  document.querySelector('form').addEventListener('submit', function() {
+    document.querySelectorAll('.richable').forEach((ta) => {
+      const field = ta.dataset.field;
+      const hidden = document.getElementById('final_' + field);
+      hidden.value = isCodeMode ?
+        (cm[field] ? cm[field].getValue() : ta.value || '') :
+        (ck[field] ? ck[field].getData() : ta.value || '');
+    });
+  });
+</script>
 <?= $this->endSection() ?>

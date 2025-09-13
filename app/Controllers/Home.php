@@ -67,6 +67,7 @@ class Home extends BaseController
     public function singleBlog($id)
     {
         $blogsModel = new BlogModel();
+        $uniModel   = new UniversityModel();
 
         $singleBlog = $blogsModel->where('blog_id', $id)->first();
 
@@ -79,9 +80,17 @@ class Home extends BaseController
             ->orderBy('blog_id', 'DESC')
             ->findAll(8);
 
+        $university = null;
+        if (!empty($singleBlog['uni_id'])) {
+            $university = $uniModel->find($singleBlog['uni_id']);
+        } else {
+            $university = $uniModel->orderBy('uni_id', 'DESC')->first();
+        }
+
         return view('web/single_blog', [
             'singleBlog' => $singleBlog,
-            'blogs'      => $otherBlogs
+            'blogs'      => $otherBlogs,
+            'university' => $university, 
         ]);
     }
 

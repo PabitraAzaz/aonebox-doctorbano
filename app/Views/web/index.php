@@ -336,16 +336,7 @@
     </div>
 </div>
 
-<!-- Hover & Icon Animation -->
-<style>
-    .icon-animate {
-        transition: transform 0.3s ease;
-    }
 
-    .service-card:hover .icon-animate {
-        transform: scale(1.12) rotate(4deg);
-    }
-</style>
 
 
 <!-- Who We Ares -->
@@ -461,49 +452,7 @@
                 </div>
             </div>
 
-            <!-- Icon Animation -->
-            <style>
-                .option-card .icon {
-                    transition: transform .25s ease, filter .25s ease;
-                }
-
-                .option-card:hover .icon {
-                    animation: floatIcon 1.2s ease-in-out infinite;
-                }
-
-                @keyframes floatIcon {
-                    0% {
-                        transform: translateY(0);
-                    }
-
-                    50% {
-                        transform: translateY(-3px);
-                    }
-
-                    100% {
-                        transform: translateY(0);
-                    }
-                }
-
-                input.peer:checked+label .icon {
-                    animation: popIcon .35s ease;
-                    filter: saturate(1.2);
-                }
-
-                @keyframes popIcon {
-                    0% {
-                        transform: scale(1) rotate(0);
-                    }
-
-                    50% {
-                        transform: scale(1.15) rotate(-6deg);
-                    }
-
-                    100% {
-                        transform: scale(1) rotate(0);
-                    }
-                }
-            </style>
+            
 
             <script>
                 function showDescription(id) {
@@ -707,51 +656,7 @@
         <h2 class="text-3xl sm:text-4xl font-semibold text-[#1F2022] mb-3">Best MBBS Abroad Consultant in Delhi<span style="color: #0091E3;"> 2025-2026</span></h2>
     </div>
 
-    <!-- Flip Cards Section -->
-    <style>
-        .flip-card {
-            perspective: 1000px;
-        }
-
-        .flip-inner {
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-
-        .flip-card:hover .flip-inner {
-            transform: rotateY(180deg);
-        }
-
-        .flip-front,
-        .flip-back {
-            backface-visibility: hidden;
-            -webkit-backface-visibility: hidden;
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 1rem;
-            /* matches Tailwind rounded-2xl */
-        }
-
-        .flip-back {
-            transform: rotateY(180deg);
-        }
-
-        /* Accessibility: respect reduced motion */
-        @media (prefers-reduced-motion: reduce) {
-            .flip-inner {
-                transition: none;
-            }
-
-            .flip-card:hover .flip-inner {
-                transform: none;
-            }
-        }
-    </style>
+    
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Card 1 -->
