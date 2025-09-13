@@ -5,22 +5,22 @@
 <main>
     <div class="container md:my-8 relative ">
         <div class=" flex flex-col gap-[18px] w-fit 2/5 sticky -mt-[18rem] top-[5rem] -ml-14 z-10">
-            <a href="https://news.google.com/publications/CAAqBwgKMOqd0gswqbnpAw?ceid=IN:en&amp;oc=3">
+            <a href="#">
                 <img alt="googleNewIcon" fetchpriority="high" width="34" height="34" decoding="async" data-nimg="1"
                     class="w-full" src="<?= base_url('public/') ?>assets/images/icons/googleNewIcon.webp"
                     style="color: transparent;">
             </a>
-            <a href="https://api.whatsapp.com/send?text=https://www.gradding.com/blog/english/adverbs-of-time">
+            <a href="#">
                 <img alt="whatsapp icon" fetchpriority="high" width="34" height="34" decoding="async" data-nimg="1"
                     class="w-full" src="<?= base_url('public/') ?>assets/images/icons/whatsappIcon.webp"
                     style="color: transparent;">
             </a>
-            <a href="https://twitter.com/Gradding_">
+            <a href="https://x.com/essqube">
                 <img alt="TwitterIcon" fetchpriority="high" width="30" height="30" decoding="async" data-nimg="1"
                     class="" src="<?= base_url('public/') ?>assets/images/icons/twitter.webp"
                     style="color: transparent;">
             </a>
-            <a href="https://www.instagram.com/gradding_official/">
+            <a href="https://www.instagram.com/essqube/#">
                 <img alt="instagramIcon" fetchpriority="high" width="34" height="34" decoding="async" data-nimg="1"
                     class="w-full" src="<?= base_url('public/') ?>assets/images/icons/instagramIcon.webp"
                     style="color: transparent;">
@@ -48,7 +48,7 @@
             <ol class="flex items-center whitespace-nowrap overflow-x-scroll" style="scrollbar-width: none;">
                 <li class="inline-flex items-center"><a
                         class="flex items-center text-sm text-gray-500 hover:text-[#066AC9] focus:outline-none focus:text-[#066AC9]"
-                        href="https://www.gradding.com">Home</a><svg
+                        href="#">Home</a><svg
                         class="flex-shrink-0 mx-2 overflow-visible size-4 text-gray-400"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -56,7 +56,7 @@
                     </svg></li>
                 <li class="inline-flex items-center"><a
                         class="flex items-center text-sm text-gray-500 hover:text-[#066AC9] focus:outline-none focus:text-[#066AC9]"
-                        href="https://www.gradding.com/blog/">Blogs<svg
+                        href="#">Blogs<svg
                             class="flex-shrink-0 mx-2 overflow-visible size-4 text-gray-400"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -64,7 +64,7 @@
                         </svg></a></li>
                 <li class="inline-flex items-center"><a
                         class="flex items-center text-sm text-gray-500 hover:text-[#066AC9] focus:outline-none focus:text-[#066AC9]"
-                        href="https://www.gradding.com/blog/english">ENGLISH<svg
+                        href="#">ENGLISH<svg
                             class="flex-shrink-0 mx-2 overflow-visible size-4 text-gray-400"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -73,7 +73,7 @@
                 <li class="inline-flex items-center text-sm font-semibold text-gray-800" aria-current="page">Adverbs Of
                     Time</li>
             </ol><a class="block text-sm font-medium text-white bg-[#4B6BFB] py-[6px] px-3 rounded-[6px] w-fit"
-                href="https://www.gradding.com/blog/english">ENGLISH</a>
+                href="#">ENGLISH</a>
             <h1 class="text-[22px] lg:text-[30px] xl:text-[36px] font-medium text-[#181A2A] leading-[130%]">
                 <?= esc($singleBlog['blog_name']) ?>
             </h1>
@@ -124,7 +124,7 @@
                                 <p>List of Adverbs of Time</p>
                             </a><span class="w-fit cursor-pointer transition-all "><img alt="toggle icon" loading="lazy"
                                     width="20" height="20" decoding="async" data-nimg="1" class="max-w-none"
-                                    src="https://www.gradding.com/blog/icons/CollapseIconGrey.svg"
+                                    src="#"
                                     style="color: transparent;"></span></div>
                         <div class="ml-2.5 overflow-hidden transition-all duration-300 ease-in-out"
                             style="max-height: 0px;">
@@ -237,7 +237,7 @@
                 </section>
             </div>
             <div class=" w-full lg:w-[40%] xl:w-[30%] flex flex-col gap-5 xl:gap-8"><a class="cursor-pointer"
-                    href="https://www.gradding.com/offers">
+                    href="#">
                     <img alt="english-offer" fetchpriority="high" width="392" height="220" decoding="async"
                         data-nimg="1"
                         class=" border-[0.94px] border-[#066AC9] rounded-[15px] hover:shadow-[0px_3.76px_22.56px_0px_#00000040] transition-all ease-in-out"

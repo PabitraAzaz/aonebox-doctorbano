@@ -85,11 +85,11 @@
 
                     <!-- Social Media -->
                     <div class="flex gap-2 mt-3 footer-social-icons">
-                        <a href="https://www.facebook.com/gradding" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/facebook.webp" alt="facebook"></a>
-                        <a href="https://www.instagram.com/gradding_official/" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/instagram.webp" alt="instagram"></a>
-                        <a href="https://twitter.com/Gradding_" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/twitter.webp" alt="twitter"></a>
-                        <a href="https://www.linkedin.com/company/gradding/" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/linkedin.webp" alt="linkedin"></a>
-                        <a href="https://www.youtube.com/channel/UCpNSX_Z1NMCjrmbzy-mPd_g" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/youtube.webp" alt="youtube"></a>
+                        <a href="https://www.facebook.com/essqube" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/facebook.webp" alt="facebook"></a>
+                        <a href="https://www.instagram.com/essqube/#" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/instagram.webp" alt="instagram"></a>
+                        <a href="https://x.com/essqube" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/twitter.webp" alt="twitter"></a>
+                        <a href="https://in.linkedin.com/company/essqube-enterprises-llp?trk=public_post_feed-actor-name" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/linkedin.webp" alt="linkedin"></a>
+                        <a href="https://www.youtube.com/@essqube" target="_blank"><img src="<?= base_url('public/') ?>assets/images/icons/youtube.webp" alt="youtube"></a>
                     </div>
                 </div>
 

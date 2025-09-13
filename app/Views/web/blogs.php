@@ -105,7 +105,7 @@ $recent = $recent ?? [];
               <div class="w-auto">
                 <h2 class="text-sm text-black font-semibold">University Admission</h2>
                 <p class="text-xs text-[#646464] my-1">Simplify the Time-Consuming Admission Process with Experts</p>
-                <a class="text-[14px] 2xl:text-[15px] text-[#F37E20] inline-flex items-center font-medium uppercase" href="https://www.gradding.com/college-predictor">Apply Now
+                <a class="text-[14px] 2xl:text-[15px] text-[#F37E20] inline-flex items-center font-medium uppercase" href="#">Apply Now
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                     <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
                   </svg>
@@ -119,7 +119,7 @@ $recent = $recent ?? [];
               <div class="w-auto">
                 <h2 class="text-sm text-black font-semibold">Test Preparation</h2>
                 <p class="text-xs text-[#646464] my-1">Ace Standardized Entrance Tests with Decent Scores</p>
-                <a class="text-[14px] 2xl:text-[15px] text-[#F37E20] inline-flex items-center font-medium uppercase" href="https://www.gradding.com/test-preparation">Apply Now
+                <a class="text-[14px] 2xl:text-[15px] text-[#F37E20] inline-flex items-center font-medium uppercase" href="#">Apply Now
                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                     <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
                   </svg>
@@ -133,7 +133,7 @@ $recent = $recent ?? [];
               <div class="w-auto">
                 <h2 class="text-sm text-black font-semibold">Smooth Visa process</h2>
                 <p class="text-xs text-[#646464] my-1">Raise the Odds of Fast Visa Approval in One Go</p>
-                <a class="text-[14px] 2xl:text-[15px] text-[#F37E20] inline-flex items-center font-medium uppercase" href="https://www.gradding.com/services/visa-consultancy">Apply Now<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <a class="text-[14px] 2xl:text-[15px] text-[#F37E20] inline-flex items-center font-medium uppercase" href="#">Apply Now<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                     <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
                   </svg>
                 </a>
@@ -143,27 +143,27 @@ $recent = $recent ?? [];
         </div>
         <div class="w-full md:w-[50%] xl:w-[24%] justify-between bg-white rounded-[15px] shadow-custom flex flex-wrap gap-3 p-4 relative z-30">
           <p class="text-[15px] font-semibold">Choose Country to Study Abroad</p>
-          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="https://www.gradding.com/study-in-usa">
+          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="#">
             <img alt="country icnon" fetchpriority="high" width="39" height="38" decoding="async" class="hover:shadow-[0_0_12px_0_rgba(29,58,83,.25)] transition-all  rounded-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/country/usa.webp">
             <h2 class="text-xs text-black font-semibold uppercase">usa</h2>
           </a>
-          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="https://www.gradding.com/study-in-uk">
+          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="#">
             <img alt="country icnon" fetchpriority="high" width="39" height="38" decoding="async" class="hover:shadow-[0_0_12px_0_rgba(29,58,83,.25)] transition-all  rounded-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/country/uk.webp">
             <h2 class="text-xs text-black font-semibold uppercase">uk</h2>
           </a>
-          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="https://www.gradding.com/study-in-australia">
+          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="#">
             <img alt="country icnon" fetchpriority="high" width="39" height="38" decoding="async" class="hover:shadow-[0_0_12px_0_rgba(29,58,83,.25)] transition-all  rounded-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/country/au.webp">
             <h2 class="text-xs text-black font-semibold uppercase">Australia</h2>
           </a>
-          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="https://www.gradding.com/study-in-hungary">
+          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="#">
             <img alt="country icnon" fetchpriority="high" width="39" height="38" decoding="async" class="hover:shadow-[0_0_12px_0_rgba(29,58,83,.25)] transition-all  rounded-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/country/hungary.webp">
             <h2 class="text-xs text-black font-semibold uppercase">hungary</h2>
           </a>
-          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="https://www.gradding.com/study-in-malta">
+          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="#">
             <img alt="country icnon" fetchpriority="high" width="39" height="38" decoding="async" class="hover:shadow-[0_0_12px_0_rgba(29,58,83,.25)] transition-all  rounded-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/country/malta.webp">
             <h2 class="text-xs text-black font-semibold uppercase">malta</h2>
           </a>
-          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="https://www.gradding.com/college-predictor">
+          <a class=" w-full md:w-[26%] rounded-[7px] transition-all p-1 2xl:p-2 cursor-pointer flex flex-col items-center gap-1" href="#">
             <img alt="country icnon" fetchpriority="high" width="39" height="38" decoding="async" class="hover:shadow-[0_0_12px_0_rgba(29,58,83,.25)] transition-all  rounded-[10px]" style="color:transparent" src="<?= base_url('public/') ?>assets/images/icons/viewall.webp">
             <h2 class="text-xs text-black font-semibold uppercase">View All</h2>
           </a>
@@ -176,7 +176,7 @@ $recent = $recent ?? [];
                 <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
               </svg>+91-9773388670
             </p>
-            <a class="group mt-5 sm:mt-0 w-[90%] rounded-[10px] font-semibold text-sm uppercase p-3 transition-all group bg-[#F3601E] text-white hover:shadow-[0px_0px_12px_0px_#F3601E]" href="tel:+91-9773388670">
+            <a class="group mt-5 sm:mt-0 w-[90%] rounded-[10px] font-semibold text-sm uppercase p-3 transition-all group bg-[#F3601E] text-white hover:shadow-[0px_0px_12px_0px_#F3601E]" href="tel:+91 8447730303">
               <span class="group:hover-drop-shadow-[0px_0px_10px_0px_#ffffff]">call us now</span>
             </a>
           </div>
@@ -286,7 +286,7 @@ $recent = $recent ?? [];
               <div class="relative flex flex-col pt-5 px-7 pb-12 gap-5 hover:shadow-[0px_0px_40px_0px_#00000026] duration-250 bg-[#dbeeea] rounded-2xl lg:w-[30%] sm:w-[45%] w-full">
                 <h2 class="text-[#00817e] font-bold text-xl sm:text-3xl">Grab FREE IELTS Mock Test</h2>
                 <p class="text-base text-[#1d1d1f] w-[75%] lg:w-full">Claim this exclusive limited time offer!</p>
-                <a href="https://dashboard.gradding.com/dashboard/mock-test"
+                <a href="#"
                   class="cursor-pointer rounded-[10px] bg-[#066ac9] w-fit text-white text-base sm:text-lg py-2 sm:py-3 px-5 sm:px-7 font-medium">Start Now</a>
                 <div class="right-0 bottom-0 w-1/2 sm:w-[55%] lg:w-[60%] h-auto absolute">
                   <img alt="advertisement picture" src="<?= base_url('public/assets/images/blogs/adverImg.webp') ?>" loading="lazy">
