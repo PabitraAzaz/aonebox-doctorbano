@@ -17,7 +17,7 @@
 
                     <!-- Heading with decorative arrow -->
                     <h1 class="text-[#F8F7FC] text-[28px] lg:text-[32px] 2xl:text-[38px] font-semibold mb-2 sm:mb-4 relative">
-                        Study in Canada for World Class Education
+                        Study in Russia for World Class Education
                         <img alt="threeArrow" loading="lazy" width="59" height="69" decoding="async"
                             class="absolute -top-2 sm:-top-8 -left-4 sm:-left-10"
                             src="<?= base_url('public/') ?>assets/images/icons/threeArrow.webp"
@@ -33,15 +33,15 @@
 
                                 <!-- Short text -->
                                 <p class="text-sm md:text-base text-[#F8F7FC]">
-                                    A student’s plan to study in Canada ensures their overall growth with a stock of opportunities to learn and
+                                    A student’s plan to study in Russia ensures their overall growth with a stock of opportunities to learn and
                                 </p>
 
                                 <!-- Expanded long text -->
                                 <div class="readmore-long-content w-full">
                                     <p class="text-sm md:text-base text-[#F8F7FC]">
                                         earn. Moreover, their dream to study abroad offers them with multicultural environment and a well built infrastructure.
-                                        These are reasons why people go to study in Canada from India.
-                                        It is because study in Canada for Indian students looks like an entire package of high quality education and accomplished career goals.
+                                        These are reasons why people go to study in Russia from India.
+                                        It is because study in Russia for Indian students looks like an entire package of high quality education and accomplished career goals.
                                     </p>
                                 </div>
 
@@ -81,7 +81,7 @@
                 <!-- Right image section -->
                 <div class="w-full sm:w-[45%] md:flex items-end">
                     <img alt="candaBannerImage" fetchpriority="high" width="574" height="498" decoding="async"
-                        src="<?= base_url('public/') ?>assets/images/country/canadaBanner.webp"
+                        src="<?= base_url('public/') ?>assets/images/country/RussiaBanner.png"
                         style="color: transparent;">
                 </div>
             </div>
@@ -430,12 +430,15 @@
         <!-- Popular Universities Section -->
         <div class="my-12 sm:my-20">
             <div class="container text-left flex items-center justify-between">
-                <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%]"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block">Popular Universities</span> to study in CANADA</h2><a class="bg-white text-[#1F2022] border border-[#E8E8E8] text-[15px] font-semibold flex items-center gap-2 py-2.5 px-5 rounded-[14px] hover:shadow-lg transition-all ease-in-out duration-300" href="https://www.gradding.com/course-finder?countryId=39">View All <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%]"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block">Popular Universities</span> to study in Russia</h2>
+                <!-- <a class="bg-white text-[#1F2022] border border-[#E8E8E8] text-[15px] font-semibold flex items-center gap-2 py-2.5 px-5 rounded-[14px] hover:shadow-lg transition-all ease-in-out duration-300" href="https://www.gradding.com/course-finder?countryId=39">View All
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18.25 15.5a.75.75 0 0 1-.75-.75V7.56L7.28 17.78a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L16.44 6.5H9.25a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75Z"></path>
-                    </svg></a>
+                    </svg>
+                </a> -->
             </div>
             <div class="flex w-full flex-col mt-5">
-                <div data-slot="base" class="inline-flex base container sm:inline-flex -webkit-box w-full" aria-label="Options">
+                <!-- <div data-slot="base" class="inline-flex base container sm:inline-flex -webkit-box w-full" aria-label="Options">
                     <div data-slot="tabList" class="flex h-fit items-center flex-nowrap overflow-x-scroll scrollbar-hide tablist gap-2 sm:gap-6 w-full relative rounded-[14px] p-1.5 sm:p-2.5 px-[12.8px] bg-transparent" id="react-aria3673307509-:r19q:" aria-label="Options" role="tablist" aria-orientation="horizontal"><button data-slot="tab" tabindex="0" data-key="Health" id="react-aria3673307509-:r19q:-tab-Health" aria-selected="true" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button" data-selected="true" aria-controls="react-aria3673307509-:r19q:-tabpanel-Health"><span class="absolute z-0 inset-0 rounded-full text-primary-foreground w-full bg-primary" data-slot="cursor" style="opacity: 1;"></span>
                             <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Health</span></div>
                         </button><button data-slot="tab" tabindex="-1" data-key="Engineering" id="react-aria3673307509-:r19q:-tab-Engineering" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
@@ -445,7 +448,7 @@
                         </button><button data-slot="tab" tabindex="-1" data-key="Other" id="react-aria3673307509-:r19q:-tab-Other" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
                             <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Other</span></div>
                         </button></div>
-                </div>
+                </div> -->
                 <div data-focus="false" data-focus-visible="false" id="react-aria3673307509-:r19q:-tabpanel-Health" aria-labelledby="react-aria3673307509-:r19q:-tab-Health" role="tabpanel" class="py-3 px-1 data-[inert=true]:hidden outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2" data-slot="panel">
                     <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
                         <div class="swiper-wrapper">
@@ -462,7 +465,7 @@
                                                 <div class="flex items-center justify-center relative max-w-7 max-h-9 min-w-7 min-h-9">
                                                     <img alt="University Logo" loading="lazy" width="28" height="32" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/university/Mount-Saint-Vincet-University.webp" style="color: transparent;">
                                                 </div>
-                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href="https://www.gradding.com/study-in-canada/universities/mount-saint-vincent-university"><?= $uiversityData['uni_name'] ?></a>
+                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href=""><?= $uiversityData['uni_name'] ?></a>
                                                 <div class="flex flex-col gap-2 items-start min-h-[84px]">
                                                     <div class="flex items-center gap-[10px] w-full justify-start">
                                                         <div class="border border-[#655F5F] rounded-full p-[10px] w-fit flex items-center gap-1"><img alt="Currency Logo" loading="lazy" width="15" height="15" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/icons/coin.webp" style="color: transparent;"><span class="text-[#171923] text-xs font-medium text-nowrap">INR 10.85L/Y</span></div>
@@ -472,7 +475,7 @@
                                                         <div class="border border-[#655F5F] rounded-full p-2 sm:p-[10px] w-fit  text-xs font-medium flex items-center gap-1"><span class="text-xs font-medium text-[#171923]">May Intake</span><span class="z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased text-xs font-semibold text-primary underline cursor-pointer" data-slot="trigger" aria-haspopup="dialog" aria-expanded="false" type="button">+3 more</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="flex items-center gap-3 mt-1"><a class="text-white text-[15px] font-medium py-2 px-3.5 bg-primary border border-primary rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:bg-primary-600" href="https://www.gradding.com/start-journey">Check Eligibility</a><a class="text-primary border border-primary text-[15px] font-medium py-2 px-3.5 rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:text-white hover:bg-primary" href="https://www.gradding.com/study-in-canada/universities/mount-saint-vincent-university">Apply Now</a></div>
+                                                <div class="flex items-center gap-3 mt-1"><a class="text-white text-[15px] font-medium py-2 px-3.5 bg-primary border border-primary rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:bg-primary-600" href="#">Check Eligibility</a><a class="text-primary border border-primary text-[15px] font-medium py-2 px-3.5 rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:text-white hover:bg-primary" href="https://api.whatsapp.com/send?phone=+918447730303&text=My%20Name%20is__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Query%20is__">Apply Now</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -509,7 +512,7 @@
 
                         <!-- Title -->
                         <h3 class="text-sm sm:text-3xl font-medium text-white">
-                            Get Admission into top CANADA universities with the help of expert counsellors
+                            Get Admission into top Russia universities with the help of expert counsellors
                         </h3>
 
                         <!-- Divider Line -->
@@ -635,16 +638,16 @@
         </div>
         <!-- end of University Video Section  -->
 
-        <!-- Canada Study Section -->
+        <!-- Russia Study Section -->
         <div class="my-12 sm:my-20 container m-auto">
 
             <!-- Section Heading -->
             <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center">
-                Study in Canada to Transform Your Student Life!
+                Study in Russia to Transform Your Student Life!
             </h2>
 
             <!-- Grid Container for Cards -->
-            <div class="sm:px-6 grid sm:grid-cols-2 sm:grid-rows-2 gap-6 py-10 relative">
+            <div class="sm:px-6 grid sm:grid-cols-2 sm:grid-rows-2 gap-6 py-10 relative">   
 
                 <!-- Card 1: Global Standing Universities -->
                 <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
@@ -675,7 +678,7 @@
                             Premier Education Quality
                         </h3>
                         <p class="text-[#627693] text-sm font-medium hidden sm:block">
-                            Canada encourages development of multi-disciplinary skills in every field to enhance learning in scholars.
+                            Russia encourages development of multi-disciplinary skills in every field to enhance learning in scholars.
                         </p>
                         <img
                             alt="Person Image"
@@ -697,7 +700,7 @@
                             Post-Graduation Work Permit
                         </h3>
                         <p class="text-[#627693] text-sm font-medium hidden sm:block">
-                            Canada offers post-graduation work permit to its international students. This opens doors for great job options.
+                            Russia offers post-graduation work permit to its international students. This opens doors for great job options.
                         </p>
                         <img
                             alt="Person Image"
@@ -734,7 +737,7 @@
                     </div>
                 </div>
 
-                <!-- Center Canada Flag Icon -->
+                <!-- Center Russia Flag Icon -->
                 <div class="w-[59px] h-[59px] sm:w-[119px] sm:h-[119px] p-[3px] sm:p-[6px] rounded-full bg-white absolute top-[45%] sm:top-[39%] left-[44%] sm:left-[46%] shadow-[0px_11px_24px_0px_#00000033] overflow-hidden">
                     <img
                         alt="Flag Image"
@@ -744,7 +747,7 @@
                         decoding="async"
                         data-nimg="1"
                         class="rounded-full"
-                        src="<?= base_url('public/') ?>assets/images/country/Canada.webp"
+                        src="<?= base_url('public/') ?>assets/images/country/RussiaFlag.png"
                         style="color: transparent;">
                 </div>
             </div>
@@ -1126,7 +1129,7 @@
                     <!-- Desktop CTA button -->
                     <a
                         class="hidden sm:flex border-[1.5px] border-primary rounded-lg p-2.5 xl:py-3 xl:px-5 items-center justify-center md:w-fit text-base xl:text-lg font-medium text-primary hover:bg-primary hover:text-white"
-                        href="https://www.gradding.com/start-journey">
+                        href="#">
                         Start Your Journey
                         <svg
                             stroke="currentColor"
@@ -1264,7 +1267,7 @@
                 <!-- Mobile CTA button -->
                 <a
                     class="mx-3.5 sm:mx-0 flex w-[85%] sm:hidden border-[1.5px] border-primary rounded-xl p-2.5 xl:py-3 xl:px-5 items-center justify-center text-base xl:text-lg font-medium text-primary hover:bg-primary hover:text-white"
-                    href="https://www.gradding.com/start-journey">
+                    href="#">
                     Start Your Journey
                     <svg
                         stroke="currentColor"
@@ -1583,7 +1586,7 @@
                     </div>
                     <div class="faq-content grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
                         <div class="overflow-hidden text-sm xl:text-base">
-                            <p>Yes! We assist students in finding safe, affordable, and campus-nearby accommodation options in countries like the USA, Canada, UK, Australia, and more.</p>
+                            <p>Yes! We assist students in finding safe, affordable, and campus-nearby accommodation options in countries like the USA, Russia, UK, Australia, and more.</p>
                         </div>
                     </div>
                 </div>
@@ -1626,14 +1629,21 @@
         <!-- Quick Links Section Start -->
         <div class="container my-8 xl:py-14">
             <h2 class="text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-medium text-center sm:text-left">Quick <span class="inline-block text-test-prep font-medium">Links</span></h2>
-            <div class="flex flex-wrap gap-2 mt-4 mb-1 sm:my-4"><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/study-abroad-consultants">Get consultancy</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/uk">Study in UK</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/us">Study in USA</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/hu">Study in Hungary</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/mt">Study in Malta</a><a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="https://www.gradding.com/au">Study in Australia</a></div>
+            <div class="flex flex-wrap gap-2 mt-4 mb-1 sm:my-4">
+                <a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="#">Get consultancy</a>
+                <a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="#">Study in UK</a>
+                <a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="#">Study in USA</a>
+                <a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="#">Study in Hungary</a>
+                <a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="#">Study in Malta</a>
+                <a class="rounded-full px-3 sm:px-5 py-1 sm:p-2 text-xs lg:text-sm inline-block font-medium sm:font-semibold bg-[#E8E8ED] hover:bg-[#ccc]" href="#">Study in Australia</a>
+            </div>
             <div class="quick-link">
                 <div class="readmore-content-both-device flex flex-col items-start justify-start">
                     <div class="readmore-long-content w-full ">
                         <div>
-                            <p>Canada is known globally for its high-quality education and affordable living. It ranks 3rd for the best quality of life. Thus, making it one of the preferred countries to study for international students.</p>
-                            <h2>Cost of&nbsp;Study in Canada</h2>
-                            <p>To&nbsp;study in Canada&nbsp;a student will need approximately CAD 13,000 - CAD 35,000 a year. Although, the tuition fees will depend on the course and the university that you select&nbsp;but here are the basic costs of all the courses.</p>
+                            <p>Russia is known globally for its high-quality education and affordable living. It ranks 3rd for the best quality of life. Thus, making it one of the preferred countries to study for international students.</p>
+                            <h2>Cost of&nbsp;Study in Russia</h2>
+                            <p>To&nbsp;study in Russia&nbsp;a student will need approximately CAD 13,000 - CAD 35,000 a year. Although, the tuition fees will depend on the course and the university that you select&nbsp;but here are the basic costs of all the courses.</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -1641,7 +1651,7 @@
                                             <p><strong><strong>Degree </strong></strong></p>
                                         </td>
                                         <td>
-                                            <p><strong><strong>Canada </strong></strong></p>
+                                            <p><strong><strong>Russia </strong></strong></p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1673,12 +1683,12 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <h2>Student Visa in Canada</h2>
-                            <p>Once you receive your acceptance letter from the university, the next step would be to apply for a student visa. Besides, for Canada&nbsp;study abroad, students are required to get a study permit along with a student visa. A study permit validates your stay in the country while a student visa authorizes the entry. It is issued by the Citizen and Immigration Canada (CIC) authorities.</p>
-                            <p><strong>Also read about</strong><a href="https://web.gradding.com/blog/news/hdfc-bank-td-bank-deal-to-help-indians-with-canada-study-visa-process"><u>how banks help in visa process</u></a>.</p>
-                            <p>Now that you know about Canadian study visas, let us look at the scholarships to study in Canada for international students. Some of the scholarships are listed below.</p>
-                            <h2>Scholarships to Study in Canada</h2>
-                            <p>Universities in Canada provide various scholarships for students both government-funded and non-government-funded. Listed below are a few with the amount that each of these covers.</p>
+                            <h2>Student Visa in Russia</h2>
+                            <p>Once you receive your acceptance letter from the university, the next step would be to apply for a student visa. Besides, for Russia&nbsp;study abroad, students are required to get a study permit along with a student visa. A study permit validates your stay in the country while a student visa authorizes the entry. It is issued by the Citizen and Immigration Russia (CIC) authorities.</p>
+                            <p><strong>Also read about</strong><a href="#"><u>how banks help in visa process</u></a>.</p>
+                            <p>Now that you know about Canadian study visas, let us look at the scholarships to study in Russia for international students. Some of the scholarships are listed below.</p>
+                            <h2>Scholarships to Study in Russia</h2>
+                            <p>Universities in Russia provide various scholarships for students both government-funded and non-government-funded. Listed below are a few with the amount that each of these covers.</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -1691,7 +1701,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p>Vanier Canada Graduate Scholarships funded by the Government of Canada</p>
+                                            <p>Vanier Russia Graduate Scholarships funded by the Government of Russia</p>
                                         </td>
                                         <td>
                                             <p>INR 41,83,826 (CAD 67,322) per year is offered for three years.</p>
@@ -1739,11 +1749,11 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <p>If you are someone who is planning to study abroad in Canada, then you must apply for the above-mentioned scholarships. These would help you maintain your budget without straining your pocket.</p>
-                            <p><strong>Also Read:<a href="https://web.gradding.com/blog/scholarships/canada-scholarships-for-indian-students"><u>&nbsp;scholarships in Canada</u></a>.</strong></p>
-                            <p>Further, let us read more about the intakes in Canada.</p>
-                            <h2>Intakes in Canada</h2>
-                            <p>Most colleges in Canada offer three intakes. However, some universities may also refer to it as semesters.</p>
+                            <p>If you are someone who is planning to study abroad in Russia, then you must apply for the above-mentioned scholarships. These would help you maintain your budget without straining your pocket.</p>
+                            <p><strong>Also Read:<a href="#"><u>&nbsp;scholarships in Russia</u></a>.</strong></p>
+                            <p>Further, let us read more about the intakes in Russia.</p>
+                            <h2>Intakes in Russia</h2>
+                            <p>Most colleges in Russia offer three intakes. However, some universities may also refer to it as semesters.</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -1782,9 +1792,9 @@
                             </table>
                             <p>However, the availability of courses varies as per the intake. Thus, you must check that on the official university website before enrolling for the program.</p>
                             <p>Getting admission to a foreign university isn’t an easy task! Thus, it is better to get assistance from experts. There are various&nbsp;study abroad consultants&nbsp;who guide you through the entire admission process and suggest which intake to apply to, as per your preferences.</p>
-                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="https://web.gradding.com/blog/news/upcoming-canada-intakes"><u>intakes in Canada</u></a></strong></p>
-                            <h2>Top Courses to Study in Canada</h2>
-                            <p>There are various courses to&nbsp;study in Canada&nbsp;for Indian&nbsp;students. Some of them are listed below.</p>
+                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="#"><u>intakes in Russia</u></a></strong></p>
+                            <h2>Top Courses to Study in Russia</h2>
+                            <p>There are various courses to&nbsp;study in Russia&nbsp;for Indian&nbsp;students. Some of them are listed below.</p>
                             <ul>
                                 <li>Business Management</li>
                                 <li>MBBS</li>
@@ -1797,11 +1807,11 @@
                                 <li>Culinary Management</li>
                                 <li>Hospitality Management</li>
                             </ul>
-                            <p>These are some of the popular courses&nbsp;for masters in Canada&nbsp;for Indian&nbsp;students. If you are still unsure about which course to opt for then you can use our&nbsp;AI-powered course finder&nbsp;tool. It is uniquely designed for students to ease out the process of filtration of programs. Moreover, the tool offers&nbsp;75,000+ course&nbsp;options along with various filters as per your preferences. These include the level, duration and country.</p>
-                            <p><strong>Also Read:</strong><a href="https://web.gradding.com/blog/study-abroad/top-courses-in-demand-in-canada"><u>&nbsp;<strong>top courses in Canada</strong></u></a></p>
-                            <p>Now, let us move on to the next section&nbsp;which talks about top universities in Canada.</p>
-                            <h2>Top Universities to Study in&nbsp;Canada</h2>
-                            <p>This section covers&nbsp;top universities in Canada&nbsp;for masters&nbsp;along with the Canada ranks. Let us look at the table below.</p>
+                            <p>These are some of the popular courses&nbsp;for masters in Russia&nbsp;for Indian&nbsp;students. If you are still unsure about which course to opt for then you can use our&nbsp;AI-powered course finder&nbsp;tool. It is uniquely designed for students to ease out the process of filtration of programs. Moreover, the tool offers&nbsp;75,000+ course&nbsp;options along with various filters as per your preferences. These include the level, duration and country.</p>
+                            <p><strong>Also Read:</strong><a href="#"><u>&nbsp;<strong>top courses in Russia</strong></u></a></p>
+                            <p>Now, let us move on to the next section&nbsp;which talks about top universities in Russia.</p>
+                            <h2>Top Universities to Study in&nbsp;Russia</h2>
+                            <p>This section covers&nbsp;top universities in Russia&nbsp;for masters&nbsp;along with the Russia ranks. Let us look at the table below.</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -1809,7 +1819,7 @@
                                             <p><strong><strong>Universities </strong></strong></p>
                                         </td>
                                         <td>
-                                            <p><strong><strong>Canada Ranks</strong></strong></p>
+                                            <p><strong><strong>Russia Ranks</strong></strong></p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1817,7 +1827,7 @@
                                             <p>University of Toronto</p>
                                         </td>
                                         <td>
-                                            <p>1<sup>st</sup>&nbsp;in Canada</p>
+                                            <p>1<sup>st</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1825,7 +1835,7 @@
                                             <p>University of British Columbia</p>
                                         </td>
                                         <td>
-                                            <p>2<sup>nd</sup>&nbsp;in Canada</p>
+                                            <p>2<sup>nd</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1833,7 +1843,7 @@
                                             <p>McGill University</p>
                                         </td>
                                         <td>
-                                            <p>3<sup>rd</sup>&nbsp;in Canada</p>
+                                            <p>3<sup>rd</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1841,7 +1851,7 @@
                                             <p>McMaster University</p>
                                         </td>
                                         <td>
-                                            <p>4<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>4<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1849,7 +1859,7 @@
                                             <p>University of Alberta</p>
                                         </td>
                                         <td>
-                                            <p>5<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>5<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1857,7 +1867,7 @@
                                             <p>University of Montreal</p>
                                         </td>
                                         <td>
-                                            <p>6<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>6<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1865,7 +1875,7 @@
                                             <p>University of Waterloo</p>
                                         </td>
                                         <td>
-                                            <p>7<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>7<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1873,7 +1883,7 @@
                                             <p>University of Calgary</p>
                                         </td>
                                         <td>
-                                            <p>8<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>8<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1881,7 +1891,7 @@
                                             <p>University of Ottawa</p>
                                         </td>
                                         <td>
-                                            <p>9<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>9<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1889,16 +1899,16 @@
                                             <p>Western University</p>
                                         </td>
                                         <td>
-                                            <p>10<sup>th</sup>&nbsp;in Canada</p>
+                                            <p>10<sup>th</sup>&nbsp;in Russia</p>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <p>These are some of the top colleges to study in Canada. Besides, with our <strong><strong>college predictor</strong></strong>&nbsp;tool, you can get an overview of all the universities in the nation. The tool’s user-friendly interface makes it easy for students to filter out colleges. With this, you can find a suitable university as per your needs. It provides results based on various filters such as stream, ranking, fees, location and more.</p>
-                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="https://web.gradding.com/blog/university/cheapest-colleges-in-canada"><u>cheapest colleges in Canada</u></a></strong></p>
-                            <p>Now, let us look at the job opportunities in Canada after students complete their studies.</p>
+                            <p>These are some of the top colleges to study in Russia. Besides, with our <strong><strong>college predictor</strong></strong>&nbsp;tool, you can get an overview of all the universities in the nation. The tool’s user-friendly interface makes it easy for students to filter out colleges. With this, you can find a suitable university as per your needs. It provides results based on various filters such as stream, ranking, fees, location and more.</p>
+                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="#"><u>cheapest colleges in Russia</u></a></strong></p>
+                            <p>Now, let us look at the job opportunities in Russia after students complete their studies.</p>
                             <h2>Job Opportunity After Study</h2>
-                            <p>Canada ranks as one of the best countries among G20. It is known for its business operations in the nation. Besides, the post-graduation work permit (PGWP) makes students eligible to live and work in Canada after graduation. However, the condition is that you&nbsp;must complete the degree from a Designated Learning Institution (DLI) in Canada. Here are some top job profiles in Canada:</p>
+                            <p>Russia ranks as one of the best countries among G20. It is known for its business operations in the nation. Besides, the post-graduation work permit (PGWP) makes students eligible to live and work in Russia after graduation. However, the condition is that you&nbsp;must complete the degree from a Designated Learning Institution (DLI) in Russia. Here are some top job profiles in Russia:</p>
                             <ol>
                                 <li>Project Managers</li>
                             </ol>
@@ -1929,9 +1939,9 @@
                             <ol start="10">
                                 <li>Office Managers and Administrative Assistants</li>
                             </ol>
-                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="https://web.gradding.com/blog/jobs/canada-job-opportunities"><u>Job opportunities after study in Canada </u></a></strong></p>
-                            <p>Thus, there are ample of job opportunities in Canada for&nbsp;study abroad&nbsp;aspirants after studies. Next, let us have a glance at the living cost in Canada.</p>
-                            <h2>Cost of Living in Canada&nbsp;</h2>
+                            <p><strong>Also Read:</strong>&nbsp;<strong><a href="#"><u>Job opportunities after study in Russia </u></a></strong></p>
+                            <p>Thus, there are ample of job opportunities in Russia for&nbsp;study abroad&nbsp;aspirants after studies. Next, let us have a glance at the living cost in Russia.</p>
+                            <h2>Cost of Living in Russia&nbsp;</h2>
                             <p>There are various expenses included in the living expenses such as food, electricity, transportation and more.Here is a list of basic expenses along with the amount per month:</p>
                             <table>
                                 <tbody>
@@ -1940,7 +1950,7 @@
                                             <p><strong><strong>Living Expenses </strong></strong></p>
                                         </td>
                                         <td>
-                                            <p><strong><strong>Canada (per month)</strong></strong></p>
+                                            <p><strong><strong>Russia (per month)</strong></strong></p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1981,44 +1991,44 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <p><strong>Also Read:</strong>&nbsp;<a href="https://web.gradding.com/blog/finance/cost-of-living-in-canada-for-indian-students"><u>cost of living in Canada</u></a>&nbsp;</p>
-                            <p>Now you know all about the cost of studying and living in Canada. So, let us move on to&nbsp;the next section&nbsp;which&nbsp;mentions the reasons to study&nbsp;in Canada.</p>
-                            <h2>Reasons to Study in&nbsp;Canada</h2>
-                            <p>Are you wondering why study in Canada? This section will give you an answer to this question. There are various reasons for studying in Canada, listed below are some of these:</p>
+                            <p><strong>Also Read:</strong>&nbsp;<a href="#"><u>cost of living in Russia</u></a>&nbsp;</p>
+                            <p>Now you know all about the cost of studying and living in Russia. So, let us move on to&nbsp;the next section&nbsp;which&nbsp;mentions the reasons to study&nbsp;in Russia.</p>
+                            <h2>Reasons to Study in&nbsp;Russia</h2>
+                            <p>Are you wondering why study in Russia? This section will give you an answer to this question. There are various reasons for studying in Russia, listed below are some of these:</p>
                             <ol>
-                                <li><strong>Affordable Tuition:</strong> The tuition fee in Canada is fairly cheaper than in other nations. Further, there are various scholarships for students as well.</li>
-                                <li><strong>Top-notch Education:</strong> Canada is home to some of the world’s best universities and colleges.</li>
-                                <li><strong>Cultural Diversity:</strong> Canada has a multicultural environment. Moreover, there are very welcoming and warm people from varied ethnic groups.</li>
+                                <li><strong>Affordable Tuition:</strong> The tuition fee in Russia is fairly cheaper than in other nations. Further, there are various scholarships for students as well.</li>
+                                <li><strong>Top-notch Education:</strong> Russia is home to some of the world’s best universities and colleges.</li>
+                                <li><strong>Cultural Diversity:</strong> Russia has a multicultural environment. Moreover, there are very welcoming and warm people from varied ethnic groups.</li>
                                 <li><strong>Campus Lifestyle:</strong> The country is famous for its lively and vibrant lifestyle. Students can be a part of a variety of fests and activities.</li>
-                                <li><strong>Studying &amp; Working:</strong> Students may work part-time while studying in Canada for up to 20 hours per week.</li>
+                                <li><strong>Studying &amp; Working:</strong> Students may work part-time while studying in Russia for up to 20 hours per week.</li>
                             </ol>
                             <p><strong><strong>Conclusion </strong></strong></p>
-                            <p>To wrap up, Canada&nbsp;is the perfect study destination for students. The country is known for its affordable living and quality of life.&nbsp;Further, the write-up covers the reasons to study in the nation and the various costs that students incur in Canada. Besides, if you are facing any doubts, then you must seek assistance from experts such as DoctorBano.com. They will assist and guide you throughout the process.</p>
+                            <p>To wrap up, Russia&nbsp;is the perfect study destination for students. The country is known for its affordable living and quality of life.&nbsp;Further, the write-up covers the reasons to study in the nation and the various costs that students incur in Russia. Besides, if you are facing any doubts, then you must seek assistance from experts such as DoctorBano.com. They will assist and guide you throughout the process.</p>
                             <p><strong><strong>Some useful links:</strong></strong></p>
                             <table>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <p><a href="https://web.gradding.com/blog/scholarships/scholarships-in-canada-for-indian-students">Fully Funded Scholarships</a></p>
+                                            <p><a href="#">Fully Funded Scholarships</a></p>
                                         </td>
                                         <td>
-                                            <p><a href="https://web.gradding.com/blog/scholarships/scholarships-for-international-students-in-canada">Scholarships for international students in Canada</a></p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <p><a href="https://web.gradding.com/blog/finance/study-loan-for-canada">Study Loans in Canada</a>&nbsp;</p>
-                                        </td>
-                                        <td>
-                                            <p><a href="https://web.gradding.com/blog/jobs/part-time-jobs-in-canada-for-international-students">Part Time Jobs in Canada</a></p>
+                                            <p><a href="#">Scholarships for international students in Russia</a></p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p><a href="https://web.gradding.com/blog/jobs/average-salary-in-canada">Salary in Canada </a></p>
+                                            <p><a href="#">Study Loans in Russia</a>&nbsp;</p>
                                         </td>
                                         <td>
-                                            <p><a href="https://web.gradding.com/blog/study-abroad/canada-education-system">Education system in Canada</a></p>
+                                            <p><a href="#">Part Time Jobs in Russia</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><a href="#">Salary in Russia </a></p>
+                                        </td>
+                                        <td>
+                                            <p><a href="#">Education system in Russia</a></p>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -2034,7 +2044,7 @@
                 const root = document.querySelector('.quick-link .readmore-content-both-device .readmore-long-content > div');
                 if (!root) return;
 
-                // First paragraph (the one starting "Canada is known globally...")
+                // First paragraph (the one starting "Russia is known globally...")
                 const firstPara = root.querySelector('p');
                 if (!firstPara) return;
 

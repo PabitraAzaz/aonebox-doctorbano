@@ -33,7 +33,7 @@
 <main id="main-content" style="display: none;">
     <div class="relative bg-[#ededed]">
         <img src="<?= base_url('public/') ?>assets/images/bg/doctorbano-blue.webp" alt="doctorbano" width="1530"
-            height="106" class="header-bg-img" loading="lazy" />
+            height="106" class="header-bg-img" loading="lazy" style="z-index: -99"/>
 
         <!-- Navigation Start -->
         <div class="hidden md:flex sticky z-50 top-2 mb-2">
