@@ -96,44 +96,45 @@
                 <!-- Footer Menus -->
                 <div class="hidden mt-4 lg:mt-0 w-full lg:w-2/3 lg:flex justify-between">
                     <div class="w-1/4">
+                        <p class="footer-menu-title font-medium text-[#74579]">Quick Links</p>
                         <ul class="footer-link-list">
                             <li><a href="<?= base_url('about') ?>">About Us</a></li>
                             <li><a href="<?= base_url('contact') ?>">Contact Us</a></li>
                             <li><a href="<?= base_url('blogs') ?>">Blogs</a></li>
                             <li><a href="<?= base_url('faq') ?>">FAQs</a></li>
+                            <li><a href="">Events</a></li>
                         </ul>
                     </div>
                     <div class="w-1/4">
-                        <p class="footer-menu-title">Study Abroad</p>
+                        <p class="footer-menu-title font-medium text-[#74579]">Study Abroad</p>
                         <ul class="footer-link-list">
-                            <li><a href="study-in-uk.html">Study in UK</a></li>
-                            <li><a href="study-in-usa.html">Study in USA</a></li>
-                            <li><a href="study-in-canada.html">Study in Canada</a></li>
-                            <li><a href="study-in-australia.html">Study in Australia</a></li>
-                            <li><a href="study-in-hungary.html">Study in Hungary</a></li>
-                            <li><a href="study-in-malta.html">Study in Malta</a></li>
+                            <li><a href="<?=base_url('universities')?>">Study in Russia</a></li>
+                            <li><a href="<?=base_url('universities')?>">Study in Kazakhstan</a></li>
+                            <li><a href="<?=base_url('universities')?>">Study in Georgia</a></li>
+                            <li><a href="<?=base_url('universities')?>">Study in Uzbekistan</a></li>
+                            <li><a href="<?=base_url('universities')?>">Study in Armenia</a></li>
+                            <li><a href="<?=base_url('universities')?>">Study in Kyrygsthan</a></li>
                         </ul>
                     </div>
                     <div class="w-1/4">
-                        <p class="footer-menu-title">Test Prep</p>
+                        <p class="footer-menu-title font-medium text-[#74579]">Test Prep</p>
                         <ul class="footer-link-list">
-                            <li><a href="test-preparation/ielts.html">IELTS</a></li>
-                            <li><a href="test-preparation/pte.html">PTE</a></li>
-                            <li><a href="test-preparation/toefl.html">TOEFL</a></li>
+                            <li><a href="#">IELTS</a></li>
+                            <li><a href="#">PTE</a></li>
+                            <li><a href="#">TOEFL</a></li>
                             <li><a href="#">DET</a></li>
                             <li><a href="#">GMAT</a></li>
                             <li><a href="#">SAT</a></li>
                         </ul>
                     </div>
                     <div class="w-1/4">
-                        <p class="footer-menu-title">Top Universities</p>
+                        <p class="footer-menu-title font-medium text-[#74579]">Top Universities</p>
                         <ul class="footer-link-list">
-                            <li><a href="college-predictor?countryId=39">Canada</a></li>
-                            <li><a href="college-predictor?countryId=233">USA</a></li>
-                            <li><a href="college-predictor?countryId=79">UK</a></li>
-                            <li><a href="college-predictor?countryId=15">Australia</a></li>
-                            <li><a href="college-predictor?countryId=100">Hungary</a></li>
-                            <li><a href="college-predictor?countryId=146">Malta</a></li>
+                            <li><a href="<?=base_url('universities')?>">China</a></li>
+                            <li><a href="<?=base_url('universities')?>">Philippines</a></li>
+                            <li><a href="<?=base_url('universities')?>">Ukraine</a></li>
+                            <li><a href="<?=base_url('universities')?>">Bangladesh</a></li>
+                            <li><a href="<?=base_url('universities')?>">Nepal</a></li>
                         </ul>
                     </div>
                 </div>
@@ -161,13 +162,13 @@
 
             <!-- Legal -->
             <div class="flex flex-wrap items-center justify-between py-3 text-sm text-[#6E6E73] font-medium">
-                <p>© <?= date("Y") ?> Doctor Bano. All rights reserved.</p>
+                <p>© <?= date("Y") ?><a href="#"><u> Doctor Bano</u></a>. All rights reserved.</p>
                 <div class="flex gap-2">
                     <a href="<?=base_url('privacy-policy')?>">Privacy Policy</a> |
                     <a href="<?=base_url('terms-conditions')?>">Terms & Conditions</a> |
                     <a href="<?=base_url('payment-refund')?>">Payment & Refund Policy</a>
                 </div>
-                <p>Doctor Bano Rated 4.7/5 based on 4474 Reviews</p>
+                <p>Managed by <a href="https://www.aonebox.com/"><u>a-one box</u></a>.</p>
             </div>
         </div>
 

@@ -24,37 +24,65 @@ class Home extends BaseController
 
     public function universities()
     {
+        $uniModel = new UniversityModel();
+        $uniData  = $uniModel->findAll(8);
 
-        $uniM = new UniversityModel;
-        $uniData = $uniM->findAll(8);
+        $blogModel = new BlogModel();
+        $blogs = $blogModel->orderBy('blog_id', 'DESC')->findAll(8);
 
-        // echo '<pre>';print_r($uniData);exit;
-
-        return view('web/universities', ['uniData' => $uniData]);
+        return view('web/universities', [
+            'uniData' => $uniData,
+            'blogs'   => $blogs
+        ]);
     }
 
-    public function singleUniversity()
+    public function singleUniversity($key = null)
     {
-        return view('web/single_university');
+        $blogModel = new BlogModel();
+        $blogs = $blogModel->orderBy('blog_id', 'DESC')->findAll(8);
+
+        return view('web/single_university', [
+            'blogs' => $blogs
+        ]);
     }
 
     public function blogs()
     {
-        return view('web/blogs');
+        $blogModel = new BlogModel();
+
+        // Trending: latest 3 blogs
+        $trend = $blogModel->orderBy('blog_id', 'DESC')->findAll(2);
+
+        // Recent: paginate all blogs
+        $recent = $blogModel->orderBy('blog_id', 'DESC')->paginate(5, 'blogs');
+        $pager  = $blogModel->pager;
+
+        return view('web/blogs', [
+            'trend'  => $trend,
+            'recent' => $recent,
+            'pager'  => $pager
+        ]);
     }
 
-    public function single_blog($id)
+    public function singleBlog($id)
     {
         $blogsModel = new BlogModel();
-        $single_blog = $blogsModel->where('blog_id', $id)->first();
 
-        if ($single_blog) {
-            return view('web/single_blog', [
-                'singleBlog' => $single_blog
-            ]);
-        } else {
+        $singleBlog = $blogsModel->where('blog_id', $id)->first();
+
+        if (!$singleBlog) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
+
+        $otherBlogs = $blogsModel
+            ->where('blog_id !=', $id)
+            ->orderBy('blog_id', 'DESC')
+            ->findAll(8);
+
+        return view('web/single_blog', [
+            'singleBlog' => $singleBlog,
+            'blogs'      => $otherBlogs
+        ]);
     }
 
     public function faq()
