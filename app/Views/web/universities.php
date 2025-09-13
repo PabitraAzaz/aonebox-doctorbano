@@ -234,9 +234,7 @@
 
                         <!-- Right section: Button -->
                         <div class="w-[28%]">
-                            <button class="w-full shadow-md relative px-8 py-3 text-base font-bold text-white overflow-hidden 
-                                   group focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75 
-                                   hover:scale-105 transition-transform duration-300 ease-in-out animate-border rounded-xl">
+                            <button class="w-full shadow-md relative px-8 py-3 text-base font-bold text-white overflow-hidden group hover:scale-105 transition-transform duration-300 ease-in-out rounded-xl bg-gradient-to-r from-[#0091e4] to-[#0072ce]">
                                 <span class="relative z-10">Check Eligibility</span>
                                 <div class="absolute inset-0 bg-gradient-to-r from-blue-200 via-blue-400 to-blue-600 animate-gradient-x opacity-80"
                                     style="background-size: 200% 100%;">
@@ -777,7 +775,6 @@
             .steps:hover .white {
                 color: #fff !important;
                 text-decoration-color: #fff;
-                /* underline stays visible */
             }
 
             /* NEW: Step 5 (data-default) is white even without hover */
@@ -812,23 +809,24 @@
                     </ul>
                     <div>
                         <img id="leftImage" alt="helpLeftGroup" width="453" height="454"
-                            src="/_next/image?url=%2Fconsultancy-module%2Fcity%2FhelpLeftGroup5.png&amp;w=1080&amp;q=75">
+                            src="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup.webp">
                     </div>
                 </div>
 
                 <!-- RIGHT: CARDS -->
                 <div id="stepsWrap" class="flex flex-wrap w-full sm:w-[55%] gap-2 sm:gap-x-2.5 sm:gap-y-10 justify-between">
 
-                    <!-- Step 1 -->
-                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
+                    <!-- Step 1 (Default) -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 !bg-opacity-40 !bg-[#066bc9] border-white shadow-[13px_6px_18px_0px_rgba(0,0,0,0.1)] border-3 duration-200 bg-white"
                         tabindex="0"
+
                         data-lead="Expert Counselling"
                         data-sub="Talk to doctors &amp; senior mentors"
                         data-bullets="Profile evaluation|Country &amp; university shortlist|Scholarship pointers"
-                        data-image="<?= base_url('public/') ?>assets/images/avatar/help1.webp">
-                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
-                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 1</p>
-                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Expert Counselling</p>
+                        data-image="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup.webp">
+                        <div booksession="true" class="cursor-pointer z-10 text-xs sm:text-sm font-semibold text-left text-white underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-white">Step 1</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-white sm:w-[150px]">Expert Counselling</p>
                             <span class="white underline">Discuss with Expert</span>
                             <img alt="Expert CounsellingImg" width="118" height="115" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help1.webp">
                         </div>
@@ -840,7 +838,7 @@
                         data-lead="Document Preparation"
                         data-sub="Build a strong application file"
                         data-bullets="SOP/LOR guidance|Document checklist|Timeline planning"
-                        data-image="<?= base_url('public/') ?>assets/images/avatar/help2.webp">
+                        data-image="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup2.webp">
                         <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
                             <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 2</p>
                             <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Document Preparation</p>
@@ -855,7 +853,7 @@
                         data-lead="University Application"
                         data-sub="Submit, track, and manage offers"
                         data-bullets="Application forms|Fee payment guidance|Offer tracking"
-                        data-image="<?= base_url('public/') ?>assets/images/avatar/help3.webp">
+                        data-image="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup3.webp">
                         <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
                             <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 3</p>
                             <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">University Application</p>
@@ -870,7 +868,7 @@
                         data-lead="Test Preparation"
                         data-sub="Boost scores with guided practice"
                         data-bullets="IELTS/TOEFL tips|Mock tests|Personalised study plan"
-                        data-image="<?= base_url('public/') ?>assets/images/avatar/help4.webp">
+                        data-image="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup4.webp">
                         <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
                             <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 4</p>
                             <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Test Preparation</p>
@@ -879,17 +877,16 @@
                         </div>
                     </div>
 
-                    <!-- Step 5 (Default) -->
-                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 !bg-opacity-40 !bg-[#066bc9] border-white shadow-[13px_6px_18px_0px_rgba(0,0,0,0.1)] border-3 duration-200 bg-white"
+                    <!-- Step 5 -->
+                    <div class="steps group w-[48%] sm:w-[45%] rounded-[14px] p-2 pb-12 sm:p-6 sm:pb-12 relative flex flex-col gap-2 sm:gap-y-3.5 border-transparent border-3 duration-200 bg-white"
                         tabindex="0"
-                        data-default="true"
                         data-lead="Loan &amp; Visa Assistance"
                         data-sub="A complete guide to study loan and visa"
                         data-bullets="Get funds to study abroad|Study visa application|Get help for visa interview"
-                        data-image="<?= base_url('public/') ?>assets/images/avatar/help5.webp">
-                        <div booksession="true" class="cursor-pointer z-10 text-xs sm:text-sm font-semibold text-left text-white underline">
-                            <p class="white text-xs sm:text-sm font-bold text-left text-white">Step 5</p>
-                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-white sm:w-[150px]">Loan &amp; Visa Assistance</p>
+                        data-image="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup5.webp">
+                        <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
+                            <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 5</p>
+                            <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Loan &amp; Visa Assistance</p>
                             <span class="white underline">Discuss with Expert</span>
                             <img alt="Loan &amp; Visa AssistanceImg" width="146" height="92" class="absolute z-0 right-0 bottom-0" src="<?= base_url('public/') ?>assets/images/avatar/help5.webp">
                         </div>
@@ -901,7 +898,7 @@
                         data-lead="Accommodation Assistance"
                         data-sub="Find safe, budget-friendly stays"
                         data-bullets="On/near-campus options|Budget planning|Booking support"
-                        data-image="<?= base_url('public/') ?>assets/images/avatar/help6.webp">
+                        data-image="<?= base_url('public/') ?>assets/images/collage/helpLeftGroup6.webp">
                         <div booksession="true" class="cursor-pointer no-underline z-10 text-xs sm:text-sm font-semibold text-left text-primary underline">
                             <p class="white text-xs sm:text-sm font-bold text-left text-cutmGrey">Step 6</p>
                             <p class="white text-[13px] sm:text-2xl font-bold text-left text-[#1D1D1F] sm:w-[150px]">Accommodation Assistance</p>
@@ -1160,7 +1157,7 @@
                                             height="433"
                                             decoding="async"
                                             class="rounded-2xl w-full h-full object-cover"
-                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/arush.webp">
+                                            src="<?= base_url('public/') ?>assets/images/yt_thumbnail/arush.webp">
                                     </div>
                                 </div>
                             </div>
@@ -1176,7 +1173,7 @@
                                             height="433"
                                             decoding="async"
                                             class="rounded-2xl w-full h-full object-cover"
-                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/deepika.webp">
+                                            src="<?= base_url('public/') ?>assets/images/yt_thumbnail/deepika.webp">
                                     </div>
                                 </div>
                             </div>
@@ -1192,7 +1189,7 @@
                                             height="433"
                                             decoding="async"
                                             class="rounded-2xl w-full h-full object-cover"
-                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/manan.webp">
+                                            src="<?= base_url('public/') ?>assets/images/yt_thumbnail/manan.webp">
                                     </div>
                                 </div>
                             </div>
@@ -1208,7 +1205,7 @@
                                             height="433"
                                             decoding="async"
                                             class="rounded-2xl w-full h-full object-cover"
-                                            src="<?=base_url('public/')?>assets/images/yt_thumbnail/zeeshan.webp">
+                                            src="<?= base_url('public/') ?>assets/images/yt_thumbnail/zeeshan.webp">
                                     </div>
                                 </div>
                             </div>
@@ -1294,81 +1291,7 @@
             }
         </style>
 
-        <!-- Gradding Blogs Section -->
-        <div class=" m-auto my-12 sm:my-14 xl:px-0 md:-pl-10 blog-slider">
-            <h2 class=" text-2xl lg:text-[28px] xl:text-[30px] 2xl:text-[34px] font-normal text-center">Gradding<!-- --> <span class="font-medium inline-block text-primary">Blogs</span></h2>
-            <div class="flex gap-3 items-center justify-center mt-4 mb-2">
-                <p class="text-[14px] text-[#6E6E73] font-medium">Want to read more?</p><a class="p-2 font-medium rounded-md text-[14px] inline-block bg-[#006ac91a] text-primary hover:bg-[#006ac9] hover:text-white capitalize" href="https://www.gradding.com/blog">explore blogs<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="inline-block font-normal" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
-                    </svg></a>
-            </div>
-            <div class="slider-container swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
-                <div class="slider swiper-wrapper">
-                    <div class="slide swiper-slide swiper-slide-active first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="0" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-frequency"><img title="Adverb of Frequency" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/adverb-of-frequency-6895.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverb of Frequency: Definition, Examples, Rules, Worksheet<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 08, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                    <div class="slide swiper-slide swiper-slide-next first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="1" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-degree"><img title="What Is Adverbs of Degree?" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/adverbs-of-degree-6894.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverbs of Degree: Definition, Rules, and Examples<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 07, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="2" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/prepositions-of-place"><img title="Prepositions of Place" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/prepositions-of-place-6892.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full">
-                                <span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Prepositions of Place: Explanation, Examples, &amp; Exercise<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 06, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="3" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-manner"><img title="Adverbs of Manner" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/prepositions-of-place-1-6892.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full">
-                                <span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverbs of Manner: Rules to Form, Examples &amp; Practice Exercise<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 06, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="4" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/adverbs-of-place"><img title="Adverbs of Place" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/adverbs-of-place-6891.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Adverbs of Place: Definition, Types, Examples, and Worksheet<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 05, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="5" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/subordinating-conjunctions"><img title="Subordinating Conjunction" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/subordinating-conjunction-6891.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Subordinating Conjunctions: Common Uses, Examples &amp; Worksheets<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 05, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                    <div class="slide swiper-slide first:ml-[1.6rem] first:sm:ml-[3rem] first:lg:ml-[4rem] first:xl:ml-[6rem] first:2xl:ml-[18rem] sm:mt-3 sm:mb-16" data-swiper-slide-index="6" style="width: 497.333px; margin-right: 40px;"><a class="overflow-hidden hover:shadow-[0px_4px_14px_0px_#00000040] rounded-[16px] block transition-all ease-in-out" href="https://www.gradding.com/blog/english/uncountable-nouns"><img title="Uncountable Nouns" loading="lazy" width="408" height="230" decoding="async" data-nimg="1" class="h-full w-full" style="color:transparent" src="<?= base_url('public/') ?>assets/images/blogs/uncountable-nouns-6891.webp">
-                            <div class="bg-white p-3 lg:p-4 w-full"><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->English<!-- --> </span>
-                                <h3 class="text-limit text-ellipsis font-semibold text-sm lg:text-base xl:text-lg text-[#1D1D1F] md:min-h-14 min-h-10"> <!-- -->Uncountable Nouns: Meaning, Definition, Examples, Worksheet<!-- --> </h3><span class="font-semibold text-[10px] lg:text-xs xl:text-sm text-[#6E6E73]"> <!-- -->Aug 05, 2025<!-- --> </span>
-                            </div>
-                        </a></div>
-                </div>
-            </div>
-            <div class="flex justify-center gap-28">
-                <button class="prev swiper-button-prev-custom flex items-center gap-1 text-base">
-                    <span>
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.41406 8.34263L7.36406 12.2926C7.54171 12.4821 7.63869 12.7332 7.63448 12.9929C7.63026 13.2526 7.52518 13.5004 7.34146 13.684C7.15775 13.8676 6.90982 13.9725 6.65014 13.9765C6.39045 13.9806 6.13938 13.8834 5.95006 13.7056L0.293058 8.04963C0.199873 7.95697 0.125924 7.84681 0.0754624 7.72548C0.0250011 7.60415 -0.000976563 7.47404 -0.000976562 7.34263C-0.000976562 7.21122 0.0250011 7.08111 0.0754624 6.95977C0.125924 6.83844 0.199873 6.72828 0.293058 6.63563L5.95006 0.978628C6.0423 0.883118 6.15265 0.806936 6.27465 0.754527C6.39666 0.702118 6.52788 0.674531 6.66066 0.673378C6.79344 0.672224 6.92512 0.697525 7.04801 0.747806C7.17091 0.798087 7.28256 0.87234 7.37645 0.966233C7.47035 1.06013 7.5446 1.17178 7.59488 1.29467C7.64516 1.41757 7.67046 1.54925 7.66931 1.68203C7.66815 1.81481 7.64057 1.94603 7.58816 2.06803C7.53575 2.19004 7.45957 2.30038 7.36406 2.39263L3.41406 6.34263H13.0001C13.2653 6.34263 13.5196 6.44798 13.7072 6.63552C13.8947 6.82306 14.0001 7.07741 14.0001 7.34263C14.0001 7.60784 13.8947 7.8622 13.7072 8.04973C13.5196 8.23727 13.2653 8.34263 13.0001 8.34263H3.41406Z" fill="#0F172A"></path>
-                        </svg>
-                    </span>
-                    <span>Prev</span>
-                </button>
-                <button class="next swiper-button-next-custom flex items-center gap-1 text-base">
-                    <span>Next</span>
-                    <span>
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_5_2)">
-                                <path d="M10.5859 5.65746L6.63591 1.70749C6.45826 1.51799 6.36128 1.26689 6.36549 1.00719C6.36971 0.747492 6.47479 0.499692 6.65851 0.316092C6.84222 0.132492 7.09015 0.0275928 7.34983 0.0235928C7.60952 0.0194928 7.86059 0.116693 8.04991 0.294493L13.7069 5.95046C13.8001 6.04312 13.874 6.15328 13.9245 6.27461C13.975 6.39594 14.0009 6.52605 14.0009 6.65746C14.0009 6.78887 13.975 6.91898 13.9245 7.04032C13.874 7.16165 13.8001 7.27181 13.7069 7.36446L8.04991 13.0215C7.95767 13.117 7.84732 13.1932 7.72532 13.2456C7.60331 13.298 7.47209 13.3256 7.33931 13.3267C7.20653 13.3279 7.07485 13.3026 6.95196 13.2523C6.82906 13.202 6.71741 13.1278 6.62352 13.0339C6.52962 12.94 6.45537 12.8283 6.40509 12.7054C6.35481 12.5825 6.32951 12.4508 6.33066 12.3181C6.33182 12.1853 6.3594 12.0541 6.41181 11.9321C6.46422 11.8101 6.5404 11.6997 6.63591 11.6075L10.5859 7.65746L0.99987 7.65746C0.73467 7.65746 0.48037 7.55211 0.29277 7.36457C0.10527 7.17703 -0.000129819 6.92268 -0.000129819 6.65746C-0.000129819 6.39225 0.10527 6.13789 0.29277 5.95036C0.48037 5.76282 0.73467 5.65746 0.99987 5.65746L10.5859 5.65746Z" fill="#0F172A"></path>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_5_2">
-                                    <rect width="14" height="14" fill="white" transform="matrix(-1 0 0 -1 14 14.0001)"></rect>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </span>
-                </button>
-            </div>
-        </div>
+        <?= $this->include('web/components/blogs_slider.php') ?>
 
         <!-- js for slider -->
         <script>

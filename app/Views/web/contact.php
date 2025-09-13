@@ -220,107 +220,67 @@
                 <form class="flex flex-col gap-6">
 
                     <!-- Name field -->
-                    <div>
-                        <div class="group flex flex-col w-full relative">
-                            <!-- Input wrapper -->
-                            <div class="h-full flex flex-col">
-                                <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11" style="cursor: text;">
-                                    <label for="name" class="absolute text-para text-base p-0">
-                                    </label>
-                                    <div class="inline-flex w-full items-center h-full">
-                                        <input
-                                            id="name"
-                                            name="name"
-                                            type="text"
-                                            placeholder="Enter Name"
-                                            class="w-full font-normal bg-transparent outline-none text-para text-base">
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="group flex flex-col w-full relative">
+                        <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11">
+                            <input
+
+                                name="name"
+                                type="text"
+                                placeholder="Enter Name"
+                                class="w-full font-normal bg-transparent outline-none text-para text-base">
                         </div>
                     </div>
 
                     <!-- Email field -->
-                    <div>
-                        <div class="group flex flex-col w-full relative">
-                            <div class="h-full flex flex-col">
-                                <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11" style="cursor: text;">
-                                    <label for="email" class="absolute text-para text-base p-0">
-                                    </label>
-                                    <div class="inline-flex w-full items-center h-full">
-                                        <input
-                                            id="email"
-                                            name="email"
-                                            type="text"
-                                            placeholder="Enter Email"
-                                            class="w-full font-normal bg-transparent outline-none text-para text-base">
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="group flex flex-col w-full relative">
+                        <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11">
+                            <input
+
+                                name="email"
+                                type="email"
+                                placeholder="Enter Email"
+                                class="w-full font-normal bg-transparent outline-none text-para text-base">
                         </div>
                     </div>
-
 
                     <!-- Country code -->
                     <div class="md:w-1/4 w-1/3">
-                        <div class="group inline-flex flex-column w-full">
-                            <div class="group flex flex-col w-full relative">
-                                <div class="h-full flex flex-col">
-                                    <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11" style="cursor: text;">
-                                        <label for="country" class="absolute text-para text-base p-0">
+                        <div class="group flex flex-col w-full relative">
+                            <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11">
+                                <input
 
-                                        </label>
-                                        <div class="inline-flex w-full items-center h-full">
-                                            <input
-                                                id="country"
-                                                name="country"
-                                                type="text"
-                                                placeholder="Search Country"
-                                                class="w-full font-normal bg-transparent outline-none text-para text-base">
-                                        </div>
-                                    </div>
-                                </div>
+                                    name="country"
+                                    type="text"
+                                    placeholder="Search Country"
+                                    class="w-full font-normal bg-transparent outline-none text-para text-base">
                             </div>
                         </div>
                     </div>
 
-                    <!-- Mobile number fields -->
+                    <!-- Mobile number -->
                     <div class="flex justify-between">
-                        <!-- Mobile number -->
-                        <div class="md:w-[70%] w-3/5 ">
+                        <div class="md:w-[70%] w-3/5">
                             <div class="group flex flex-col w-full relative">
-                                <div class="h-full flex flex-col">
-                                    <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11" style="cursor: text;">
-                                        <div class="inline-flex w-full items-center h-full">
-                                            <input
-                                                name="mobile"
-                                                type="number"
-                                                placeholder="Mobile Number"
-                                                class="w-full font-normal bg-transparent outline-none text-para text-base">
-                                        </div>
-                                    </div>
+                                <div class="relative w-full inline-flex items-center px-3 gap-3 min-h-10 rounded-medium bg-white shadow-sm h-11">
+                                    <input
+                                        name="mobile"
+                                        type="tel"
+                                        placeholder="Mobile Number"
+                                        class="w-full font-normal bg-transparent outline-none text-para text-base">
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                     <!-- Message field -->
-                    <div>
-                        <div class="group flex flex-col w-full text-base">
-                            <label for="message" class="text-para text-base p-0">
+                    <div class="group flex flex-col w-full text-base">
+                        <div class="relative w-full inline-flex items-center px-3 gap-3 py-2 min-h-10 rounded-medium bg-white shadow-sm">
+                            <textarea
 
-                            </label>
-                            <div class="relative w-full inline-flex items-center px-3 gap-3 py-2 min-h-10 rounded-medium bg-white shadow-sm" style="cursor: text;">
-                                <div class="inline-flex w-full items-start bg-white">
-                                    <textarea
-                                        id="message"
-                                        name="message"
-                                        placeholder="Enter Message"
-                                        class="w-full font-normal bg-transparent outline-none text-para text-base resize-none"
-                                        style="height: 72px !important;"></textarea>
-                                </div>
-                            </div>
+                                name="message"
+                                placeholder="Enter Message"
+                                class="w-full font-normal bg-transparent outline-none text-para text-base resize-none"
+                                style="height: 72px;"></textarea>
                         </div>
                     </div>
 
@@ -330,6 +290,8 @@
                     </button>
 
                 </form>
+
+
             </div>
         </div>
     </div>
