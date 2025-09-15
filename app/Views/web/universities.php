@@ -202,8 +202,7 @@
                         <div class="w-[28%]">
                             <button class="w-full shadow-md relative px-8 py-3 text-base font-bold text-white overflow-hidden group hover:scale-105 transition-transform duration-300 ease-in-out rounded-xl bg-gradient-to-r from-[#0091e4] to-[#0072ce]">
                                 <span class="relative z-10">Check Eligibility</span>
-                                <div class="absolute inset-0 bg-gradient-to-r from-blue-200 via-blue-400 to-blue-600 animate-gradient-x opacity-80"
-                                    style="background-size: 200% 100%;">
+                                <div class="absolute inset-0 bg-gradient-to-r from-blue-200 via-blue-400 to-blue-600 animate-gradient-x opacity-80" style="background-size: 200% 100%;">
                                 </div>
                             </button>
                         </div>
@@ -220,25 +219,9 @@
         <!-- Popular Universities Section -->
         <div class="my-12 sm:my-20">
             <div class="container text-left flex items-center justify-between">
-                <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%]"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block">Popular Universities</span> to study in Russia</h2>
-                <!-- <a class="bg-white text-[#1F2022] border border-[#E8E8E8] text-[15px] font-semibold flex items-center gap-2 py-2.5 px-5 rounded-[14px] hover:shadow-lg transition-all ease-in-out duration-300" href="https://www.gradding.com/course-finder?countryId=39">View All
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18.25 15.5a.75.75 0 0 1-.75-.75V7.56L7.28 17.78a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L16.44 6.5H9.25a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75Z"></path>
-                    </svg>
-                </a> -->
+                <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%]"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block text-[#ff8401]">Popular Universities</span> to study in Russia</h2>
             </div>
             <div class="flex w-full flex-col mt-5">
-                <!-- <div data-slot="base" class="inline-flex base container sm:inline-flex -webkit-box w-full" aria-label="Options">
-                    <div data-slot="tabList" class="flex h-fit items-center flex-nowrap overflow-x-scroll scrollbar-hide tablist gap-2 sm:gap-6 w-full relative rounded-[14px] p-1.5 sm:p-2.5 px-[12.8px] bg-transparent" id="react-aria3673307509-:r19q:" aria-label="Options" role="tablist" aria-orientation="horizontal"><button data-slot="tab" tabindex="0" data-key="Health" id="react-aria3673307509-:r19q:-tab-Health" aria-selected="true" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button" data-selected="true" aria-controls="react-aria3673307509-:r19q:-tabpanel-Health"><span class="absolute z-0 inset-0 rounded-full text-primary-foreground w-full bg-primary" data-slot="cursor" style="opacity: 1;"></span>
-                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Health</span></div>
-                        </button><button data-slot="tab" tabindex="-1" data-key="Engineering" id="react-aria3673307509-:r19q:-tab-Engineering" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
-                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Engineering</span></div>
-                        </button><button data-slot="tab" tabindex="-1" data-key="mba" id="react-aria3673307509-:r19q:-tab-mba" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
-                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>MBA</span></div>
-                        </button><button data-slot="tab" tabindex="-1" data-key="Other" id="react-aria3673307509-:r19q:-tab-Other" aria-selected="false" role="tab" class="z-0 w-full py-1 flex group relative justify-center items-center cursor-pointer tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small rounded-full tab group active-shadow-lg transition-all max-w-fit px-2 h-8 sm:h-10 group-data-[selected=true]:bg-primary group-hover:text-white data-[hover=true]:opacity-100 group-data-[selected=true]:text-white" type="button">
-                            <div class="relative z-10 whitespace-nowrap text-sm sm:text-base font-medium group-data-[selected=true]:text-white text-primary border-1 border-primary px-4 sm:px-6 h-8 sm:h-10 flex items-center rounded-full transition-all" data-slot="tabContent"><span>Other</span></div>
-                        </button></div>
-                </div> -->
                 <div data-focus="false" data-focus-visible="false" id="react-aria3673307509-:r19q:-tabpanel-Health" aria-labelledby="react-aria3673307509-:r19q:-tab-Health" role="tabpanel" class="py-3 px-1 data-[inert=true]:hidden outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2" data-slot="panel">
                     <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" lazy="true">
                         <div class="swiper-wrapper">
@@ -255,17 +238,17 @@
                                                 <div class="flex items-center justify-center relative max-w-7 max-h-9 min-w-7 min-h-9">
                                                     <img alt="University Logo" loading="lazy" width="28" height="32" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/university/Mount-Saint-Vincet-University.webp" style="color: transparent;">
                                                 </div>
-                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href="<?=base_url('university/').$uiversityData['uni_id']?>"><?= $uiversityData['uni_name'] ?></a>
+                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href="<?= base_url('university/') . $uiversityData['uni_id'] ?>"><?= $uiversityData['uni_name'] ?></a>
                                                 <div class="flex flex-col gap-2 items-start min-h-[84px]">
                                                     <div class="flex items-center gap-[10px] w-full justify-start">
                                                         <div class="border border-[#655F5F] rounded-full p-[10px] w-fit flex items-center gap-1"><img alt="Currency Logo" loading="lazy" width="15" height="15" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/icons/coin.webp" style="color: transparent;"><span class="text-[#171923] text-xs font-medium text-nowrap">INR 10.85L/Y</span></div>
                                                     </div>
                                                     <div class="flex items-center gap-2.5 w-full justify-start z-10">
                                                         <div class="border border-[#655F5F] rounded-full p-2 sm:p-[10px] w-fit  text-xs font-medium flex items-center gap-1"><span class="text-xs font-medium text-[#171923] uppercase">IELTS</span></div>
-                                                        <div class="border border-[#655F5F] rounded-full p-2 sm:p-[10px] w-fit  text-xs font-medium flex items-center gap-1"><span class="text-xs font-medium text-[#171923]">May Intake</span><span class="z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased text-xs font-semibold text-primary underline cursor-pointer" data-slot="trigger" aria-haspopup="dialog" aria-expanded="false" type="button">+3 more</span></div>
+                                                        <div class="border border-[#655F5F] rounded-full p-2 sm:p-[10px] w-fit  text-xs font-medium flex items-center gap-1"><span class="text-xs font-medium text-[#171923]">May Intake</span><span class="z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased text-xs font-semibold text-[#ff8401] underline cursor-pointer" data-slot="trigger" aria-haspopup="dialog" aria-expanded="false" type="button">+3 more</span></div>
                                                     </div>
                                                 </div>
-                                                <div class="flex items-center gap-3 mt-1"><a class="text-white text-[15px] font-medium py-2 px-3.5 bg-primary border border-primary rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:bg-primary-600" href="#">Check Eligibility</a><a class="text-primary border border-primary text-[15px] font-medium py-2 px-3.5 rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:text-white hover:bg-primary" href="https://api.whatsapp.com/send?phone=+918447730303&text=My%20Name%20is__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Query%20is__">Apply Now</a></div>
+                                                <div class="flex items-center gap-3 mt-1"><a class="text-white text-[15px] font-medium py-2 px-3.5 bg-[#ff8401] border border-[#ff8401] rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:bg-[#ff8401]-600" href="#">Check Eligibility</a><a class="text-[#ff8401] border border-[#ff8401] text-[15px] font-medium py-2 px-3.5 rounded-[10px] grow text-nowrap text-center transition-all ease-in-out duration-300 hover:text-white hover:bg-[#ff8401]" href="https://api.whatsapp.com/send?phone=+918447730303&text=My%20Name%20is__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Query%20is__">Apply Now</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -280,6 +263,53 @@
                 </div>
             </div>
         </div>
+
+        <style>
+            /* Float-in animation */
+            .float-in {
+                opacity: 0;
+                transform: translateY(30px) scale(0.97);
+                transition: all 0.8s ease-out;
+            }
+
+            .float-in.visible {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+
+            /* Card hover effect */
+            .swiper-slide .group {
+                transition: all 0.4s ease-in-out;
+            }
+
+            .swiper-slide .group:hover {
+                transform: translateY(-6px) scale(1.02);
+                box-shadow: 0 8px 25px rgba(255, 132, 1, 0.25);
+                border: 1px solid #ff8401;
+            }
+        </style>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const cards = document.querySelectorAll(".swiper-slide");
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                        }
+                    });
+                }, {
+                    threshold: 0.2
+                });
+
+                cards.forEach((card) => {
+                    card.classList.add("float-in"); // add animation class
+                    observer.observe(card);
+                });
+            });
+        </script>
+
         <!-- end of Popular Universities Section  -->
 
         <!-- Toast Notification Container -->
@@ -433,16 +463,17 @@
 
             <!-- Section Heading -->
             <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center">
-                Study in Russia to Transform Your Student Life!
-            </h2>
+    <span class="text-[#ff8401]">Study in Russia</span> to Transform Your Student Life!
+</h2>
+
 
             <!-- Grid Container for Cards -->
             <div class="sm:px-6 grid sm:grid-cols-2 sm:grid-rows-2 gap-6 py-10 relative">
 
                 <!-- Card 1: Global Standing Universities -->
-                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52 study-card">
                     <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
-                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                        <h3 class="text-[#ff8401] text-lg sm:text-[22px] font-semibold sm:mb-4">
                             Global Standing Universities
                         </h3>
                         <p class="text-[#627693] text-sm font-medium hidden sm:block">
@@ -462,9 +493,9 @@
                 </div>
 
                 <!-- Card 2: Premier Education Quality -->
-                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52 study-card">
                     <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
-                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                        <h3 class="text-[#ff8401] text-lg sm:text-[22px] font-semibold sm:mb-4">
                             Premier Education Quality
                         </h3>
                         <p class="text-[#627693] text-sm font-medium hidden sm:block">
@@ -484,9 +515,9 @@
                 </div>
 
                 <!-- Card 3: Post-Graduation Work Permit -->
-                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52 study-card">
                     <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
-                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                        <h3 class="text-[#ff8401] text-lg sm:text-[22px] font-semibold sm:mb-4">
                             Post-Graduation Work Permit
                         </h3>
                         <p class="text-[#627693] text-sm font-medium hidden sm:block">
@@ -506,9 +537,9 @@
                 </div>
 
                 <!-- Card 4: Scholarship Opportunities -->
-                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52">
+                <div class="w-full bg-white rounded-[13px] sm:rounded-[32px] text-right relative overflow-hidden h-28 md:h-52 study-card">
                     <div class="w-[60%] sm:w-[55%] p-4 px-5 sm:p-9 sm:px-9 float-right max-md:flex items-center h-full">
-                        <h3 class="text-[#3B075F] text-lg sm:text-[22px] font-semibold sm:mb-4">
+                        <h3 class="text-[#ff8401] text-lg sm:text-[22px] font-semibold sm:mb-4">
                             Scholarships Opportunities
                         </h3>
                         <p class="text-[#627693] text-sm font-medium hidden sm:block">
@@ -528,7 +559,7 @@
                 </div>
 
                 <!-- Center Russia Flag Icon -->
-                <div class="w-[59px] h-[59px] sm:w-[119px] sm:h-[119px] p-[3px] sm:p-[6px] rounded-full bg-white absolute top-[45%] sm:top-[39%] left-[44%] sm:left-[46%] shadow-[0px_11px_24px_0px_#00000033] overflow-hidden">
+                <div class="w-[59px] h-[59px] sm:w-[119px] sm:h-[119px] p-[3px] sm:p-[6px] rounded-full bg-white absolute top-[45%] sm:top-[39%] left-[44%] sm:left-[46%] shadow-[0px_11px_24px_0px_#00000033] overflow-hidden flag-bounce">
                     <img
                         alt="Flag Image"
                         loading="lazy"
@@ -543,7 +574,7 @@
             </div>
 
             <!-- Request Callback Button -->
-            <button class="w-full sm:w-fit flex items-center justify-center m-auto text-primary rounded-[14px] gap-2 text-sm font-semibold px-5 py-4 bg-white border-2 border-[#066AC91A] hover:scale-[1.05] transition-all ease-in-out duration-300">
+            <button class="w-full sm:w-fit flex items-center justify-center m-auto text-[#ffaa52] rounded-[14px] gap-2 text-sm font-semibold px-5 py-4 bg-white border-2 border-[#ff8401] hover:scale-[1.05] transition-all ease-in-out duration-300">
                 Request a Callback
                 <img
                     alt="rightArrowBlue"
@@ -556,6 +587,65 @@
                     style="color: transparent;">
             </button>
         </div>
+
+        <style>
+            /* --- Card entry float effect --- */
+            .study-card {
+                opacity: 0;
+                transform: translateY(40px) scale(0.96);
+                transition: all 0.8s ease-out;
+            }
+
+            .study-card.visible {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+
+            /* --- Card hover effect --- */
+            .study-card:hover {
+                transform: translateY(-8px) scale(1.02);
+                box-shadow: 0px 8px 25px rgba(255, 132, 1, 0.25);
+                border: 1px solid #ff8401;
+            }
+
+            /* --- Center Flag animation --- */
+            .flag-bounce {
+                animation: bounce 3s infinite ease-in-out;
+            }
+
+            @keyframes bounce {
+
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(-6px);
+                }
+            }
+        </style>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const cards = document.querySelectorAll(".study-card");
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry, i) => {
+                        if (entry.isIntersecting) {
+                            setTimeout(() => {
+                                entry.target.classList.add("visible");
+                            }, i * 150); // stagger effect
+                        }
+                    });
+                }, {
+                    threshold: 0.2
+                });
+
+                cards.forEach((card) => observer.observe(card));
+            });
+        </script>
+        <!-- end of Russia Study Section  -->
 
 
         <div class="container my-10 sm:my-24">
@@ -683,10 +773,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
         <!-- End of Loan & Visa Assistance Section -->
 
         <!-- Calculate Your Chances Start -->

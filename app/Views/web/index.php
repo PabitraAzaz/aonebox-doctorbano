@@ -9,7 +9,7 @@
             <img alt="globe" fetchPriority="high" width="540" height="479" decoding="async"
                 class="animate-slowspin" style="color:transparent"
                 src="<?= base_url('public/') ?>assets/images/banner/globe.png" />
-            <a class="cursor-pointer m-auto h-fit p-4 rounded-xl flex items-center justify-center min-w-[85%] w-[100%] sm:min-w-fit sm:w-1/2 absolute right-0 left-0 top-[85%] sm:top-0 bottom-0 gap-1 bg-white border-primary data-[hover=true]:shadow-[0px_0px_13.11px_0px_#066AC9]"
+            <a class="cursor-pointer m-auto h-fit p-4 rounded-xl flex items-center justify-center min-w-[85%] w-[100%] sm:min-w-fit sm:w-1/2 absolute right-0 left-0 top-[85%] sm:top-0 bottom-0 gap-1 bg-white border-primary data-[hover=true]:shadow-[0px_0px_13.11px_0px_#0091ec]"
                 href="https://www.doctorbano.com/">
                 <div class="flex items-center gap-2">
                     <span class="text-primary text-base font-bold">Plan Your Journey Now</span>
@@ -17,7 +17,7 @@
                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M8.33645 13.0228C8.07294 13.2858 7.64603 13.2853 7.38305 13.0218C7.1199 12.7582 7.12044 12.3312 7.38413 12.0682L10.0334 9.42581L7.38422 6.78432C7.12044 6.52131 7.11999 6.09425 7.38314 5.83062C7.64612 5.56712 8.07285 5.56666 8.33645 5.82958L11.8138 9.29855C11.8843 9.36883 11.8843 9.48279 11.8139 9.55307L8.33645 13.0228ZM9.15351 0.662964C4.32177 0.662964 0.390625 4.59411 0.390625 9.42581C0.390625 14.2575 4.32177 18.1887 9.15351 18.1887C13.9852 18.1887 17.9164 14.2575 17.9164 9.42581C17.9164 4.59411 13.9852 0.662964 9.15351 0.662964Z"
-                                fill="#066AC9"></path>
+                                fill="#0091ec"></path>
                         </svg>
                     </span>
                 </div>
@@ -25,25 +25,11 @@
         </div>
     </div>
 
-    <div class="min-h-[280px] sm:min-h-[480px] flex items-center justify-center ">
-        <div class="h-full flex flex-col items-start gap-2 w-full justify-between sm:justify-normal">
-            <div class="sm:m-0 -mt-32 w-fit py-1 px-3.5 rounded-2xl bg-[linear-gradient(92.91deg,_rgba(27,169,188,0.15)_-0.48%,_rgba(41,102,193,0.15)_98.9%)]">
-                <p class="text-base font-semibold capitalize bg-clip-text text-transparent bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)]">
-                    100% Guaranteed Scholarship
-                </p>
-            </div>
-            <div class="flex flex-col items-end w-full">
-                <h1 class="w-full sm:text-[125px] 2xl:text-[150px] tracking-tighter capitalize font-semibold pb-2 relative flex items-center justify-between gap-4 sm:gap-0 bg-clip-text text-transparent bg-[linear-gradient(107.12deg,_#055AAB_4.81%,_#BFE0FF_96.97%)]">
-                    <span class="inline-block">Study</span><br>
-                    <span class="inline-block opacity-0 line-clamp-1 h-2">Study....</span>
-                    <span class="inline-block">Abroad</span>
-                </h1>
-                <h1 class="w-full sm:text-[125px] 2xl:text-[150px] tracking-tighter capitalize font-semibold pb-2 relative flex items-center justify-between gap-4 sm:gap-0 bg-clip-text text-transparent bg-[linear-gradient(107.12deg,_#055AAB_4.81%,_#BFE0FF_96.97%)]">
-                    <span class="inline-block">MBBS</span><br>
-                    <p class="text-[#a0bee5] text-[70px] font-medium mb-5">made easy</p>
-                </h1>
-            </div>
-        </div>
+    <div class="flex flex-col items-end w-full">
+        <h1 class="w-full sm:text-[125px] 2xl:text-[150px] tracking-tighter capitalize font-semibold pb-2 relative flex items-center justify-between gap-4 sm:gap-0 bg-clip-text text-transparent bg-[linear-gradient(107.12deg,_#0091ec_4.81%,_#BFE0FF_96.97%)]"> <span class="inline-block">Study</span><br> <span class="inline-block opacity-0 line-clamp-1 h-2">Study....</span> <span class="inline-block">Abroad</span> </h1>
+        <h1 class="w-full sm:text-[125px] 2xl:text-[150px] tracking-tighter capitalize font-semibold pb-2 relative flex items-center justify-between gap-4 sm:gap-0 bg-clip-text text-transparent bg-[linear-gradient(107.12deg,_#0091ec_4.81%,_#BFE0FF_96.97%)]"> <span class="inline-block">MBBS</span><br>
+            <p class="text-[#a0bee5] text-[70px] font-medium mb-5">made easy</p>
+        </h1>
     </div>
 </div>
 <!-- Banner Section End -->
@@ -51,7 +37,7 @@
 <!-- Best Consultant Section -->
 <section class="container my-20">
     <div class="text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-semibold text-[#1F2022] mb-3">Best MBBS Abroad Consultant in Delhi<span style="color: #0091E3;"> 2025-2026</span></h2>
+        <h2 class="text-3xl sm:text-4xl font-semibold text-[#1F2022] mb-3">Best MBBS Abroad Consultant in Delhi<span style="color: #ff8401;"> 2025-2026</span></h2>
     </div>
 
 
@@ -112,6 +98,38 @@
         </div>
     </div>
 </section>
+
+<!-- Select the Service -->
+<?= $this->include('web/components/university_section.php') ?>
+
+<!-- ✨ Elegant Orange Text Slider -->
+<div class="my-12 lg:my-24 overflow-hidden relative">
+    <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center mb-8 sm:mb-12">
+        <span class="font-medium text-[#ff8401]">Highlights</span> of Doctor Bano
+    </h2>
+
+    <div class="flex overflow-hidden mask-blur-left-right">
+        <!-- Row 1 -->
+        <div class="animate-slide flex items-center gap-16 min-w-full flex-shrink-0">
+            <span class="highlight-soft">98% Admission Success</span>
+            <span class="highlight-soft">Personalized Guidance</span>
+            <span class="highlight-soft">Affordable Fee Structure</span>
+            <span class="highlight-soft">20,000+ Students Guided</span>
+            <span class="highlight-soft">Strong Global Tie-ups</span>
+            <span class="highlight-soft">Complete Student Support</span>
+        </div>
+
+        <!-- Row 2 (duplicate for infinite effect) -->
+        <div class="animate-slide flex items-center gap-16 min-w-full flex-shrink-0">
+            <span class="highlight-soft">98% Admission Success</span>
+            <span class="highlight-soft">Personalized Guidance</span>
+            <span class="highlight-soft">Affordable Fee Structure</span>
+            <span class="highlight-soft">20,000+ Students Guided</span>
+            <span class="highlight-soft">Strong Global Tie-ups</span>
+            <span class="highlight-soft">Complete Student Support</span>
+        </div>
+    </div>
+</div>
 
 <!-- Study Abroad Video Section | Video Left + CTA -->
 <div class="container my-12 sm:my-24">
@@ -179,40 +197,16 @@
     </div>
 </div>
 
-<!-- Select the Service -->
-<?= $this->include('web/components/university_section.php') ?>
-
-<!-- <div class=" my-12 lg:my-24 flex flex-col gap-0 sm:gap-6 mask-blur-left-right">
-    <div class=" flex overflow-hidden">
-        <div class="animate-scroll gap-6 flex items-center justify-around px-2 min-w-full flex-shrink-0">
-            <img alt="Abertay-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Altai-State.png" style="color: transparent;">
-            <img alt="Auburn-univ.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Bashkir-State.png" style="color: transparent;">
-            <img alt="Bisshops-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Crimea-Federal.png" style="color: transparent;">
-            <img alt="Brunel-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kabardino-Balkarian.png" style="color: transparent;">
-            <img alt="Caltech-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kazan-Federal.png" style="color: transparent;">
-            <img alt="chester-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kuban_State.png" style="color: transparent;">
-        </div>
-        <div class="animate-scroll gap-6 flex items-center justify-around px-2 min-w-full flex-shrink-0 ">
-            <img alt="Abertay-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Altai-State.png" style="color: transparent;">
-            <img alt="Auburn-univ.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Bashkir-State.png" style="color: transparent;">
-            <img alt="Bisshops-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Crimea-Federal.png" style="color: transparent;">
-            <img alt="Brunel-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kabardino-Balkarian.png" style="color: transparent;">
-            <img alt="Caltech-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kazan-Federal.png" style="color: transparent;">
-            <img alt="chester-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kuban_State.png" style="color: transparent;">
-        </div>
-    </div>
-</div> -->
-
 <!-- Request a Callback -->
 <div class="container my-12 sm:my-24">
-    <div class="p-5 sm:p-14 rounded-xl sm:rounded-[34px] border border-[#B3B3B3]">
+    <div class="p-5 sm:p-14 rounded-xl sm:rounded-[34px] border border-[#ff8401]">
         <div class="grid grid-cols-5 gap-4 sm:gap-8">
 
             <!-- Left Text Column -->
             <div class="col-span-5 sm:col-span-2 flex flex-col justify-between gap-4">
                 <h2 class="text-[22px] lg:text-3xl 2xl:text-[34px] font-normal leading-[130%]">
                     Doctorbano – Your
-                    <span class="text-primary"> Gateway to Global Medical Education!</span>
+                    <span class="text-[#ff8401]"> Gateway to Global Medical Education!</span>
                 </h2>
                 <div class="col-span-5 order-2 sm:order-3 sm:col-span-2 flex items-end">
                     <p class="text-[#1F2022] text-sm sm:text-base font-light">
@@ -225,7 +219,7 @@
             <div class="order-3 sm:order-2 col-span-5 sm:col-span-3 grid grid-cols-4 gap-4">
 
                 <!-- Card 1 -->
-                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary">
+                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-[#ff8401]">
                     <!-- Icon + Title -->
                     <div class="flex items-center gap-3">
                         <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF4E6] text-[#FF8401] shrink-0 icon-animate">
@@ -248,7 +242,7 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary">
+                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-[#ff8401]">
                     <!-- Icon + Title -->
                     <div class="flex items-center gap-3">
                         <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF4E6] text-[#FF8401] text-2xl shrink-0 icon-animate">
@@ -310,13 +304,13 @@
         <!-- Center CTA Block (no border or shadow) -->
         <div class="backdrop-blur-md text-center rounded-2xl p-6 lg:p-10">
             <h3 class="text-2xl font-semibold text-[#1F2022] mb-4 leading-snug">
-                Empower your <span class="text-[#066AC9]">dream of studying abroad</span> with Doctor Bano!
+                Empower your <span class="text-[#0091ec]">dream of studying abroad</span> with Doctor Bano!
             </h3>
             <p class="text-sm text-[#6E6E73] mb-6">
                 With over 20K students served, Doctor Bano provides the expertise and services to make your study abroad experience hassle-free.
             </p>
-            <a href="https://web.gradding.com/start-journey"
-                class="bg-[#E3EEFE] hover:bg-[#066AC9] hover:text-white text-[#066AC9] font-semibold text-sm px-6 py-2 rounded-full transition-all inline-flex items-center justify-center gap-2">
+            <a href="#"
+                class="bg-[#E3EEFE] hover:bg-[#0091ec] hover:text-white text-[#0091ec] font-semibold text-sm px-6 py-2 rounded-full transition-all inline-flex items-center justify-center gap-2">
                 FREE Call with Expert
                 <svg width="16" height="16" fill="currentColor" class="inline-block">
                     <path d="M5 3l5 5-5 5" />
@@ -364,7 +358,7 @@
 <!-- Who We Ares -->
 <div class="container my-12 sm:my-24">
     <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center mb-8 sm:mb-12">
-        <span class="font-medium text-primary">Who We</span> Are?
+        <span class="font-medium text-[#ff8401]">Who We</span> Are?
     </h2>
     <div class="overflow-hidden relative w-full home-lead-form-div border-1.5 border-[#B3B3B3] p-[14px] xl:p-[35px] rounded-[25px] h-fit">
         <form>
@@ -388,9 +382,9 @@
                                 <input id="UG" class="sr-only peer" type="radio" value="UG" checked name="course" onclick="showDescription('descUG')">
                                 <label for="UG"
                                     class="group option-card inline-flex items-center justify-center w-full min-h-[104px] p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer
-                        peer-checked:border-primary peer-checked:bg-primary/30 peer-checked:text-primary
-                        lg:hover:text-primary lg:hover:bg-primary/30 lg:hover:border-primary
-                        peer-checked:shadow-[0px_0px_24px_0px_#006ac94D] lg:hover:shadow-[0px_0px_24px_0px_#006ac94D]
+                        peer-checked:border-[#ff8401] peer-checked:bg-[#ff8401]/30 peer-checked:text-[#ff8401]
+                        lg:hover:text-[#ff8401] lg:hover:bg-[#ff8401]/30 lg:hover:border-[#ff8401]
+                        peer-checked:shadow-[0px_0px_24px_0px_#ff8401] lg:hover:shadow-[0px_0px_24px_0px_#ff8401]
                         peer-checked:font-medium select-none transition-all ease-in-out duration-300 text-center">
                                     <div class="flex flex-col items-center justify-center gap-1">
                                         <span class="icon text-[26px] sm:text-[30px] text-[#FF8401] leading-none">
@@ -406,9 +400,9 @@
                                 <input id="PG" class="sr-only peer" type="radio" value="PG" name="course" onclick="showDescription('descPG')">
                                 <label for="PG"
                                     class="group option-card inline-flex items-center justify-center w-full min-h-[104px] p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer
-                        peer-checked:border-primary peer-checked:bg-primary/30 peer-checked:text-primary
-                        lg:hover:text-primary lg:hover:bg-primary/30 lg:hover:border-primary
-                        peer-checked:shadow-[0px_0px_24px_0px_#006ac94D] lg:hover:shadow-[0px_0px_24px_0px_#006ac94D]
+                        peer-checked:border-[#ff8401] peer-checked:bg-[#ff8401]/30 peer-checked:text-[#ff8401]
+                        lg:hover:text-[#ff8401] lg:hover:bg-[#ff8401]/30 lg:hover:border-[#ff8401]
+                        peer-checked:shadow-[0px_0px_24px_0px_#ff8401] lg:hover:shadow-[0px_0px_24px_0px_#ff8401]
                         peer-checked:font-medium select-none transition-all ease-in-out duration-300 text-center">
                                     <div class="flex flex-col items-center justify-center gap-1">
                                         <span class="icon text-[26px] sm:text-[30px] text-[#FF8401] leading-none">
@@ -424,9 +418,9 @@
                                 <input id="PHD" class="sr-only peer" type="radio" value="PHD" name="course" onclick="showDescription('descPHD')">
                                 <label for="PHD"
                                     class="group option-card inline-flex items-center justify-center w-full min-h-[104px] p-2 sm:p-[15px] text-heading bg-white border-2 border-transparent rounded-[11px] cursor-pointer
-                        peer-checked:border-primary peer-checked:bg-primary/30 peer-checked:text-primary
-                        lg:hover:text-primary lg:hover:bg-primary/30 lg:hover:border-primary
-                        peer-checked:shadow-[0px_0px_24px_0px_#006ac94D] lg:hover:shadow-[0px_0px_24px_0px_#006ac94D]
+                        peer-checked:border-[#ff8401] peer-checked:bg-[#ff8401]/30 peer-checked:text-[#ff8401]
+                        lg:hover:text-[#ff8401] lg:hover:bg-[#ff8401]/30 lg:hover:border-[#ff8401]
+                        peer-checked:shadow-[0px_0px_24px_0px_#ff8401] lg:hover:shadow-[0px_0px_24px_0px_#ff8401]
                         peer-checked:font-medium select-none transition-all ease-in-out duration-300 text-center">
                                     <div class="flex flex-col items-center justify-center gap-1">
                                         <span class="icon text-[26px] sm:text-[30px] text-[#FF8401] leading-none">
@@ -450,20 +444,6 @@
                                 We’ve built strong partnerships with leading medical institutions. These ties power reliable guidance and ensure students can tap the finest opportunities throughout their medical education journey.
                             </p>
                         </div>
-
-                        <!-- CTA -->
-                        <!-- <div class="flex justify-center sm:justify-start gap-2 sm:gap-5">
-                            <button type="button"
-                                class="py-2.5 px-2.5 sm:px-5 rounded-[10px] text-sm sm:text-base font-medium capitalize text-white bg-primary flex items-center gap-2 hover:bg-[#1a5cb0]">
-                                Save &amp; Go Next
-                                <span class="inline-block">
-                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.8125 1.3125L14.5625 6M14.5625 6L10.8125 10.6875M14.5625 6H1.4375"
-                                            stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </span>
-                            </button>
-                        </div> -->
                     </div>
                 </div>
 
@@ -481,37 +461,44 @@
 
 <!-- Counter Section Start -->
 <section class="container my-12 sm:my-24">
-    <!-- Flex container for all counter cards -->
     <div class="flex gap-3 sm:gap-8 justify-center flex-wrap sm:flex-nowrap">
 
-        <!-- Counter Card 1: Years of Expertise -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">12+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+        <!-- Counter Card 1 -->
+        <div class="counter-card flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start 
+                border border-[#0091ec] rounded-xl sm:rounded-3xl 
+                p-3 sm:p-4 2xl:p-6 pt-2.5 transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
+            <div class="counter text-[51px] sm:text-[70px] text-[#0091ec] font-semibold" data-target="12" data-suffix="+">0</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#0091ec] font-light capitalize">
                 Years of Expertise
             </p>
         </div>
 
-        <!-- Counter Card 2: Countries Served -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">25+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+        <!-- Counter Card 2 -->
+        <div class="counter-card flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start 
+                border border-[#0091ec] rounded-xl sm:rounded-3xl 
+                p-3 sm:p-4 2xl:p-6 pt-2.5 transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
+            <div class="counter text-[51px] sm:text-[70px] text-[#0091ec] font-semibold" data-target="25" data-suffix="+">0</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#0091ec] font-light capitalize">
                 Countries Served
             </p>
         </div>
 
-        <!-- Counter Card 3: Qualified Professionalss -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">50+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+        <!-- Counter Card 3 -->
+        <div class="counter-card flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start 
+                border border-[#0091ec] rounded-xl sm:rounded-3xl 
+                p-3 sm:p-4 2xl:p-6 pt-2.5 transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
+            <div class="counter text-[51px] sm:text-[70px] text-[#0091ec] font-semibold" data-target="50" data-suffix="+">0</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#0091ec] font-light capitalize">
                 Qualified Professionals
             </p>
         </div>
 
-        <!-- Counter Card 4: Successful Graduates -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5 overflow-hidden">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">10k+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+        <!-- Counter Card 4 -->
+        <div class="counter-card flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start 
+                border border-[#0091ec] rounded-xl sm:rounded-3xl 
+                p-3 sm:p-4 2xl:p-6 pt-2.5 overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
+            <div class="counter text-[51px] sm:text-[70px] text-[#0091ec] font-semibold" data-target="10" data-suffix="k+">0</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#0091ec] font-light capitalize">
                 Successful Graduates
             </p>
         </div>
@@ -598,7 +585,7 @@
 <!-- Spotlight on Doctor Bano: Latest News and Updates -->
 <div class="my-12 sm:my-24 overflow-hidden">
     <h2 class="container text-left sm:text-center text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[34px] font-medium text-heading mb-6 sm:mb-12">
-        Spotlight on Doctor Bano: <span class="text-primary"> Latest News and Updates</span>
+        Spotlight on Doctor Bano: <span class="text-[#ff8401]"> Latest News and Updates</span>
     </h2>
 
     <!-- Swiper -->
@@ -607,7 +594,7 @@
 
             <!-- Slide 1 -->
             <div class="swiper-slide !w-3/4 sm:!w-3/5 lg:!w-1/3 2xl:!w-1/4 first:ml-[2rem] lg:first:ml-[6rem] 2xl:first:ml-[17rem] mr-6 relative overflow-hidden cursor-pointer border border-[#B3B3B3] rounded-xl hover:border-transparent transition-all duration-700 hover:shadow-[0_20px_76px_0_#1D1D271A] group">
-                <a href="https://www.ahmedabadmirror.com/taking-education-worldwide-gradding-revolutionizes-study-abroad-experiences/81864751.html" class="w-full">
+                <a href="#" class="w-full">
                     <div class="relative z-10 p-4 flex items-center flex-col sm:flex-row gap-3 group-hover:bg-white group-hover:shadow-lg transition-all">
                         <div class="rounded-[18px] overflow-hidden flex items-center bg-white min-h-[132px] min-w-full sm:min-w-[132px]">
                             <img src="https://www.gradding.com/_next/image?url=https%3A%2F%2Fweb.gradding.com%2Fuploads%2Fimages%2Fmedia%2Fahmedabad_mirror.png&amp;w=384&amp;q=75" alt="Ahmedabad Mirror" width="132" height="132" />
@@ -639,7 +626,7 @@
 
             <!-- Slide 3 -->
             <div class="swiper-slide !w-3/4 sm:!w-3/5 lg:!w-1/3 2xl:!w-1/4 first:ml-[2rem] lg:first:ml-[6rem] 2xl:first:ml-[17rem] mr-6 relative overflow-hidden cursor-pointer border border-[#B3B3B3] rounded-xl hover:border-transparent transition-all duration-700 hover:shadow-[0_20px_76px_0_#1D1D271A] group">
-                <a href="https://www.ahmedabadmirror.com/taking-education-worldwide-gradding-revolutionizes-study-abroad-experiences/81864751.html" class="w-full">
+                <a href="#" class="w-full">
                     <div class="relative z-10 p-4 flex items-center flex-col sm:flex-row gap-3 group-hover:bg-white group-hover:shadow-lg transition-all">
                         <div class="rounded-[18px] overflow-hidden flex items-center bg-white min-h-[132px] min-w-full sm:min-w-[132px]">
                             <img src="https://www.gradding.com/_next/image?url=https%3A%2F%2Fweb.gradding.com%2Fuploads%2Fimages%2Fmedia%2Fahmedabad_mirror.png&amp;w=384&amp;q=75" alt="Ahmedabad Mirror" width="132" height="132" />
@@ -668,10 +655,56 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide !w-3/4 sm:!w-3/5 lg:!w-1/3 2xl:!w-1/4 first:ml-[2rem] lg:first:ml-[6rem] 2xl:first:ml-[17rem] mr-6 relative overflow-hidden cursor-pointer border border-[#B3B3B3] rounded-xl hover:border-transparent transition-all duration-700 hover:shadow-[0_20px_76px_0_#1D1D271A] group">
+                <a href="#" class="w-full">
+                    <div class="relative z-10 p-4 flex items-center flex-col sm:flex-row gap-3 group-hover:bg-white group-hover:shadow-lg transition-all">
+                        <div class="rounded-[18px] overflow-hidden flex items-center bg-white min-h-[132px] min-w-full sm:min-w-[132px]">
+                            <img src="https://www.gradding.com/_next/image?url=https%3A%2F%2Fweb.gradding.com%2Fuploads%2Fimages%2Fmedia%2Fahmedabad_mirror.png&amp;w=384&amp;q=75" alt="Ahmedabad Mirror" width="132" height="132" />
+                        </div>
+                        <div class="w-full sm:w-3/4 flex flex-col justify-between gap-3">
+                            <h3 class="text-xs sm:text-sm text-heading uppercase">Ahmedabad Mirror</h3>
+                            <p class="text-lg font-semibold line-clamp-2">Taking Education Worldwide: Doctor Bano Revolutionizes Study Abroad Experiences</p>
+                            <span class="text-xs sm:text-sm text-[#6B6B6B] uppercase">18 Oct, 2023</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="swiper-slide !w-3/4 sm:!w-3/5 lg:!w-1/3 2xl:!w-1/4 mr-6 relative overflow-hidden cursor-pointer border border-[#B3B3B3] rounded-xl hover:border-transparent transition-all duration-700 hover:shadow-[0_20px_76px_0_#1D1D271A] group">
+                <a href="https://www.deccanherald.com/amp/story/brandspot/featured/8-visionary-entrepreneurs-to-look-at-in-2024-3035237" class="w-full">
+                    <div class="relative z-10 p-4 flex items-center flex-col sm:flex-row gap-3 group-hover:bg-white group-hover:shadow-lg transition-all">
+                        <div class="rounded-[18px] overflow-hidden flex items-center bg-white min-h-[132px] min-w-full sm:min-w-[132px]">
+                            <img src="https://www.gradding.com/_next/image?url=https%3A%2F%2Fweb.gradding.com%2Fuploads%2Fimages%2Fmedia%2F20240802174504_1200x600wa.png&amp;w=384&amp;q=75" alt="Deccan Herald" width="132" height="132" />
+                        </div>
+                        <div class="w-full sm:w-3/4 flex flex-col justify-between gap-3">
+                            <h3 class="text-xs sm:text-sm text-heading uppercase">Deccan Herald</h3>
+                            <p class="text-lg font-semibold line-clamp-2">8 Visionary Entrepreneurs to look at in 2024</p>
+                            <span class="text-xs sm:text-sm text-[#6B6B6B] uppercase">24 May, 2024</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
 
         <!-- Pagination -->
         <div class="swiper-pagination"></div>
+        <style>
+            /* 🔸 Default bullets */
+            .swiper-pagination-bullet {
+                background-color: #ff8401 !important;
+                opacity: 0.5;
+                /* light shade when inactive */
+            }
+
+            /* 🔸 Active bullet */
+            .swiper-pagination-bullet-active {
+                background-color: #ff8401 !important;
+                opacity: 1;
+            }
+        </style>
     </div>
 </div>
 

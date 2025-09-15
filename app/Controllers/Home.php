@@ -61,17 +61,30 @@ class Home extends BaseController
     {
         $blogModel = new BlogModel();
 
-        // Trending: latest 3 blogs
-        $trend = $blogModel->orderBy('blog_id', 'DESC')->findAll(2);
+        // Get search keyword from query string
+        $search = $this->request->getGet('search');
 
-        // Recent: paginate all blogs
-        $recent = $blogModel->orderBy('blog_id', 'DESC')->paginate(5, 'blogs');
+        $builder = $blogModel;
+
+        if (!empty($search)) {
+            $builder = $builder->groupStart()
+                ->like('blog_name', $search)
+                ->orLike('description', $search)
+                ->groupEnd();
+        }
+
+        // Trending (latest 2 blogs, always newest first)
+        $trend = $blogModel->orderBy('created_at', 'DESC')->findAll(2);
+
+        // Recent (always newest first)
+        $recent = $builder->orderBy('created_at', 'DESC')->paginate(5, 'blogs');
         $pager  = $blogModel->pager;
 
         return view('web/blogs', [
             'trend'  => $trend,
             'recent' => $recent,
-            'pager'  => $pager
+            'pager'  => $pager,
+            'search' => $search,
         ]);
     }
 

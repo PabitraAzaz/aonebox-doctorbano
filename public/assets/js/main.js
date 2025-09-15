@@ -23,20 +23,22 @@ window.addEventListener("load", () => {
 // Navigation Menu Functionality
 (function () {
   const items = document.querySelectorAll("li[data-menu]");
+
   items.forEach((li) => {
     const btn = li.querySelector(".nav-btn");
     const panel = li.querySelector(".menu-panel");
     if (!btn || !panel) return;
 
-    // Hover open (desktop)
-    li.addEventListener("mouseenter", () => {
-      closeAllExcept(li);
-      btn.setAttribute("aria-expanded", "true");
-      li.classList.add("open");
-    });
-    li.addEventListener("mouseleave", () => {
-      btn.setAttribute("aria-expanded", "false");
-      li.classList.remove("open");
+    // Toggle open on click
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const isOpen = li.classList.contains("open");
+
+      closeAllExcept(null); // close others first
+      if (!isOpen) {
+        btn.setAttribute("aria-expanded", "true");
+        li.classList.add("open");
+      }
     });
 
     // Close on Escape
@@ -58,6 +60,13 @@ window.addEventListener("load", () => {
       }
     });
   }
+
+  // Optional: close when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("li[data-menu]")) {
+      closeAllExcept(null);
+    }
+  });
 })();
 
 /* ----------------
@@ -119,6 +128,46 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
+// Counter Animation on Scroll
+document.addEventListener("DOMContentLoaded", () => {
+  const counters = document.querySelectorAll(".counter");
+
+  const animateCounter = (counter) => {
+    const target = +counter.getAttribute("data-target");
+    const suffix = counter.getAttribute("data-suffix") || "";
+    let count = 0;
+    const increment = Math.ceil(target / 100);
+
+    const updateCounter = () => {
+      if (count < target) {
+        count += increment;
+        counter.textContent = count + suffix;
+        setTimeout(updateCounter, 30);
+      } else {
+        counter.textContent = target + suffix;
+      }
+    };
+    updateCounter();
+  };
+
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          observer.unobserve(entry.target); // Run once
+        }
+      });
+    },
+    {
+      threshold: 0.5,
+    }
+  );
+
+  counters.forEach((counter) => {
+    observer.observe(counter);
+  });
+});
 /* ----------------
     FAQ PAGE JS 
 ------------------ */
@@ -217,6 +266,46 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch((err) => console.error("Pagination error:", err));
     }
   });
+});
+
+// Fade-In-Up Animation on Scroll Trending Blogs
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".fade-in-up");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.2,
+    }
+  );
+
+  cards.forEach((card) => observer.observe(card));
+});
+
+// Fade-In-Up Animation on Scroll Recent Blogs
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".fade-in-up");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.2,
+    }
+  );
+
+  cards.forEach((card) => observer.observe(card));
 });
 
 /* ------------------------

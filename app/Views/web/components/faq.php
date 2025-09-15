@@ -1,7 +1,7 @@
 <!-- FAQ Section -->
 <div class="container my-12 lg:my-24 lg:w-2/3">
     <h2 class="text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal text-center mb-5">
-        Frequently Asked <span class="text-test-prep font-medium block sm:inline-block">Questions</span>
+        Frequently Asked <span class="text-test-prep font-medium block sm:inline-block text">Questions</span>
     </h2>
 
     <div class="px-2 space-y-3">

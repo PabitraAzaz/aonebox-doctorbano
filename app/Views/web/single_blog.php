@@ -10,7 +10,7 @@
                     class="w-full" src="<?= base_url('public/') ?>assets/images/icons/googleNewIcon.webp"
                     style="color: transparent;">
             </a>
-            <a href="#">
+            <a href="https://api.whatsapp.com/send?phone=+918447730303&text=My%20Name%20is__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Query%20is__">
                 <img alt="whatsapp icon" fetchpriority="high" width="34" height="34" decoding="async" data-nimg="1"
                     class="w-full" src="<?= base_url('public/') ?>assets/images/icons/whatsappIcon.webp"
                     style="color: transparent;">
@@ -20,7 +20,7 @@
                     class="" src="<?= base_url('public/') ?>assets/images/icons/twitter.webp"
                     style="color: transparent;">
             </a>
-            <a href="https://www.instagram.com/essqube/#">
+            <a href="https://www.instagram.com/essqube/">
                 <img alt="instagramIcon" fetchpriority="high" width="34" height="34" decoding="async" data-nimg="1"
                     class="w-full" src="<?= base_url('public/') ?>assets/images/icons/instagramIcon.webp"
                     style="color: transparent;">
@@ -38,132 +38,59 @@
                         class="absolute text-inherit opacity-0 scale-50 group-data-[copied=true]:opacity-100 group-data-[copied=true]:scale-100 transition-transform-opacity">
                         <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
-                    <img alt="instagramIcon" fetchpriority="high" width="34" height="34" decoding="async" data-nimg="1"
-                        class="absolute text-inherit opacity-100 scale-100 group-data-[copied=true]:opacity-0 group-data-[copied=true]:scale-50 transition-transform-opacity"
+                    <!-- Copy Link Icon -->
+                    <img alt="instagramIcon" fetchpriority="high" width="34" height="34" decoding="async"
+                        class="absolute cursor-pointer text-inherit opacity-100 scale-100 group-data-[copied=true]:opacity-0 group-data-[copied=true]:scale-50 transition-transform-opacity"
                         src="<?= base_url('public/') ?>assets/images/icons/copyLink.webp"
-                        style="color: transparent;"></button>
+                        style="color: transparent;"
+                        onclick="copyPageUrl()" />
+
+                    <script>
+                        function copyPageUrl() {
+                            const url = window.location.href; // current page URL
+                            navigator.clipboard.writeText(url).then(() => {
+                                alert("✅ Link copied to clipboard!");
+                            }).catch(err => {
+                                console.error("Failed to copy: ", err);
+                            });
+                        }
+                    </script>
             </div>
         </div>
         <div class="flex flex-col gap-4 sm:mt-10">
             <ol class="flex items-center whitespace-nowrap overflow-x-scroll" style="scrollbar-width: none;">
                 <li class="inline-flex items-center"><a
-                        class="flex items-center text-sm text-gray-500 hover:text-[#066AC9] focus:outline-none focus:text-[#066AC9]"
-                        href="#">Home</a><svg
+                        class="flex items-center text-sm text-gray-500 hover:text-[#0091ec] focus:outline-none focus:text-[#0091ec]"
+                        href="<?= base_url() ?>">Home</a><svg
                         class="flex-shrink-0 mx-2 overflow-visible size-4 text-gray-400"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="m9 18 6-6-6-6"></path>
                     </svg></li>
                 <li class="inline-flex items-center"><a
-                        class="flex items-center text-sm text-gray-500 hover:text-[#066AC9] focus:outline-none focus:text-[#066AC9]"
-                        href="#">Blogs<svg
+                        class="flex items-center text-sm text-gray-500 hover:text-[#0091ec] focus:outline-none focus:text-[#0091ec]"
+                        href="<?= base_url('blogs') ?>">Blogs<svg
                             class="flex-shrink-0 mx-2 overflow-visible size-4 text-gray-400"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="m9 18 6-6-6-6"></path>
                         </svg></a></li>
-                <li class="inline-flex items-center"><a
-                        class="flex items-center text-sm text-gray-500 hover:text-[#066AC9] focus:outline-none focus:text-[#066AC9]"
-                        href="#">ENGLISH<svg
-                            class="flex-shrink-0 mx-2 overflow-visible size-4 text-gray-400"
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="m9 18 6-6-6-6"></path>
-                        </svg></a></li>
-                <li class="inline-flex items-center text-sm font-semibold text-gray-800" aria-current="page">Adverbs Of
-                    Time</li>
-            </ol><a class="block text-sm font-medium text-white bg-[#4B6BFB] py-[6px] px-3 rounded-[6px] w-fit"
-                href="#">ENGLISH</a>
+                <li class="inline-flex items-center text-sm font-semibold text-gray-800" aria-current="page"><?= esc($singleBlog['blog_name']) ?></li>
+            </ol>
             <h1 class="text-[22px] lg:text-[30px] xl:text-[36px] font-medium text-[#181A2A] leading-[130%]">
                 <?= esc($singleBlog['blog_name']) ?>
             </h1>
-            <div class=" text-[#4A4A4A] text-base [&amp;_a]:text-[#066ac9] [&amp;_a]:font-bold [&amp;_a]:underline">
-                <p>An adverb of time is a word used to express the action taking place in any time past, present, or
-                    future by answering the questions “how long it lasts” or how often it happens. They provide a
-                    crucial context to verbs, elevating the sentences by adding details about the temporal event.
-                    &nbsp;The adverb of time is meant to denote when something is happening, has happened, or will
-                    happen. If you want to know what the adverb of time list of words used to express them, this guide
-                    is for you. In this blog, you will explore adverb of time definition, rules, word list, examples,
-                    and worksheet. So, let’s dig into this. &nbsp;</p>
-            </div>
         </div>
         <div class="flex flex-col lg:flex-row gap-5 xl:gap-8 my-5">
             <div class="w-full lg:w-[60%] xl:w-[70%] flex flex-col gap-4 md:gap-7">
                 <div class=" rounded-[22px] p-[6px] bg-white overflow-hidden shadow-[0px_0px_40px_0px_#1D3A5326]">
-                    <img alt="Navigate what is adverb of time along with its rules, examples, and more | DoctorBano.com"
+                    <img alt="<?= esc($singleBlog['blog_name']) ?>"
                         title="Adverb of time: Definition, Examples, Rules and Exercise" fetchpriority="high"
                         loading="eager" width="906" height="491" decoding="async" data-nimg="1"
                         class="w-full h-full rounded-[18px]"
-                        src="<?= base_url('public/') ?>assets/images/blogs/adverbs-of-time-6894.webp"
+                        src="<?= base_url('uploads/blog/' . $singleBlog['blog_image']) ?>"
                         style="color: transparent;">
                 </div>
-                <p class="text-2xl mb-4 font-semibold inline-block capitalize">Table of Contents</p>
-                <div class="bg-white py-3 px-5 rounded-xl flex flex-col gap-2">
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold" href="#what-is-adverb-of-time">
-                                <p>What is Adverb of Time?</p>
-                            </a></div>
-                    </div>
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold" href="#rules-and-usage-of-adverb-of-time">
-                                <p>Rules and Usage of Adverb of Time</p>
-                            </a></div>
-                    </div>
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold"
-                                href="#common-adverbs-of-time-with-sentences-and-examples">
-                                <p>Common Adverbs of Time with Sentences and Examples</p>
-                            </a></div>
-                    </div>
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold" href="#list-of-adverbs-of-time">
-                                <p>List of Adverbs of Time</p>
-                            </a><span class="w-fit cursor-pointer transition-all "><img alt="toggle icon" loading="lazy"
-                                    width="20" height="20" decoding="async" data-nimg="1" class="max-w-none"
-                                    src="#"
-                                    style="color: transparent;"></span></div>
-                        <div class="ml-2.5 overflow-hidden transition-all duration-300 ease-in-out"
-                            style="max-height: 0px;">
-                            <ul class="list-disc pl-5 text-sm text-primary">
-                                <li class="font-medium"><a href="#adverb-of-time-past">
-                                        <p>Adverb of Time – Past</p>
-                                    </a></li>
-                                <li class="font-medium"><a href="#adverb-of-time-present">
-                                        <p>Adverb of Time – Present</p>
-                                    </a></li>
-                                <li class="font-medium"><a href="#adverb-of-time-future">
-                                        <p>Adverb of Time – Future</p>
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold" href="#worksheet">
-                                <p>Worksheet</p>
-                            </a></div>
-                    </div>
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold" href="#conclusion">
-                                <p>Conclusion</p>
-                            </a></div>
-                    </div>
-                    <div>
-                        <div class="flex items-start justify-between w-fit gap-3"><a
-                                class="text-black text-sm font-bold" href="#faqs">
-                                <p>FAQs</p>
-                            </a></div>
-                    </div>
-                </div>
-
-
-
-                
 
                 <div class="blog-details"><?= (($singleBlog['description'])) ?></div>
 
@@ -181,7 +108,7 @@
                                         placeholder="Write a comment..."></textarea><input type="hidden" value="2517"
                                         name="page_id">
                                 </div><button type="button"
-                                    class="inline-flex w-[12%] items-center justify-center py-2.5 px-10 bg-[#066AC9] rounded-[28px] text-[15px] font-medium text-center text-white focus:ring-4 focus:ring-primary-200 hover:bg-[#4e95db]">Post</button>
+                                    class="inline-flex w-[12%] items-center justify-center py-2.5 px-10 bg-[#0091ec] rounded-[28px] text-[15px] font-medium text-center text-white focus:ring-4 focus:ring-primary-200 hover:bg-[#0091ec]">Post</button>
                             </div>
                         </form>
                     </div>
@@ -191,7 +118,7 @@
                     href="#">
                     <img alt="english-offer" fetchpriority="high" width="392" height="220" decoding="async"
                         data-nimg="1"
-                        class=" border-[0.94px] border-[#066AC9] rounded-[15px] hover:shadow-[0px_3.76px_22.56px_0px_#00000040] transition-all ease-in-out"
+                        class=" border-[0.94px] border-[#0091ec] rounded-[15px] hover:shadow-[0px_3.76px_22.56px_0px_#00000040] transition-all ease-in-out"
                         src="<?= base_url('public/') ?>assets/images/blogs/studyAbroadCashbackOffer.webp"
                         style="color: transparent;"></a>
                 <div class="bg-white p-[14px] rounded-[18px]">
@@ -276,7 +203,8 @@
                                     class="text-[#FC1E60]">Finance/Loan </span> Assistance</h5>
                         </div>
                     </div>
-                </div><button
+                </div>
+                <button
                     class="rounded-[16px] animate-pulse duration-750 bg-gradient-to-r from-[rgba(0,106,201,1)] to-[rgba(98,170,238,1)] text-center text-xl text-white font-medium p-4 hover:shadow-lg">Contact
                     University Expert</button>
                 <div
