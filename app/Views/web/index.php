@@ -48,46 +48,226 @@
 </div>
 <!-- Banner Section End -->
 
-<!-- Counter Section Start -->
-<section class="container my-12 sm:my-24">
-    <!-- Flex container for all counter cards -->
-    <div class="flex gap-3 sm:gap-8 justify-center flex-wrap sm:flex-nowrap">
+<!-- Best Consultant Section -->
+<section class="container my-20">
+    <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-semibold text-[#1F2022] mb-3">Best MBBS Abroad Consultant in Delhi<span style="color: #0091E3;"> 2025-2026</span></h2>
+    </div>
 
-        <!-- Counter Card 1: Years of Expertise -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">12+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
-                Years of Expertise
-            </p>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="flip-card relative rounded-2xl overflow-hidden h-full min-h-[220px]">
+            <div class="flip-inner">
+                <!-- Front -->
+                <div class="flip-front p-6 border border-[#B3B3B3] text-center bg-white flex flex-col items-center justify-center">
+                    <i class="bi bi-map-fill" style="color:#FF8401; font-size:48px;"></i>
+                    <h3 class="text-xl font-semibold text-[#1F2022] mt-3 mb-2">Study MBBS in Abroad</h3>
+                    <p class="text-[#6E6E73] text-sm">Your chance to be a trending expert in Medical and make a successful career after completion of our courses.</p>
+                </div>
+                <!-- Back -->
+                <div class="flip-back p-6 text-center bg-[#FF8401] text-white flex flex-col items-center justify-center">
+                    <i class="bi bi-map-fill" style="font-size:48px;"></i>
+                    <h3 class="text-xl font-semibold mt-3 mb-2">Study MBBS in Abroad</h3>
+                    <p class="text-sm">Your chance to be a trending expert in Medical and make a successful career after completion of our courses.</p>
+                </div>
+            </div>
         </div>
 
-        <!-- Counter Card 2: Countries Served -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">25+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
-                Countries Served
-            </p>
+        <!-- Card 2 -->
+        <div class="flip-card relative rounded-2xl overflow-hidden h-full min-h-[220px]">
+            <div class="flip-inner">
+                <!-- Front -->
+                <div class="flip-front p-6 border border-[#B3B3B3] text-center bg-white flex flex-col items-center justify-center">
+                    <i class="bi bi-eye-fill" style="color:#FF8401; font-size:48px;"></i>
+                    <h3 class="text-xl font-semibold text-[#1F2022] mt-3 mb-2">Cheapest MBBS Abroad</h3>
+                    <p class="text-[#6E6E73] text-sm">Doctorbano.com is one of the upcoming consultancy, with a vision of providing excellent support.</p>
+                </div>
+                <!-- Back -->
+                <div class="flip-back p-6 text-center bg-[#FF8401] text-white flex flex-col items-center justify-center">
+                    <i class="bi bi-eye-fill" style="font-size:48px;"></i>
+                    <h3 class="text-xl font-semibold mt-3 mb-2">Cheapest MBBS Abroad</h3>
+                    <p class="text-sm">Doctorbano.com is one of the upcoming consultancy, with a vision of providing excellent support.</p>
+                </div>
+            </div>
         </div>
 
-        <!-- Counter Card 3: Qualified Professionalss -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">50+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
-                Qualified Professionals
-            </p>
+        <!-- Card 3 -->
+        <div class="flip-card relative rounded-2xl overflow-hidden h-full min-h-[220px]">
+            <div class="flip-inner">
+                <!-- Front -->
+                <div class="flip-front p-6 border border-[#B3B3B3] text-center bg-white flex flex-col items-center justify-center">
+                    <i class="bi bi-trophy-fill" style="color:#FF8401; font-size:48px;"></i>
+                    <h3 class="text-xl font-semibold text-[#1F2022] mt-3 mb-2">MBBS Consultants 2025</h3>
+                    <p class="text-[#6E6E73] text-sm">Get reliable consultation for professional education by our team of certified professionals.</p>
+                </div>
+                <!-- Back -->
+                <div class="flip-back p-6 text-center bg-[#FF8401] text-white flex flex-col items-center justify-center">
+                    <i class="bi bi-trophy-fill" style="font-size:48px;"></i>
+                    <h3 class="text-xl font-semibold mt-3 mb-2">MBBS Consultants 2025</h3>
+                    <p class="text-sm">Get reliable consultation for professional education by our team of certified professionals.</p>
+                </div>
+            </div>
         </div>
-
-        <!-- Counter Card 4: Successful Graduates -->
-        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5 overflow-hidden">
-            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">10k+</div>
-            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
-                Successful Graduates
-            </p>
-        </div>
-
     </div>
 </section>
-<!-- Counter Section End -->
+
+<!-- Study Abroad Video Section | Video Left + CTA -->
+<div class="container my-12 sm:my-24">
+    <div class="bg-white rounded-[21px] shadow-[inset_0_0_31.6px_0px_rgba(0,0,0,0.2)] sm:pr-16 flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-14 justify-center overflow-hidden relative">
+
+        <!-- Video Section with Border (Top, Left, Right) -->
+        <div class="w-[90%] sm:w-3/5 relative sm:rounded-t-3xl sm:px-16 sm:pt-16 overflow-hidden sm:[overflow:unset]">
+
+            <!-- Border wrapper -->
+            <div class="relative bg-black pt-[15px] px-[15px] rounded-t-[30px]">
+
+                <!-- Video inside black border -->
+                <video autoplay loop playsinline muted class="w-full rounded-t-[15px] relative z-10">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+                <!-- ▶️ Play Icon Overlay -->
+                <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center pointer-events-none z-20">
+                    <div class="w-14 h-14 rounded-full backdrop-blur-[7px] bg-white/50 flex items-center justify-center">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="56" height="56" rx="28" fill="white" fill-opacity="0.5" />
+                            <g clip-path="url(#clip0)">
+                                <g filter="url(#filter0_d)">
+                                    <path d="M21 22.3076V34.6941C21 37.231 23.8601 38.8229 26.1428 37.5545L31.7154 34.4611L37.288 31.3548C39.5707 30.0864 39.5707 26.9153 37.288 25.6469L31.7154 22.5406L26.1428 19.4472C23.8601 18.1788 21 19.7578 21 22.3076Z" fill="white" />
+                                </g>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="12" y="10" width="36" height="37" filterUnits="userSpaceOnUse">
+                                    <feGaussianBlur stdDeviation="4.5" />
+                                </filter>
+                                <clipPath id="clip0">
+                                    <rect width="56" height="56" rx="15" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 📝 Text Content -->
+        <div class="sm:w-2/5 flex flex-col gap-4 sm:gap-8 items-start p-4 sm:p-0">
+            <h2 class="text-left sm:text-center text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[34px] font-medium text-heading">
+                <span class="text-primary">Study Abroad</span> Made Simple
+            </h2>
+
+            <!-- 📈 Highlight Box -->
+            <div class="bg-[#538B191A] rounded-[11px] py-4 px-7">
+                <p class="text-[#1F2022] text-sm mb-1">
+                    Increase your chances of admission up to <span class="font-semibold text-[#538B19]">98%</span>
+                </p>
+                <img src="<?= base_url('public/') ?>assets/images/logo/university/universityLogoGroup.webp"
+                    width="319" height="43" alt="University Logos" class="mt-2" loading="lazy" />
+            </div>
+
+            <!-- 📞 CTA Button -->
+            <div booksession="true"
+                class="w-full max-w-[85%] cursor-pointer bg-primary text-white text-sm border-2 border-primary px-2 py-2.5 hidden sm:flex items-center justify-center rounded-[14px] gap-1 transition-all ease-in-out duration-300 hover:scale-105 font-semibold"
+                title="Request a Callback">
+                Request a Callback
+                <img src="<?= base_url('public/') ?>assets/images/icons/rightArrow.webp" width="25" height="25" alt="Right Arrow" loading="lazy" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Select the Service -->
+<?= $this->include('web/components/university_section.php') ?>
+
+<!-- <div class=" my-12 lg:my-24 flex flex-col gap-0 sm:gap-6 mask-blur-left-right">
+    <div class=" flex overflow-hidden">
+        <div class="animate-scroll gap-6 flex items-center justify-around px-2 min-w-full flex-shrink-0">
+            <img alt="Abertay-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Altai-State.png" style="color: transparent;">
+            <img alt="Auburn-univ.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Bashkir-State.png" style="color: transparent;">
+            <img alt="Bisshops-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Crimea-Federal.png" style="color: transparent;">
+            <img alt="Brunel-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kabardino-Balkarian.png" style="color: transparent;">
+            <img alt="Caltech-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kazan-Federal.png" style="color: transparent;">
+            <img alt="chester-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kuban_State.png" style="color: transparent;">
+        </div>
+        <div class="animate-scroll gap-6 flex items-center justify-around px-2 min-w-full flex-shrink-0 ">
+            <img alt="Abertay-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Altai-State.png" style="color: transparent;">
+            <img alt="Auburn-univ.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Bashkir-State.png" style="color: transparent;">
+            <img alt="Bisshops-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Crimea-Federal.png" style="color: transparent;">
+            <img alt="Brunel-University.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kabardino-Balkarian.png" style="color: transparent;">
+            <img alt="Caltech-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kazan-Federal.png" style="color: transparent;">
+            <img alt="chester-university.png" loading="lazy" width="163" height="90" decoding="async" data-nimg="1" class="mx-4" src="<?= base_url('public/') ?>assets/images/slider/Russia/Kuban_State.png" style="color: transparent;">
+        </div>
+    </div>
+</div> -->
+
+<!-- Request a Callback -->
+<div class="container my-12 sm:my-24">
+    <div class="p-5 sm:p-14 rounded-xl sm:rounded-[34px] border border-[#B3B3B3]">
+        <div class="grid grid-cols-5 gap-4 sm:gap-8">
+
+            <!-- Left Text Column -->
+            <div class="col-span-5 sm:col-span-2 flex flex-col justify-between gap-4">
+                <h2 class="text-[22px] lg:text-3xl 2xl:text-[34px] font-normal leading-[130%]">
+                    Doctorbano – Your
+                    <span class="text-primary"> Gateway to Global Medical Education!</span>
+                </h2>
+                <div class="col-span-5 order-2 sm:order-3 sm:col-span-2 flex items-end">
+                    <p class="text-[#1F2022] text-sm sm:text-base font-light">
+                        Embark on a transformative journey towards a distinguished medical career with Doctorbano! We specialize in guiding aspiring medical professionals to study MBBS abroad, offering comprehensive resources and personalized support to navigate the high-competition landscape of global medical education.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Info Cards -->
+            <div class="order-3 sm:order-2 col-span-5 sm:col-span-3 grid grid-cols-4 gap-4">
+
+                <!-- Card 1 -->
+                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary">
+                    <!-- Icon + Title -->
+                    <div class="flex items-center gap-3">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF4E6] text-[#FF8401] shrink-0 icon-animate">
+                            <!-- Inline SVG globe (crisp & centered) -->
+                            <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9"></circle>
+                                <path d="M3 12h18"></path>
+                                <path d="M12 3a15 15 0 0 1 0 18"></path>
+                                <path d="M12 3a15 15 0 0 0 0 18"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-[#1F2022] leading-snug">
+                            Study MBBS Abroad: Unlocking Opportunities Worldwide
+                        </h3>
+                    </div>
+                    <!-- Paragraph -->
+                    <p class="text-sm text-[#1F2022] font-light leading-relaxed">
+                        Are you dreaming of pursuing MBBS in a renowned international university? Doctorbano is your trusted partner in making that dream a reality. Our platform is dedicated to providing you with up-to-date information, expert guidance, and a plethora of resources to facilitate your journey towards a world-class medical education.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary">
+                    <!-- Icon + Title -->
+                    <div class="flex items-center gap-3">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF4E6] text-[#FF8401] text-2xl shrink-0 icon-animate">
+                            <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-[#1F2022] leading-snug">
+                            Why Study MBBS Abroad?
+                        </h3>
+                    </div>
+                    <!-- Paragraph -->
+                    <p class="text-sm text-[#1F2022] font-light leading-relaxed">
+                        The global landscape of medical education is evolving, and studying MBBS abroad presents a myriad of advantages. From exposure to diverse clinical practices to gaining a global perspective on healthcare, international medical programs open doors to unparalleled opportunities. Doctorbano empowers you with the knowledge and insights needed to make informed decisions about your academic future.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Empower & Trust Section with W3 Animation -->
 <section class="container my-20">
@@ -180,143 +360,6 @@
     </div>
 
 </section>
-
-
-
-<!-- Study Abroad Video Section | Video Left + CTA -->
-<div class="container my-12 sm:my-24">
-    <div class="bg-white rounded-[21px] shadow-[inset_0_0_31.6px_0px_rgba(0,0,0,0.2)] sm:pr-16 flex flex-col-reverse sm:flex-row items-center gap-5 sm:gap-14 justify-center overflow-hidden relative">
-
-        <!-- Video Section with Border (Top, Left, Right) -->
-        <div class="w-[90%] sm:w-3/5 relative sm:rounded-t-3xl sm:px-16 sm:pt-16 overflow-hidden sm:[overflow:unset]">
-
-            <!-- Border wrapper -->
-            <div class="relative bg-black pt-[15px] px-[15px] rounded-t-[30px]">
-
-                <!-- Video inside black border -->
-                <video autoplay loop playsinline muted class="w-full rounded-t-[15px] relative z-10">
-                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-
-                <!-- ▶️ Play Icon Overlay -->
-                <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center pointer-events-none z-20">
-                    <div class="w-14 h-14 rounded-full backdrop-blur-[7px] bg-white/50 flex items-center justify-center">
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="56" height="56" rx="28" fill="white" fill-opacity="0.5" />
-                            <g clip-path="url(#clip0)">
-                                <g filter="url(#filter0_d)">
-                                    <path d="M21 22.3076V34.6941C21 37.231 23.8601 38.8229 26.1428 37.5545L31.7154 34.4611L37.288 31.3548C39.5707 30.0864 39.5707 26.9153 37.288 25.6469L31.7154 22.5406L26.1428 19.4472C23.8601 18.1788 21 19.7578 21 22.3076Z" fill="white" />
-                                </g>
-                            </g>
-                            <defs>
-                                <filter id="filter0_d" x="12" y="10" width="36" height="37" filterUnits="userSpaceOnUse">
-                                    <feGaussianBlur stdDeviation="4.5" />
-                                </filter>
-                                <clipPath id="clip0">
-                                    <rect width="56" height="56" rx="15" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 📝 Text Content -->
-        <div class="sm:w-2/5 flex flex-col gap-4 sm:gap-8 items-start p-4 sm:p-0">
-            <h2 class="text-left sm:text-center text-[24px] lg:text-[28px] xl:text-[30px] 2xl:text-[34px] font-medium text-heading">
-                <span class="text-primary">Study Abroad</span> Made Simple
-            </h2>
-
-            <!-- 📈 Highlight Box -->
-            <div class="bg-[#538B191A] rounded-[11px] py-4 px-7">
-                <p class="text-[#1F2022] text-sm mb-1">
-                    Increase your chances of admission up to <span class="font-semibold text-[#538B19]">98%</span>
-                </p>
-                <img src="<?= base_url('public/') ?>assets/images/logo/university/universityLogoGroup.webp"
-                    width="319" height="43" alt="University Logos" class="mt-2" loading="lazy" />
-            </div>
-
-            <!-- 📞 CTA Button -->
-            <div booksession="true"
-                class="w-full max-w-[85%] cursor-pointer bg-primary text-white text-sm border-2 border-primary px-2 py-2.5 hidden sm:flex items-center justify-center rounded-[14px] gap-1 transition-all ease-in-out duration-300 hover:scale-105 font-semibold"
-                title="Request a Callback">
-                Request a Callback
-                <img src="<?= base_url('public/') ?>assets/images/icons/rightArrow.webp" width="25" height="25" alt="Right Arrow" loading="lazy" />
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Request a Callback -->
-<div class="container my-12 sm:my-24">
-    <div class="p-5 sm:p-14 rounded-xl sm:rounded-[34px] border border-[#B3B3B3]">
-        <div class="grid grid-cols-5 gap-4 sm:gap-8">
-
-            <!-- Left Text Column -->
-            <div class="col-span-5 sm:col-span-2 flex flex-col justify-between gap-4">
-                <h2 class="text-[22px] lg:text-3xl 2xl:text-[34px] font-normal leading-[130%]">
-                    Doctorbano – Your
-                    <span class="text-primary"> Gateway to Global Medical Education!</span>
-                </h2>
-                <div class="col-span-5 order-2 sm:order-3 sm:col-span-2 flex items-end">
-                    <p class="text-[#1F2022] text-sm sm:text-base font-light">
-                        Embark on a transformative journey towards a distinguished medical career with Doctorbano! We specialize in guiding aspiring medical professionals to study MBBS abroad, offering comprehensive resources and personalized support to navigate the high-competition landscape of global medical education.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Info Cards -->
-            <div class="order-3 sm:order-2 col-span-5 sm:col-span-3 grid grid-cols-4 gap-4">
-
-                <!-- Card 1 -->
-                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary">
-                    <!-- Icon + Title -->
-                    <div class="flex items-center gap-3">
-                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF4E6] text-[#FF8401] shrink-0 icon-animate">
-                            <!-- Inline SVG globe (crisp & centered) -->
-                            <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                <circle cx="12" cy="12" r="9"></circle>
-                                <path d="M3 12h18"></path>
-                                <path d="M12 3a15 15 0 0 1 0 18"></path>
-                                <path d="M12 3a15 15 0 0 0 0 18"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-lg font-semibold text-[#1F2022] leading-snug">
-                            Study MBBS Abroad: Unlocking Opportunities Worldwide
-                        </h3>
-                    </div>
-                    <!-- Paragraph -->
-                    <p class="text-sm text-[#1F2022] font-light leading-relaxed">
-                        Are you dreaming of pursuing MBBS in a renowned international university? Doctorbano is your trusted partner in making that dream a reality. Our platform is dedicated to providing you with up-to-date information, expert guidance, and a plethora of resources to facilitate your journey towards a world-class medical education.
-                    </p>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="service-card col-span-4 sm:col-span-2 bg-white rounded-2xl p-6 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary">
-                    <!-- Icon + Title -->
-                    <div class="flex items-center gap-3">
-                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF4E6] text-[#FF8401] text-2xl shrink-0 icon-animate">
-                            <i class="bi bi-mortarboard-fill"></i>
-                        </div>
-                        <h3 class="text-lg font-semibold text-[#1F2022] leading-snug">
-                            Why Study MBBS Abroad?
-                        </h3>
-                    </div>
-                    <!-- Paragraph -->
-                    <p class="text-sm text-[#1F2022] font-light leading-relaxed">
-                        The global landscape of medical education is evolving, and studying MBBS abroad presents a myriad of advantages. From exposure to diverse clinical practices to gaining a global perspective on healthcare, international medical programs open doors to unparalleled opportunities. Doctorbano empowers you with the knowledge and insights needed to make informed decisions about your academic future.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
 
 <!-- Who We Ares -->
 <div class="container my-12 sm:my-24">
@@ -436,6 +479,47 @@
     </div>
 </div>
 
+<!-- Counter Section Start -->
+<section class="container my-12 sm:my-24">
+    <!-- Flex container for all counter cards -->
+    <div class="flex gap-3 sm:gap-8 justify-center flex-wrap sm:flex-nowrap">
+
+        <!-- Counter Card 1: Years of Expertise -->
+        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
+            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">12+</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+                Years of Expertise
+            </p>
+        </div>
+
+        <!-- Counter Card 2: Countries Served -->
+        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
+            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">25+</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+                Countries Served
+            </p>
+        </div>
+
+        <!-- Counter Card 3: Qualified Professionalss -->
+        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5">
+            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">50+</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+                Qualified Professionals
+            </p>
+        </div>
+
+        <!-- Counter Card 4: Successful Graduates -->
+        <div class="flex flex-col w-[45%] sm:w-1/4 sm:gap-12 items-start border-1 border-[#B3B3B3] rounded-xl sm:rounded-3xl p-3 sm:p-4 2xl:p-6 pt-2.5 overflow-hidden">
+            <div class="text-[51px] sm:text-[70px] text-[#1F2022] font-semibold">10k+</div>
+            <p class="text-sm sm:text-[15px] 2xl:text-base text-[#1F2022] font-light capitalize">
+                Successful Graduates
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- Counter Section End -->
+
 <!-- University Logos Carousel Section -->
 <div class=" my-12 lg:my-24 flex flex-col gap-0 sm:gap-6 mask-blur-left-right">
     <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] sm:text-center mb-8 sm:mb-12">
@@ -510,9 +594,6 @@
         </div>
     </div>
 </div>
-
-<!-- Select the Service -->
-<?= $this->include('web/components/university_section.php') ?>
 
 <!-- Spotlight on Doctor Bano: Latest News and Updates -->
 <div class="my-12 sm:my-24 overflow-hidden">
@@ -593,71 +674,6 @@
         <div class="swiper-pagination"></div>
     </div>
 </div>
-
-<!-- Best Consultant Section -->
-<section class="container my-20">
-    <div class="text-center mb-12">
-        <h2 class="text-3xl sm:text-4xl font-semibold text-[#1F2022] mb-3">Best MBBS Abroad Consultant in Delhi<span style="color: #0091E3;"> 2025-2026</span></h2>
-    </div>
-
-
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card 1 -->
-        <div class="flip-card relative rounded-2xl overflow-hidden h-full min-h-[220px]">
-            <div class="flip-inner">
-                <!-- Front -->
-                <div class="flip-front p-6 border border-[#B3B3B3] text-center bg-white flex flex-col items-center justify-center">
-                    <i class="bi bi-map-fill" style="color:#FF8401; font-size:48px;"></i>
-                    <h3 class="text-xl font-semibold text-[#1F2022] mt-3 mb-2">Study MBBS in Abroad</h3>
-                    <p class="text-[#6E6E73] text-sm">Your chance to be a trending expert in Medical and make a successful career after completion of our courses.</p>
-                </div>
-                <!-- Back -->
-                <div class="flip-back p-6 text-center bg-[#FF8401] text-white flex flex-col items-center justify-center">
-                    <i class="bi bi-map-fill" style="font-size:48px;"></i>
-                    <h3 class="text-xl font-semibold mt-3 mb-2">Study MBBS in Abroad</h3>
-                    <p class="text-sm">Your chance to be a trending expert in Medical and make a successful career after completion of our courses.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="flip-card relative rounded-2xl overflow-hidden h-full min-h-[220px]">
-            <div class="flip-inner">
-                <!-- Front -->
-                <div class="flip-front p-6 border border-[#B3B3B3] text-center bg-white flex flex-col items-center justify-center">
-                    <i class="bi bi-eye-fill" style="color:#FF8401; font-size:48px;"></i>
-                    <h3 class="text-xl font-semibold text-[#1F2022] mt-3 mb-2">Cheapest MBBS Abroad</h3>
-                    <p class="text-[#6E6E73] text-sm">Doctorbano.com is one of the upcoming consultancy, with a vision of providing excellent support.</p>
-                </div>
-                <!-- Back -->
-                <div class="flip-back p-6 text-center bg-[#FF8401] text-white flex flex-col items-center justify-center">
-                    <i class="bi bi-eye-fill" style="font-size:48px;"></i>
-                    <h3 class="text-xl font-semibold mt-3 mb-2">Cheapest MBBS Abroad</h3>
-                    <p class="text-sm">Doctorbano.com is one of the upcoming consultancy, with a vision of providing excellent support.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="flip-card relative rounded-2xl overflow-hidden h-full min-h-[220px]">
-            <div class="flip-inner">
-                <!-- Front -->
-                <div class="flip-front p-6 border border-[#B3B3B3] text-center bg-white flex flex-col items-center justify-center">
-                    <i class="bi bi-trophy-fill" style="color:#FF8401; font-size:48px;"></i>
-                    <h3 class="text-xl font-semibold text-[#1F2022] mt-3 mb-2">MBBS Consultants 2025</h3>
-                    <p class="text-[#6E6E73] text-sm">Get reliable consultation for professional education by our team of certified professionals.</p>
-                </div>
-                <!-- Back -->
-                <div class="flip-back p-6 text-center bg-[#FF8401] text-white flex flex-col items-center justify-center">
-                    <i class="bi bi-trophy-fill" style="font-size:48px;"></i>
-                    <h3 class="text-xl font-semibold mt-3 mb-2">MBBS Consultants 2025</h3>
-                    <p class="text-sm">Get reliable consultation for professional education by our team of certified professionals.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- FAQ Section Start -->
 <?= $this->include('web/components/faq.php') ?>

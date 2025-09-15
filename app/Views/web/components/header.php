@@ -35,8 +35,8 @@
 
 <main id="main-content" style="display: none;">
     <div class="relative bg-[#ededed]">
-        <img src="<?= base_url('public/') ?>assets/images/bg/doctorbano-blue.webp" alt="doctorbano" width="1530"
-            height="106" class="header-bg-img" loading="lazy" />
+        <!-- <img src="<?= base_url('public/') ?>assets/images/bg/doctorbano-blue.webp" alt="doctorbano" width="1530"
+            height="106" class="header-bg-img" loading="lazy" /> -->
 
         <!-- Navigation Start -->
         <div class="hidden md:flex sticky z-50 top-2 mb-2">
@@ -140,7 +140,7 @@
                                             <div class="grid grid-cols-4 gap-6">
                                                 <div>
                                                     <ul class="menu-list">
-                                                        <li><a href="<?= base_url('single-university') ?>" class="menu-link">Universities in Russia</a></li>
+                                                        <li><a href="<?= base_url('universities') ?>" class="menu-link">Universities in Russia</a></li>
                                                         <li><a href="#" class="menu-link">University 2</a></li>
                                                         <li><a href="#" class="menu-link">University 3</a></li>
                                                         <li><a href="#" class="menu-link">University 4</a></li>

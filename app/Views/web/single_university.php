@@ -12,18 +12,52 @@
                     <span class="jsx-43c44c6b135d4931 block text-primary">Study Faster &amp; Better</span>
                 </h1>
                 <div class="readmore-content-both-device flex flex-col items-start justify-start">
-                    <p class="jsx-43c44c6b135d4931 text-sm md:text-base text-[#1F2022]"> Established in 1881 against the stunning backdrop of</p>
-                    <div class="readmore-long-content w-full ">
-                        <div class="jsx-43c44c6b135d4931">
-                            <p class="jsx-43c44c6b135d4931 text-sm md:text-base text-[#1F2022]">Scotland's iconic terrain, the University of Dundee is amongst the leading universities in the UK. This iconic educational hub in Scotland aims to transform lives with its unique teaching method and plenty of academic facilities. The University of Dundee has earned an unbeatable reputation by pushing the boundaries with its highly dedicated students and staff.</p>
-                        </div>
-                    </div><button class="readmore-btn mb-3 transition-all ease-in-out text-test-prep text-sm sm:text-base !undefined">Read More</button>
+                    <p class="readmore-text text-sm md:text-base text-[#1F2022]">
+                        Sevastopol State University, located in the beautiful and attractive city of Sevastopol, Russia. It is an honoured institution known for its diverse offerings in academics and also modern facilities. Among various courses provided MBBS attracts a large number of students worldwide.
+                    </p>
+                    <!-- <button
+                        type="button"
+                        class="readmore-btn mb-3 transition-all ease-in-out text-test-prep text-sm sm:text-base">
+                        Read More
+                    </button> -->
                 </div>
+
+                <!-- <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const WORD_LIMIT = 40;
+
+                        document.querySelectorAll(".readmore-content-both-device").forEach(section => {
+                            const textEl = section.querySelector(".readmore-text");
+                            const btn = section.querySelector(".readmore-btn");
+
+                            // Save the full text BEFORE truncating
+                            const fullText = textEl.textContent.trim();
+                            const words = fullText.split(/\s+/);
+
+                            if (words.length <= WORD_LIMIT) {
+                                btn.style.display = "none";
+                                return;
+                            }
+
+                            const truncated = words.slice(0, WORD_LIMIT).join(" ") + "...";
+                            textEl.textContent = truncated;
+
+                            let expanded = false;
+                            btn.addEventListener("click", () => {
+                                expanded = !expanded;
+                                textEl.textContent = expanded ? fullText : truncated;
+                                btn.textContent = expanded ? "Read Less" : "Read More";
+                            });
+                        });
+                    });
+                </script> -->
+
+
                 <div class="jsx-43c44c6b135d4931 bg-[#538B191A] rounded-[11px] py-4 px-7 w-[75%] my-6">
                     <p class="jsx-43c44c6b135d4931 text-[#1F2022] text-sm mb-1">Increase your chances of admission upto <span class="jsx-43c44c6b135d4931  font-semibold text-[#538B19]">98%</span></p>
-                    <img alt="universityLogoGroup" fetchpriority="high" width="360" height="58" decoding="async" data-nimg="1" class="" src="public/assets/images/single_uni/dundee/universityLogoGroup.webp" style="color: transparent;">
+                    <img alt="universityLogoGroup" fetchpriority="high" width="360" height="58" decoding="async" data-nimg="1" class="" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/universityLogoGroup.webp" style="color: transparent;">
                 </div><a class="w-[75%] bg-[linear-gradient(251.53deg,_#066AC94D_0%,_#066AC900_25%),linear-gradient(75.84deg,_#066AC966_0%,_#066AC966_2.32%,_#DEEAF500_20%)] border-2 border-primary flex items-center text-[#1D1D1F] text-[15px] font-semibold justify-center rounded-[17px] p-4 gap-4 mt-8 hover:scale-105 transition-all ease-in-out duration-300" href="tel:+91 9773388670">
-                    <img alt="star Svg" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" class="mb-[7px]" src="public/assets/images/single_uni/dundee/star.webp" style="color: transparent;">Talk To University Expert</a>
+                    <img alt="star Svg" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" class="mb-[7px]" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/star.webp" style="color: transparent;">Talk To University Expert</a>
             </div>
 
             <style>
@@ -68,24 +102,24 @@
                     <div class="swiper universityImageSwiper h-full relative" style="--swiper-navigation-color:#fff; --swiper-pagination-color:#fff;">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img alt="University of Dundee (1) - Main Building"
+                                <img alt="University - Main Building"
                                     class="h-full w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/UniversityDundeeOthers(1).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/sevastopol/sevastopol.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img alt="University of Dundee (2) - Campus"
+                                <img alt="University - Campus"
                                     class="h-full w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/UniversityDundeeOthers(2).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/UniversityDundeeOthers(2).webp">
                             </div>
                             <div class="swiper-slide">
-                                <img alt="University of Dundee (3) - Building"
+                                <img alt="University - Building"
                                     class="h-full w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/University20Dundee(3).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/University20Dundee(3).webp">
                             </div>
                             <div class="swiper-slide">
-                                <img alt="University of Dundee (4) - Aerial View"
+                                <img alt="University - Aerial View"
                                     class="h-full w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/University20Dundee(4).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/University20Dundee(4).webp">
                             </div>
                         </div>
 
@@ -107,14 +141,13 @@
                         <div class="absolute top-2 sm:top-4 left-2 sm:left-4 right-2 sm:right-4 z-10 flex items-start justify-between">
                             <div class="rounded-md sm:rounded-lg py-[6px] px-2 sm:px-3 bg-[#FFFFFFB2] flex items-start gap-1 w-fit backdrop-blur-[30px]">
                                 <img alt="locationPin" width="14" height="14"
-                                    src="public/assets/images/single_uni/dundee/locationPin.webp">
-                                <span class="text-[#353535] text-[10px] sm:text-xs font-medium max-w-40">Dundee, United Kingdom</span>
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/locationPin.webp">
+                                <span class="text-[#353535] text-[10px] sm:text-xs font-medium max-w-40"><?= esc($university['uni_name']) ?>, Russia</span>
                             </div>
                             <div class="relative py-[7px] sm:py-2 px-5 sm:px-6 pr-2 bg-white shadow-[0px_0px_29.85px_0px_#1D3A5326] rounded-md sm:rounded-lg">
                                 <img alt="badge" width="53" height="57"
                                     class="-left-7 absolute -top-1"
-                                    src="public/assets/images/single_uni/dundee/bedge.webp">
-                                <span class="text-heading text-[8px] sm:text-xs font-bold block">#441 RANKED</span>
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/bedge.webp">
                             </div>
                         </div>
                     </div>
@@ -124,19 +157,19 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden">
                                 <img alt="thumb 1" class="h-7 md:h-[50px] w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/UniversityDundeeOthers(1).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/sevastopol/sevastopol.jpg">
                             </div>
                             <div class="swiper-slide border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden">
                                 <img alt="thumb 2" class="h-7 md:h-[50px] w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/UniversityDundeeOthers(2).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/UniversityDundeeOthers(2).webp">
                             </div>
                             <div class="swiper-slide border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden">
                                 <img alt="thumb 3" class="h-7 md:h-[50px] w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/University20Dundee(3).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/University20Dundee(3).webp">
                             </div>
                             <div class="swiper-slide border sm:border-2 border-white rounded-md sm:rounded-lg overflow-hidden">
                                 <img alt="thumb 4" class="h-7 md:h-[50px] w-full object-cover"
-                                    src="public/assets/images/single_uni/dundee/University20Dundee(4).webp">
+                                    src="<?= base_url('public/') ?>assets/images/single_uni/dundee/University20Dundee(4).webp">
                             </div>
                         </div>
                     </div>
@@ -232,8 +265,8 @@
         </div>
     </div>
     <div class="container top-14 z-20">
-        <div class="bg-[#FFFFFFB2] shadow-[-16.38px_33.89px_50.83px_0px_#17122B3D] backdrop-blur-[14px] rounded-b-[15px] w-[90%] m-auto p-[14px] flex items-center justify-center gap-5"><span class=" text-lg font-semibold bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)] text-transparent bg-clip-text">Lets Start Your Admission Journey</span><a class="bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)] flex items-center gap-2 text-white py-3 px-9 rounded-[10px] text-base font-medium hover:scale-105 transition-all ease-in-out duration-300" href="https://www.gradding.com/course-finder?universityId=2">
-                <img alt="penIcon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="public/assets/images/single_uni/dundee/penIcon.webp" style="color: transparent;">Apply Now</a><a class="text-[#2685B9] text-base font-medium border-2 border-[#1BA9BCB2] py-3 px-9 rounded-[10px] bg-[#F0FDFF1A] hover:scale-105 transition-all ease-in-out duration-300" href="https://www.gradding.com/start-journey">Check Eligibility</a></div>
+        <div class="bg-[#FFFFFFB2] shadow-[-16.38px_33.89px_50.83px_0px_#17122B3D] backdrop-blur-[14px] rounded-b-[15px] w-[90%] m-auto p-[14px] flex items-center justify-center gap-5"><span class=" text-lg font-semibold bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)] text-transparent bg-clip-text">Lets Start Your Admission Journey</span><a class="bg-[linear-gradient(92.91deg,_#1BA9BC_-0.48%,_#2966C1_98.9%)] flex items-center gap-2 text-white py-3 px-9 rounded-[10px] text-base font-medium hover:scale-105 transition-all ease-in-out duration-300" href="#">
+                <img alt="penIcon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/penIcon.webp" style="color: transparent;">Apply Now</a><a class="text-[#2685B9] text-base font-medium border-2 border-[#1BA9BCB2] py-3 px-9 rounded-[10px] bg-[#F0FDFF1A] hover:scale-105 transition-all ease-in-out duration-300" href="#">Check Eligibility</a></div>
     </div>
     <div class="my-4"></div>
     <div class="container my-12 sm:my-20">
@@ -301,34 +334,34 @@
         </div>
     </div>
     <div class="container my-8 sm:my-20">
-        <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] mb-4 sm:mb-9"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block">Skills, Research and Higher Education:</span> University of Dundee</h2>
+        <h2 class="px-3.5 sm:px-0 text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal leading-[130%] mb-4 sm:mb-9"><span class="font-medium text-test-prep sm:mx-1 block sm:inline-block">Skills, Research and Higher Education:</span><?= esc($university['uni_name']) ?></h2>
         <div class="grid grid-cols-1 grid-rows-[4fr_1fr] sm:grid-rows-1 sm:grid-cols-[2fr_0.45fr] gap-4 sm:gap-12 w-full">
             <div class="grid grid-cols-2 gap-4 sm:gap-12">
                 <div class=" order-2 sm:order-1 h-full relative rounded-[10px] sm:rounded-[22px] overflow-hidden">
-                    <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover" sizes="100vw" src="public/assets/images/single_uni/dundee/UniversityDundeeOthers(1).webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                    <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover" sizes="100vw" src="<?= base_url('public/') ?>assets/images/single_uni/sevastopol/sevastopol.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
                 </div>
                 <div class="order-1 sm:order-2 grid grid-rows-1 sm:grid-rows-[2fr_0.50fr] sm:gap-7">
                     <div class="grid grid-rows-[0.45fr_2fr] sm:grid-rows-1 gap-3 h-full relative">
                         <div class=" relative sm:absolute bg-white rounded-lg sm:rounded-[23px] w-full sm:w-[166px] sm:h-[158px] z-10 sm:-left-28 sm:top-32 p-4 sm:p-5 flex flex-row-reverse sm:flex-col justify-between sm:justify-center items-center">
-                            <div class="flex flex-col"><span class="text-[13px] sm:text-[28px] font-semibold text-primary">16K+</span><span class=" text-[13px] sm:text-lg text-[#222222] sm:mb-3">Students</span></div>
-                            <img alt="avatarImage" loading="lazy" width="76" height="36" decoding="async" data-nimg="1" src="public/assets/images/single_uni/dundee/avatarImage.webp" style="color: transparent;">
+                            <div class="flex flex-col"><span class="text-[13px] sm:text-[28px] font-semibold text-primary"><?= esc($university['students']) ?></span><span class=" text-[13px] sm:text-lg text-[#222222] sm:mb-3">Students</span></div>
+                            <img alt="avatarImage" loading="lazy" width="76" height="36" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/avatarImage.webp" style="color: transparent;">
                         </div>
                         <div>
-                            <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover rounded-[7px] sm:rounded-[22px] !relative sm:absolute" sizes="100vw" src="public/assets/images/single_uni/dundee/UniversityDundeeOthers(2).webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                            <img alt="University image" loading="lazy" decoding="async" data-nimg="fill" class=" object-cover rounded-[7px] sm:rounded-[22px] !relative sm:absolute" sizes="100vw" src="<?= base_url('public/') ?>assets/images/single_uni/sevastopol/study-mbbs-in-russia.png" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
                         </div>
                     </div>
                     <div class="flex flex-col justify-around">
-                        <p class="text-[#1F2022] text-base mb-6">When you are ambitious about joining the University of Dundee from the next academic session, you must check the admission requirements and process details to get prepared with a well-planned application format.</p>
+                        <p class="text-[#1F2022] text-base mb-6"><?= esc($university['about']) ?></p>
                         <div class="flex items-center justify-between gap-6"><a class="bg-primary text-white text-[15px] border-2 border-primary px-3 sm:px-5 py-3 flex items-center justify-center w-[60%] rounded-[14px] gap-2 transition-all ease-in-out duration-300 hover:scale-[1.05] font-semibold" href="/">Book a Free Session
-                                <img alt="Right arrow" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" src="public/assets/images/single_uni/dundee/rightArrow.webp" style="color: transparent;"></a><button class="z-0 group relative box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 min-w-20 [&amp;&gt;svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-white text-primary text-[15px] border-2 border-[#066AC91A] px-5 py-3 flex items-center justify-center w-1/2 rounded-[14px] gap-2 transition-all ease-in-out duration-300 hover:scale-[1.05] font-semibold h-auto" type="button">Explore Gallery</button></div>
+                                <img alt="Right arrow" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/rightArrow.webp" style="color: transparent;"></a><button class="z-0 group relative box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 min-w-20 [&amp;&gt;svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-white text-primary text-[15px] border-2 border-[#066AC91A] px-5 py-3 flex items-center justify-center w-1/2 rounded-[14px] gap-2 transition-all ease-in-out duration-300 hover:scale-[1.05] font-semibold h-auto" type="button">Explore Gallery</button></div>
                     </div>
                 </div>
             </div>
             <div class="grid grid-cols-4 sm:grid-cols-1 sm:grid-rows-4 gap-3 sm:gap-9">
-                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold">1881</span><span class="text-[#222222] text-xs sm:text-lg">Established</span></div>
-                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold">2K+</span><span class="text-[#222222] text-xs sm:text-lg">International students</span></div>
-                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold">441</span><span class="text-[#222222] text-xs sm:text-lg">QS Rankings</span></div>
-                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold">1</span><span class="text-[#222222] text-xs sm:text-lg">Total Campuses</span></div>
+                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold"><?= esc($university['bachelors_programs']) ?></span><span class="text-[#222222] text-xs sm:text-lg">Bachelors Programs</span></div>
+                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold"><?= esc($university['masters_programs']) ?></span><span class="text-[#222222] text-xs sm:text-lg">Masters Programs</span></div>
+                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold"><?= esc($university['specialist_programs']) ?></span><span class="text-[#222222] text-xs sm:text-lg">Specialist Programs</span></div>
+                <div class=" bg-white rounded-lg sm:rounded-3xl w-full h-full flex flex-col justify-center sm:items-center gap-[5px] sm:gap-2 px-2 py-2.5 sm:p-7"><span class="text-[#0540F2] text-base text-left sm:text-center sm:text-3xl font-semibold"><?= esc($university['phd_programs']) ?></span><span class="text-[#222222] text-xs sm:text-lg">PHD Programs</span></div>
             </div>
         </div>
     </div>
@@ -336,7 +369,7 @@
         <div class="bg-gradient-to-r from-[rgba(7,111,210,0.5)] to-[rgba(187,218,248,0.5)] rounded-xl sm:rounded-[20px] p-[6px] sm:p-[10px]">
             <div class="bg-gradient-to-r from-[#055AAB] to-[#699FD2] rounded-[10px] sm:rounded-xl shadow-[0px_0px_11.34px_0px_#00000059] relative overflow-hidden">
                 <div class="w-full sm:w-3/5 px-4 sm:px-10 py-4 sm:py-8">
-                    <h3 class=" text-sm sm:text-3xl font-medium text-white">Get Admission into top UK universities with the help of expert counsellors</h3>
+                    <h3 class=" text-sm sm:text-3xl font-medium text-white">Get Admission into top universities with the help of expert counsellors</h3>
                     <hr class="shrink-0 border-none w-full my-3 sm:my-6 opacity-20 bg-white h-[1.47px]" role="separator">
                     <div class=" w-fit sm:w-3/4 md:flex flex-col">
                         <p class="text-white text-sm sm:text-xl font-normal mb-2 md:mb-4">Save up-to ₹3 Lakhs with us!*</p><a class="relative z-10 md:w-fit rounded-[11px] hover:scale-[1.05] transition-all ease-in-out duration-300 block text-white text-sm sm:text-xl font-semibold px-4 sm:px-6 py-3 border border-[#FFFFFF8F] bg-gradient-to-r from-[rgba(255,255,255,0.16)] to-[rgba(255,255,255,0.13)] backdrop-blur-md" href="#">Discuss with Expert for FREE</a>
@@ -354,7 +387,7 @@
                 <div class="absolute top-0 right-0 p-4 pt-2">
                     <p class="text-[#1D2636] text-2xl font-semibold text-center"><span class="block uppercase">Feb 2026 </span> Intake</p><a class="relative z-10 mt-3 block bg-[#23BD33] text-white shadow-[0px_0px_14.71px_0px_#23BD33] px-3 py-2 text-[15px] font-bold rounded-lg hover:scale-[1.05] transition-all ease-in-out duration-300" href="/">OPEN NOW</a>
                 </div>
-                <img alt="Scholar Image" loading="lazy" width="530" height="310" decoding="async" data-nimg="1" class="absolute right-0 top-0 " src="public/assets/images/single_uni/dundee/schoarImage.webp" style="color: transparent;">
+                <img alt="Scholar Image" loading="lazy" width="530" height="310" decoding="async" data-nimg="1" class="absolute right-0 top-0 " src="<?= base_url('public/') ?>assets/images/single_uni/dundee/schoarImage.webp" style="color: transparent;">
             </div>
         </div>
     </div>
@@ -373,21 +406,30 @@
                     <tbody>
                         <tr class=" odd:bg-white">
                             <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">STANDARD</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">Grade 11 Standard (10+1)</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">Grade 12 Standard (10+2)</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">First class or upper second class</td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_ifp_standard']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_ug_standard']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_pg_standard']) ?></td>
                         </tr>
                         <tr class=" odd:bg-white">
                             <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">PERCENTAGE ACCEPTED </td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">80 %</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">85 %</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">60-80 %</td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_ifp_percentage']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_ug_percentage']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_pg_percentage']) ?></td>
                         </tr>
                         <tr class=" odd:bg-white">
                             <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">BOARDS ACCEPTED</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">All state boards</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">All state boards </td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]"> All state boards</td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_ifp_boards']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_ug_boards']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">
+                                <?= esc($university['eligibility_pg_boards']) ?></td>
                         </tr>
                     </tbody>
                 </table>
@@ -405,9 +447,9 @@
                     <tbody>
                         <tr class="odd:bg-white">
                             <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">IELTS</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">5.5</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">6.0</td>
-                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]">6.0</td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]"><?= esc($university['ielts_undergraduate']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]"><?= esc($university['ielts_postgraduate']) ?></td>
+                            <td class="first:text-[#8E8E93] first:text-[15px] first:font-bold py-2 px-6 text-[#2B2B34] text-base font-semibold first:rounded-l-[12px] last:rounded-r-[12px]"><?= esc($university['ielts_phd']) ?></td>
                         </tr>
                     </tbody>
                 </table>
@@ -444,13 +486,13 @@
                     <p class="text-[#F2AE29] ">From 50% to 100%</p>
                 </a>
                 <div class="bg-gradient-to-r from-[#00559C] to-[#3CA5D8] py-2.5 px-2 md:px-3.5 rounded-lg -mx-3 -mb-2">
-                    <p class="text-white text-sm font-medium mb-2">Get Gradding’s Scholarship Worth</p>
+                    <p class="text-white text-sm font-medium mb-2">Get DoctorBano’s Scholarship Worth</p>
                     <div class="flex items-center justify-between">
                         <p class="text-white text-lg font-bold drop-shadow-[0px_0px_4px_0px_#FFFFFF99]">₹25,000</p>
-                        <div booksession="true" href="/study-in-uk/universities/university-of-dundee/#" class="bg-white rounded-md text-primary px-6 py-1.5 h-auto cursor-pointer" title="">Claim Now</div>
+                        <div booksession="true" href="#" class="bg-white rounded-md text-primary px-6 py-1.5 h-auto cursor-pointer" title="">Claim Now</div>
                     </div>
                 </div>
-                <img alt="Scholarships Image" loading="lazy" width="74" height="19" decoding="async" data-nimg="1" class="absolute top-2.5 right-2.5 z-10 rounded-br-xl" src="public/assets/images/single_uni/dundee/scholarshipBatch.webp" style="color: transparent;">
+                <img alt="Scholarships Image" loading="lazy" width="74" height="19" decoding="async" data-nimg="1" class="absolute top-2.5 right-2.5 z-10 rounded-br-xl" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/scholarshipBatch.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Admissions</p>
@@ -459,46 +501,46 @@
                     <p class="text-[#B2B2BC]">Exams</p>
                     <p class="text-[#D09635]">IELTS, TOEFL, PTE</p>
                 </div>
-                <img alt="Admissions Image" loading="lazy" width="91" height="121" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/dundee/admission.webp" style="color: transparent;">
+                <img alt="Admissions Image" loading="lazy" width="91" height="121" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/admission.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Acceptance Rate</p>
                 <p class="text-base font-medium text-[#87898C] mb-2">Student Acceptance Rate</p>
                 <div class="flex items-center gap-1.5 text-sm font-semibold mb-1.5 flex-wrap sm:w-3/4">
                     <p class="text-[#B2B2BC]">Total Students</p>
-                    <p class="text-[#5679E3]">15915</p>
+                    <p class="text-[#5679E3]"><?= esc($university['students']) ?></p>
                 </div>
                 <div class="flex items-center gap-1.5 text-sm font-semibold mb-1.5 flex-wrap sm:w-3/4">
                     <p class="text-[#B2B2BC]">International Student</p>
                     <p class="text-[#5679E3]">13%</p>
                 </div>
-                <img alt="Acceptance Rate Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/dundee/acceptance.webp" style="color: transparent;">
+                <img alt="Acceptance Rate Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/acceptance.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Ranking</p>
                 <p class="text-base font-medium text-[#87898C] mb-2">Rankings by various bodies</p>
                 <div class="flex items-center gap-1.5 text-sm font-semibold mb-1.5 flex-wrap sm:w-3/4">
-                    <p class="text-[#B2B2BC]">Qs Ranking</p>
-                    <p class="text-[#5679E3]">441</p>
+                    <p class="text-[#B2B2BC]">Institutions Count</p>
+                    <p class="text-[#5679E3]"><?= esc($university['institutions_count']) ?></p>
                 </div>
                 <div class="flex items-center gap-1.5 text-sm font-semibold mb-1.5 flex-wrap sm:w-3/4">
-                    <p class="text-[#B2B2BC]">ARWU</p>
-                    <p class="text-[#5679E3]">301-400</p>
+                    <p class="text-[#B2B2BC]">Departments Count</p>
+                    <p class="text-[#5679E3]"><?= esc($university['departments_count']) ?></p>
                 </div>
-                <img alt="Ranking Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/dundee/ranking.webp" style="color: transparent;">
+                <img alt="Ranking Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/ranking.webp" style="color: transparent;">
             </div>
             <div class="w-72 p-3 md:p-6 shrink-0 grid bg-white rounded-xl hover:shadow-[0px_0px_30px_0px_#5E5E5E21] relative">
                 <p class="text-xl font-semibold text-[#444446]">Courses</p>
                 <p class="text-base font-medium text-[#87898C] mb-2">Various courses offered</p>
                 <div class="flex items-center gap-1.5 text-sm font-semibold mb-1.5 flex-wrap sm:w-3/4">
-                    <p class="text-[#B2B2BC]">Bachelors</p>
-                    <p class="text-[#5679E3]">194</p>
+                    <p class="text-[#B2B2BC]">Majors</p>
+                    <p class="text-[#5679E3]"><?= esc($university['majors']) ?></p>
                 </div>
                 <div class="flex items-center gap-1.5 text-sm font-semibold mb-1.5 flex-wrap sm:w-3/4">
-                    <p class="text-[#B2B2BC]">Masters</p>
-                    <p class="text-[#5679E3]">60</p>
+                    <p class="text-[#B2B2BC]">English Taught Programs</p>
+                    <p class="text-[#5679E3]"><?= esc($university['english_taught_programs']) ?></p>
                 </div>
-                <img alt="Courses Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="public/assets/images/single_uni/dundee/coursesTab.webp" style="color: transparent;">
+                <img alt="Courses Image" loading="lazy" width="93" height="86" decoding="async" data-nimg="1" class="absolute bottom-0 right-0 z-10 rounded-br-xl" src="<?= base_url('public/') ?>assets/images/single_uni/dundee/coursesTab.webp" style="color: transparent;">
             </div>
             <div class="pulse-animation w-full sm:w-72 bg-[linear-gradient(134.39deg,_#2A5887_31.16%,_#060F23_90.13%)] rounded-2xl border-[1.32px] border-[#0096D8] p-5 h-auto shadow-[0px_9.66px_54.42px_0px_#15A9EA33,-10.53px_10.53px_23.52px_0px_#00000021_inset] backdrop-blur-[22px]">
                 <div class="flex flex-col gap-3">
@@ -513,7 +555,7 @@
                         <span class=" text-base text-white font-medium capitalize">SEP 2025</span>
                         <span class=" text-center w-16 px-2 py-[6px] rounded-md text-xs text-white bg-[#23BD33] shadow-[0px_0px_11.48px_0px_#23BD33] drop-shadow-[0px_0px_11.48px_0px_#FFFFFF] font-bold capitalize">OPEN</span>
                     </div>
-                    <a class="mt-2 w-full bg-[#15A9EA] text-white p-[10px] rounded-[9px] flex justify-center items-center border-[0.88px] border-[#FFFFFF33] shadow-[0px_3.51px_21.94px_0px_#0096D873,0px_3.51px_3.51px_0px_#FFFFFF40_inset] text-base font-bold" href="https://www.gradding.com/course-finder?universityId=2">Apply Now</a>
+                    <a class="mt-2 w-full bg-[#15A9EA] text-white p-[10px] rounded-[9px] flex justify-center items-center border-[0.88px] border-[#FFFFFF33] shadow-[0px_3.51px_21.94px_0px_#0096D873,0px_3.51px_3.51px_0px_#FFFFFF40_inset] text-base font-bold" href="#">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -610,7 +652,7 @@
         <h2 class=" text-2xl lg:text-[28px] xl:text-3xl 2xl:text-[34px] font-normal text-center mb-5">Frequently Asked <span class="text-test-prep font-medium block sm:inline-block"> Questions</span></h2>
         <div class="px-2">
             <div class="border-b-1 border-[#DCDCDC]">
-                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">Is There Any Application Fee for the University of Dundee?</span>
+                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">Is There Any Application Fee for the <?= esc($university['uni_name']) ?>?</span>
                     <div class="relative size-3 flex items-center justify-center"><span class="rotate-0 opacity-100 duration-400 absolute"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="4.72858" y="0.0999985" width="1.54286" height="10.8" fill="#6E6E73"></rect>
                                 <rect x="10.9" y="4.72857" width="1.54286" height="10.8" transform="rotate(90 10.9 4.72857)" fill="#6E6E73"></rect>
@@ -625,7 +667,7 @@
                 </div>
             </div>
             <div class="border-b-1 border-[#DCDCDC]">
-                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">What Is the Acceptance Rate at the University of Dundee?</span>
+                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">What Is the Acceptance Rate at the <?= esc($university['uni_name']) ?>?</span>
                     <div class="relative size-3 flex items-center justify-center"><span class="rotate-0 opacity-100 duration-400 absolute"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="4.72858" y="0.0999985" width="1.54286" height="10.8" fill="#6E6E73"></rect>
                                 <rect x="10.9" y="4.72857" width="1.54286" height="10.8" transform="rotate(90 10.9 4.72857)" fill="#6E6E73"></rect>
@@ -635,12 +677,12 @@
                 </div>
                 <div class="grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
                     <div class="overflow-hidden text-sm xl:text-base [&amp;&gt;ul]:list-disc [&amp;&gt;ul]:pl-8 [&amp;&gt;ul]:list-insidep">
-                        <p>The acceptance rate at the University of Dundee is nearly 36% which is quite promising to international applicants.</p>
+                        <p>The acceptance rate at the <?= esc($university['uni_name']) ?> is nearly 36% which is quite promising to international applicants.</p>
                     </div>
                 </div>
             </div>
             <div class="border-b-1 border-[#DCDCDC]">
-                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">What Is the Minimum IELTS Score Requirement for Dundee University?</span>
+                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">What Is the Minimum IELTS Score Requirement for <?= esc($university['uni_name']) ?>?</span>
                     <div class="relative size-3 flex items-center justify-center"><span class="rotate-0 opacity-100 duration-400 absolute"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="4.72858" y="0.0999985" width="1.54286" height="10.8" fill="#6E6E73"></rect>
                                 <rect x="10.9" y="4.72857" width="1.54286" height="10.8" transform="rotate(90 10.9 4.72857)" fill="#6E6E73"></rect>
@@ -655,7 +697,7 @@
                 </div>
             </div>
             <div class="border-b-1 border-[#DCDCDC]">
-                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">How is Dundee University's employment record?</span>
+                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">How is <?= esc($university['uni_name']) ?>'s employment record?</span>
                     <div class="relative size-3 flex items-center justify-center"><span class="rotate-0 opacity-100 duration-400 absolute"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="4.72858" y="0.0999985" width="1.54286" height="10.8" fill="#6E6E73"></rect>
                                 <rect x="10.9" y="4.72857" width="1.54286" height="10.8" transform="rotate(90 10.9 4.72857)" fill="#6E6E73"></rect>
@@ -665,12 +707,12 @@
                 </div>
                 <div class="grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
                     <div class="overflow-hidden text-sm xl:text-base [&amp;&gt;ul]:list-disc [&amp;&gt;ul]:pl-8 [&amp;&gt;ul]:list-insidep">
-                        <p>The University of Dundee showcases a massive employment record for the past several years, which is always very high. As a result, the university topped Scotland for graduate prospects per Complete University Guide 2022. &nbsp;</p>
+                        <p>The <?= esc($university['uni_name']) ?> showcases a massive employment record for the past several years, which is always very high. As a result, the university topped Scotland for graduate prospects per Complete University Guide 2022. &nbsp;</p>
                     </div>
                 </div>
             </div>
             <div class="border-b-1 border-[#DCDCDC]">
-                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">Is It Expensive to Study at the University of Dundee?</span>
+                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">Is It Expensive to Study at the <?= esc($university['uni_name']) ?>?</span>
                     <div class="relative size-3 flex items-center justify-center"><span class="rotate-0 opacity-100 duration-400 absolute"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="4.72858" y="0.0999985" width="1.54286" height="10.8" fill="#6E6E73"></rect>
                                 <rect x="10.9" y="4.72857" width="1.54286" height="10.8" transform="rotate(90 10.9 4.72857)" fill="#6E6E73"></rect>
@@ -680,12 +722,12 @@
                 </div>
                 <div class="grid transition-all overflow-hidden grid-rows-[0fr] opacity-0">
                     <div class="overflow-hidden text-sm xl:text-base [&amp;&gt;ul]:list-disc [&amp;&gt;ul]:pl-8 [&amp;&gt;ul]:list-insidep">
-                        <p>That depends on the course and area of living you are choosing. For example, the City of Dundee is known for its affordable living cost compared to other parts of the UK.&nbsp;</p>
+                        <p>That depends on the course and area of living you are choosing. For example, the City is known for its affordable living cost compared to other parts of the Russia.&nbsp;</p>
                     </div>
                 </div>
             </div>
             <div class="border-b-1 border-[#DCDCDC]">
-                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">Is There Any Student Help Group to Assist International Students at Dundee University?</span>
+                <div class="flex gap-3 py-2 md:py-4 items-center cursor-pointer"><span class="flex-1 text-foreground font-normal text-sm lg:text-base xl:text-lg">Is There Any Student Help Group to Assist International Students at <?= esc($university['uni_name']) ?>?</span>
                     <div class="relative size-3 flex items-center justify-center"><span class="rotate-0 opacity-100 duration-400 absolute"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="4.72858" y="0.0999985" width="1.54286" height="10.8" fill="#6E6E73"></rect>
                                 <rect x="10.9" y="4.72857" width="1.54286" height="10.8" transform="rotate(90 10.9 4.72857)" fill="#6E6E73"></rect>
@@ -706,42 +748,42 @@
                 "@type": "FAQPage",
                 "mainEntity": [{
                     "@type": "Question",
-                    "name": "Is There Any Application Fee for the University of Dundee?",
+                    "name": "Is There Any Application Fee for the <?= esc($university['uni_name']) ?>?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "<p>Applicants must pay the UCAS Application Fee of GBP 22 for a single course and GBP 26.50 for more than one course.</p>"
                     }
                 }, {
                     "@type": "Question",
-                    "name": "What Is the Acceptance Rate at the University of Dundee?",
+                    "name": "What Is the Acceptance Rate at the <?= esc($university['uni_name']) ?>?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "<p>The acceptance rate at the University of Dundee is nearly 36% which is quite promising to international applicants.</p>"
+                        "text": "<p>The acceptance rate at the <?= esc($university['uni_name']) ?> is nearly 36% which is quite promising to international applicants.</p>"
                     }
                 }, {
                     "@type": "Question",
-                    "name": "What Is the Minimum IELTS Score Requirement for Dundee University?",
+                    "name": "What Is the Minimum IELTS Score Requirement for <?= esc($university['uni_name']) ?>?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "<p>For undergraduate courses, it is a minimum of 6.0 and a minimum of 6.5 for postgraduate courses.&nbsp;</p>"
                     }
                 }, {
                     "@type": "Question",
-                    "name": "How is Dundee University's employment record?",
+                    "name": "How is <?= esc($university['uni_name']) ?>'s employment record?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "<p>The University of Dundee showcases a massive employment record for the past several years, which is always very high. As a result, the university topped Scotland for graduate prospects per Complete University Guide 2022. &nbsp;</p>"
+                        "text": "<p>The <?= esc($university['uni_name']) ?> showcases a massive employment record for the past several years, which is always very high. As a result, the university topped Scotland for graduate prospects per Complete University Guide 2022. &nbsp;</p>"
                     }
                 }, {
                     "@type": "Question",
-                    "name": "Is It Expensive to Study at the University of Dundee?",
+                    "name": "Is It Expensive to Study at the <?= esc($university['uni_name']) ?>?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "<p>That depends on the course and area of living you are choosing. For example, the City of Dundee is known for its affordable living cost compared to other parts of the UK.&nbsp;</p>"
+                        "text": "<p>That depends on the course and area of living you are choosing. For example, the City is known for its affordable living cost compared to other parts of the Russia.&nbsp;</p>"
                     }
                 }, {
                     "@type": "Question",
-                    "name": "Is There Any Student Help Group to Assist International Students at Dundee University?",
+                    "name": "Is There Any Student Help Group to Assist International Students at <?= esc($university['uni_name']) ?>?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "<p>Many student support groups extend helping hands to international students studying at the university or willing to be admitted. Just visit the university's official site.&nbsp;</p>"

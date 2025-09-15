@@ -255,7 +255,7 @@
                                                 <div class="flex items-center justify-center relative max-w-7 max-h-9 min-w-7 min-h-9">
                                                     <img alt="University Logo" loading="lazy" width="28" height="32" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/university/Mount-Saint-Vincet-University.webp" style="color: transparent;">
                                                 </div>
-                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href=""><?= $uiversityData['uni_name'] ?></a>
+                                                <a class="line-clamp-1 text-[#171923] text-base sm:text-lg font-semibold after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:z-10 after:content[''] after:h-3/5 after:m-auto" href="<?=base_url('university/').$uiversityData['uni_id']?>"><?= $uiversityData['uni_name'] ?></a>
                                                 <div class="flex flex-col gap-2 items-start min-h-[84px]">
                                                     <div class="flex items-center gap-[10px] w-full justify-start">
                                                         <div class="border border-[#655F5F] rounded-full p-[10px] w-fit flex items-center gap-1"><img alt="Currency Logo" loading="lazy" width="15" height="15" decoding="async" data-nimg="1" src="<?= base_url('public/') ?>assets/images/icons/coin.webp" style="color: transparent;"><span class="text-[#171923] text-xs font-medium text-nowrap">INR 10.85L/Y</span></div>
